@@ -128,6 +128,15 @@ class PySelenium(object):
             raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
         return element
 
+    def time_sleep(self, t):
+        t1 = time.time()
+        try:
+            time.sleep(t)
+            self.my_print("{0} Navigated to {1}, Spend {2} seconds".format(success, t, time.time() - t1))
+        except Exception:
+            self.my_print("{0} Unable to load {1}, Spend {2} seconds".format(fail, t, time.time() - t1))
+            raise
+
     def open(self, url):
         """
         open url.
