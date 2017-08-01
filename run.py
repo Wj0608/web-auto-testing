@@ -11,6 +11,7 @@ from config import globalparam
 
 # reload(sys)
 # sys.setdefaultencoding('utf8')
+from public.common import sendmail
 
 
 def run():
@@ -23,14 +24,14 @@ def run():
     with open(reportname,'wb') as f:
         runner = HTMLTestRunner.HTMLTestRunner(
             stream=f,
-            title=u'自动化测试报告',
+            title=u'UI自动化测试报告',
             description='Test the import testcase'
         )
         runner.run(suite)
     time.sleep(3)
     # 发送邮件
-    #mail = sendmail.SendMail()
-    #mail.send()
+    mail = sendmail.SendMail()
+    mail.send()
 
 if __name__=='__main__':
     run()

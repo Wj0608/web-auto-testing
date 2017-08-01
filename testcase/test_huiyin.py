@@ -8,6 +8,7 @@ from public.common import datainfo
 from config import Assert_Element
 
 
+
 class TestHuiyin(mytest.MyTest):
     """汇银首页测试"""
 
