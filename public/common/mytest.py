@@ -14,7 +14,9 @@ class MyTest(unittest.TestCase):
         self.logger = Log()
         self.logger.info('############################### START ###############################')
         self.dr = pyselenium.PySelenium(globalparam.browser)
+        self.dr.open(globalparam.address)
         self.dr.max_window()
+
 
     def tearDown(self):
         self.dr.quit()

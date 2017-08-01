@@ -628,6 +628,15 @@ class PySelenium(object):
                 js_str, time.time() - t1))
             raise
 
+    def ut_highlighted(self,element):
+        #   ""元素高亮""
+        try:
+            js = "arguments[0].style.border='3px solid red'"
+            self.driver.execute_script(js,element)
+        except Exception as e:
+            print ('light_element:{0}'.format(e))
+            raise
+
     @property
     def origin_driver(self):
         """
@@ -637,6 +646,7 @@ class PySelenium(object):
         driver.origin_driver
         """
         return self.driver
+
 
 
 if __name__ == '__main__':
