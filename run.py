@@ -30,8 +30,8 @@ def run():
         runner.run(suite)
     time.sleep(3)
     # 发送邮件
-    mail = sendmail.SendMail()
-    mail.send()
+    # mail = sendmail.SendMail()
+    # mail.send()
 
 if __name__=='__main__':
     run()

@@ -97,7 +97,7 @@ class PySelenium(object):
         elif by == "css":
             WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, value)),messages)
         else:
-            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
+            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
 
     def get_element(self, css):
         """
@@ -124,6 +124,8 @@ class PySelenium(object):
             element = self.driver.find_element_by_xpath(value)
         elif by == "css":
             element = self.driver.find_element_by_css_selector(value)
+        elif by == "tag_name":
+            element =self.driver.find_element_by_tag_name(value)
         else:
             raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
         return element

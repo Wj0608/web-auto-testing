@@ -6,11 +6,11 @@ import os
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 from public.common.readconfig import ReadConfig
 
-# ETH_button_assert
-ETH_button_assert='css->.loginHeaderCurrencyContent_19Rrh>p'
-
-# XRP_button_assert
-XRP_button_assert='css->.loginHeaderCurrencyContent_19Rrh>p'
+# coin_assert
+coin_assert='css->div[class^="info"]>span'
 
 # PhoneOrEmailLogin_button_assert
 PhoneOrEmailLogin_button_assert='\"name->account\",\"placeholder\"'
+
+# VolumeOfBussiness
+VolumeOfBussiness = 'css->div[class^=volume]>div:nth-child(2)'
