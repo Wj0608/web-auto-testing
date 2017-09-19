@@ -640,6 +640,10 @@ class PySelenium(object):
             raise
 
     @property
+    def page_source(self):
+        return self.driver.page_source
+
+    @property
     def origin_driver(self):
         """
         Return the original driver,Can use webdriver API.
@@ -648,7 +652,6 @@ class PySelenium(object):
         driver.origin_driver
         """
         return self.driver
-
 
 
 if __name__ == '__main__':

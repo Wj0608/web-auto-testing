@@ -6,13 +6,11 @@ import HTMLTestRunner
 # import sys
 # import io
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
 from config import globalparam
 
 # reload(sys)
 # sys.setdefaultencoding('utf8')
-from public.common import sendmail
-
+# from public.common import sendmail
 
 def run():
     test_dir = './testcase'

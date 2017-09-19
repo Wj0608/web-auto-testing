@@ -15,7 +15,6 @@ class HuiyinPage(basepage.Page):
         """点击搜索按钮"""
         self.dr.click('xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a')
 
-
     def return_title(self):
         """返回该页面的title"""
         return self.dr.get_title()
