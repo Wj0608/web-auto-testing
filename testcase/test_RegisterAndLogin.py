@@ -5,9 +5,8 @@ from time import sleep
 from public.common import mytest
 from public.common import publicfunction
 from public.pages import DAE_FirstPage,DAE_RegisterPage
-from config import DAE_ErrorMessage,DAE_RegisterPage_Element
+from config import DAE_ErrorMessage,DAE_RegisterPage_Element,DAE_SuccessMessage
 from public.common import datainfo
-from config import assert_element
 
 class TestHuiyin(mytest.MyTest):
     """DAE注册登录功能测试"""
@@ -36,23 +35,34 @@ class TestHuiyin(mytest.MyTest):
     #     firstpage.click_PhoneOrEmailLogin_button()
     #     self.assertEqual(u'请输入邮箱/手机号 ',self.dr.get_attribute(assert_element.PhoneOrEmailLogin_button_assert))
 
+    # 手机注册
     def test_a_PhoneRegister(self):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
-        firstPage.click_PhoneOrEmailLogin_button()
+        firstPage.click_RegisterButton()
         register = DAE_RegisterPage.RegisterPage(self.dr)
         register.Type_EmailOrPhone('18774389631')
         register.Type_VCode('123456')
         register.Type_LoginPassword('test123')
         register.Type_ConfirmLoginPassword('test123')
         register.Click_CreateAccount()
-        self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.RegisterSuccess).is_displayed())
+        # print(self.dr.get_element(DAE_RegisterPage_Element.RegisterSuccess).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_SuccessMessage.RegisterSuccess).is_displayed())
 
+    # 登录
+    def test_a_login(self):
+        firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
+        firstPage.click_PhoneOrEmailLogin_button()
+        firstPage.LoginWithEmailOrPhone('18774389631','test123')
+        
+
+    # 登录密码错误
     def test_b_login_WrongPassword(self):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
         firstPage.click_PhoneOrEmailLogin_button()
         firstPage.LoginWithEmailOrPhone('18774389635','t123')
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.AccountOrPwd_Error).is_displayed())
 
+    # 验证码错误
     def test_c_register_WrongVCode(self):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
         firstPage.click_RegisterButton()
@@ -64,6 +74,7 @@ class TestHuiyin(mytest.MyTest):
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.Network_Error).is_displayed())
 
+    # 注册手机号已存在
     def test_c_register_PhoneExist(self):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
         firstPage.click_RegisterButton()
@@ -74,3 +85,40 @@ class TestHuiyin(mytest.MyTest):
         register.Type_ConfirmLoginPassword('test123')
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.PhoneExist).is_displayed())
+
+
+    # 确认密码不同
+    def test_c_register_DifferentPWD(self):
+        firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
+        firstPage.click_RegisterButton()
+        register = DAE_RegisterPage.RegisterPage(self.dr)
+        register.Type_EmailOrPhone('18774389631')
+        register.Type_VCode('12345')
+        register.Type_LoginPassword('test123')
+        register.Type_ConfirmLoginPassword('tes123')
+        register.Click_CreateAccount()
+        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.DifferentPwd_Error).is_displayed())
+
+    # 手机号格式错误
+    def test_c_register_WrongPhoneNumber(self):
+        firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
+        firstPage.click_RegisterButton()
+        register = DAE_RegisterPage.RegisterPage(self.dr)
+        register.Type_EmailOrPhone('18774389631djafhgj')
+        register.Type_VCode('12345')
+        register.Type_LoginPassword('test123')
+        register.Type_ConfirmLoginPassword('tes123')
+        register.Click_CreateAccount()
+        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.WrongPhoneNumber_Error).is_displayed())
+
+    # 不输入密码
+    def test_c_register_NotInputPwd(self):
+        firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
+        firstPage.click_RegisterButton()
+        register = DAE_RegisterPage.RegisterPage(self.dr)
+        register.Type_EmailOrPhone('18774389631djafhgj')
+        register.Type_VCode('12345')
+        register.Type_LoginPassword('test123')
+        register.Type_ConfirmLoginPassword('tes123')
+        register.Click_CreateAccount()
+        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.WrongPhoneNumber_Error).is_displayed())
