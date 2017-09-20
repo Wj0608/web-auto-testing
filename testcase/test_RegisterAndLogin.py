@@ -38,7 +38,7 @@ class TestHuiyin(mytest.MyTest):
 
     def test_a_PhoneRegister(self):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
-        firstPage.click_RegisterButton()
+        firstPage.click_PhoneOrEmailLogin_button()
         register = DAE_RegisterPage.RegisterPage(self.dr)
         register.Type_EmailOrPhone('18774389631')
         register.Type_VCode('123456')
@@ -74,11 +74,3 @@ class TestHuiyin(mytest.MyTest):
         register.Type_ConfirmLoginPassword('test123')
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.PhoneExist).is_displayed())
-
-
-
-
-
-
-
-
