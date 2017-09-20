@@ -7,6 +7,7 @@ from public.common import publicfunction
 from public.pages import DAE_FirstPage,DAE_RegisterPage
 from config import DAE_ErrorMessage,DAE_RegisterPage_Element,DAE_SuccessMessage
 from public.common import datainfo
+import time
 
 class TestHuiyin(mytest.MyTest):
     """DAE注册登录功能测试"""
@@ -53,7 +54,8 @@ class TestHuiyin(mytest.MyTest):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
         firstPage.click_PhoneOrEmailLogin_button()
         firstPage.LoginWithEmailOrPhone('18774389631','test123')
-        
+        time.sleep(5)
+        self.assertEqual(self.dr.get_url(),'http://pre-www.szjys.com/wallet')
 
     # 登录密码错误
     def test_b_login_WrongPassword(self):
@@ -85,7 +87,6 @@ class TestHuiyin(mytest.MyTest):
         register.Type_ConfirmLoginPassword('test123')
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.PhoneExist).is_displayed())
-
 
     # 确认密码不同
     def test_c_register_DifferentPWD(self):

@@ -9,8 +9,11 @@ class PersoalCenter(basepage.Page):
     def click_PersonalCenter(self):
         self.dr.click(DAE_PersonalCenterPageg_Element.PersonalCenter_Button)
 
-    def click_EditTradePwd(self):
-        self.dr.click(DAE_PersonalCenterPageg_Element.EditTradePassword_Link)
+    def click_SetAndEditTradePwd(self):
+        if(self.dr.element_exist(DAE_PersonalCenterPageg_Element.SetWithdrawPwd)):
+            self.dr.click(DAE_PersonalCenterPageg_Element.SetWithdrawPwd)
+        else:
+            self.dr.click(DAE_PersonalCenterPageg_Element.EditTradePassword_Link)
 
     def click_ChangeTradePwd(self):
         self.dr.click(DAE_PersonalCenterPageg_Element.ChangePassword_Link)

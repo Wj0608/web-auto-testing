@@ -21,10 +21,10 @@ KYC_Link = 'link_text->获取更多权限'
 EditTradePassword_Link = 'link_text->编辑'
 
 # ChangePassword_Link
-ChangePassword_Link = 'link_text->修改交易密码'
+ChangePassword_Link = 'link_text->修改提币密码'
 
 # ForgetPassword_Link
-ForgetPassword_Link = 'link_text->忘记交易密码'
+ForgetPassword_Link = 'link_text->忘记提币密码'
 
 # SetTradePassword
 # OldTradePassword_Input
@@ -53,3 +53,6 @@ VCode_Input = 'name->VCode'
 
 # NextStep_Button
 NextStep_Button = 'tag_name->button'
+
+# SetWithdrawPwd
+SetWithdrawPwd = 'link_text->设置提币密码'
