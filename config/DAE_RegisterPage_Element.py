@@ -36,6 +36,3 @@ Login_link = 'link_text->立即登录'
 # WeChatLogin_button
 WeChatLogin_button = 'css->div[class^=authBtns]>a'
 
-# RegisterSuccess
-RegisterSuccess = 'xpath->//*[contains(text(),注册成功)]'
-

@@ -23,4 +23,3 @@ BankCard_Input='name->bank_card'
 
 # Submit_Button
 Submit_Button='tag_name->button'
-

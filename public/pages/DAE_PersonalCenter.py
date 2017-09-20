@@ -4,16 +4,16 @@ from public.common import basepage
 from config import DAE_PersonalCenterPageg_Element
 from public.common import pyselenium
 
-class DAE_PersoalCenter(basepage.Page):
+class PersoalCenter(basepage.Page):
+
+    def click_PersonalCenter(self):
+        self.dr.click(DAE_PersonalCenterPageg_Element.PersonalCenter_Button)
 
     def click_EditTradePwd(self):
         self.dr.click(DAE_PersonalCenterPageg_Element.EditTradePassword_Link)
 
     def click_ChangeTradePwd(self):
         self.dr.click(DAE_PersonalCenterPageg_Element.ChangePassword_Link)
-
-    def click_ForgetTradePwd(self):
-        self.dr.click(DAE_PersonalCenterPageg_Element.ForgetPassword_Link)
 
     def type_OldTradePwd(self,OldTradePwd):
         self.dr.type(DAE_PersonalCenterPageg_Element.OldTradePassword_Input,OldTradePwd)
@@ -26,3 +26,12 @@ class DAE_PersoalCenter(basepage.Page):
 
     def click_Submit(self):
         self.dr.click(DAE_PersonalCenterPageg_Element.Submit_Button)
+
+    def click_ForgetTradePwd(self):
+        self.dr.click(DAE_PersonalCenterPageg_Element.ForgetPassword_Link)
+
+    def SendVcode(self,VCode):
+        self.dr.click(DAE_PersonalCenterPageg_Element.SendVCode_Button)
+        self.dr.element_wait(DAE_PersonalCenterPageg_Element.SendVCode_Success)
+        self.dr.type(DAE_PersonalCenterPageg_Element.VCode_Input,VCode)
+

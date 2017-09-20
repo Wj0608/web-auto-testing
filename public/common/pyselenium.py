@@ -321,6 +321,7 @@ class PySelenium(object):
             self.my_print("{0} Unable to Click by text content: {1}, Spend {2} seconds".format(fail, text, time.time() - t1))
             raise
 
+
     def close(self):
         """
         Simulates the user clicking the "close" button in the titlebar of a popup
