@@ -53,7 +53,7 @@ class TestHuiyin(mytest.MyTest):
         firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
         firstPage.click_PhoneOrEmailLogin_button()
         firstPage.LoginWithEmailOrPhone('18774389631','test123')
-        self.assert
+        
 
     # 登录密码错误
     def test_b_login_WrongPassword(self):
@@ -85,6 +85,7 @@ class TestHuiyin(mytest.MyTest):
         register.Type_ConfirmLoginPassword('test123')
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.PhoneExist).is_displayed())
+
 
     # 确认密码不同
     def test_c_register_DifferentPWD(self):
@@ -121,4 +122,3 @@ class TestHuiyin(mytest.MyTest):
         register.Type_ConfirmLoginPassword('tes123')
         register.Click_CreateAccount()
         self.assertTrue(self.dr.get_element(DAE_ErrorMessage.WrongPhoneNumber_Error).is_displayed())
-
