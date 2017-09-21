@@ -2,6 +2,7 @@
 
 from public.common import basepage
 from config import DAE_RegisterPage_Element
+import time
 
 class RegisterPage(basepage.Page):
 
@@ -13,10 +14,9 @@ class RegisterPage(basepage.Page):
         self.dr.element_wait(DAE_RegisterPage_Element.SendVCode_Button_Success)
         self.dr.type(DAE_RegisterPage_Element.VCode_Input,VCode)
 
-    def Type_LoginPassword(self,Pwd):
+    def Type_LoginAndConfirmPassword(self,Pwd,ConfirmPwd):
         self.dr.type(DAE_RegisterPage_Element.VCode_Input,Pwd)
-
-    def Type_ConfirmLoginPassword(self,ConfirmPwd):
+        time.sleep(1)
         self.dr.type(DAE_RegisterPage_Element.ConfirmPassword_Input,ConfirmPwd)
 
     def Click_CreateAccount(self):

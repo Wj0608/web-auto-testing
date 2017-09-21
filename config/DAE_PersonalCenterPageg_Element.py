@@ -26,7 +26,9 @@ ChangePassword_Link = 'link_text->修改提币密码'
 # ForgetPassword_Link
 ForgetPassword_Link = 'link_text->忘记提币密码'
 
-# SetTradePassword
+# SetTradePassword_Input
+SetTradePassword_Input = 'name->trade_password'
+
 # OldTradePassword_Input
 OldTradePassword_Input = 'name->old_trade_password'
 
@@ -34,13 +36,13 @@ OldTradePassword_Input = 'name->old_trade_password'
 NewTradePassword_Input = 'name->new_trade_password'
 
 # ConfirmTradePassword_Input
-ConfirmTradePassword_Input = 'name->confirm_new_trade_password'
+ConfirmTradePassword_Input = 'name->confirm_trade_password'
+
+# ConfirmNewTradePassword_Input
+ConfirmNewTradePassword_Input = 'name->confirm_new_trade_password'
 
 # Submit_Button
 Submit_Button = 'tag_name->button'
-
-# ForgetTradePassword
-
 
 # SendVCode_Button
 SendVCode_Button = 'link_text->发送验证码'
@@ -49,7 +51,7 @@ SendVCode_Button = 'link_text->发送验证码'
 SendVCode_Success = 'css->div[class^=fieldInput_]>div:nth-child(2)>a'
 
 # VCode_Input
-VCode_Input = 'name->VCode'
+VCode_Input = 'name->vcode'
 
 # NextStep_Button
 NextStep_Button = 'tag_name->button'
