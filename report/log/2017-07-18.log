@@ -1,0 +1,449 @@
+2017-07-18 09:36:09,398 - root - INFO - ############################### START ###############################
+2017-07-18 09:36:12,905 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.507089376449585 seconds
+2017-07-18 09:36:14,056 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1500232219696045 seconds
+2017-07-18 09:36:16,450 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.392502784729004 seconds
+2017-07-18 09:36:17,127 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.675286054611206 seconds
+2017-07-18 09:36:17,806 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.6778745651245117 seconds
+2017-07-18 09:36:19,822 - root - INFO - SUCCESS    Get current window title, Spend 0.014082193374633789 seconds
+2017-07-18 09:36:19,836 - root - INFO - SUCCESS    Get current window title, Spend 0.01200413703918457 seconds
+2017-07-18 09:36:22,897 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.06023907661438 seconds
+2017-07-18 09:36:22,899 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:02:07,745 - root - INFO - ############################### START ###############################
+2017-07-18 10:02:11,228 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.482390880584717 seconds
+2017-07-18 10:02:12,405 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1746721267700195 seconds
+2017-07-18 10:02:14,677 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.270878791809082 seconds
+2017-07-18 10:02:15,094 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.4163386821746826 seconds
+2017-07-18 10:02:15,617 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.5072653293609619 seconds
+2017-07-18 10:02:17,623 - root - INFO - SUCCESS    Get current window title, Spend 0.005017280578613281 seconds
+2017-07-18 10:02:17,628 - root - INFO - SUCCESS    Get current window title, Spend 0.005014181137084961 seconds
+2017-07-18 10:02:20,684 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0546066761016846 seconds
+2017-07-18 10:02:20,686 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:03:15,506 - root - INFO - ############################### START ###############################
+2017-07-18 10:03:19,439 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.9324793815612793 seconds
+2017-07-18 10:03:20,672 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.226933479309082 seconds
+2017-07-18 10:03:22,766 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.0942208766937256 seconds
+2017-07-18 10:03:23,217 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.4495682716369629 seconds
+2017-07-18 10:03:24,121 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.8674068450927734 seconds
+2017-07-18 10:03:27,161 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0400540828704834 seconds
+2017-07-18 10:03:27,162 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:04:39,187 - root - INFO - ############################### START ###############################
+2017-07-18 10:04:42,666 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4786789417266846 seconds
+2017-07-18 10:04:43,806 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.138458251953125 seconds
+2017-07-18 10:04:46,248 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.4412336349487305 seconds
+2017-07-18 10:04:46,651 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.40300536155700684 seconds
+2017-07-18 10:04:49,708 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0420022010803223 seconds
+2017-07-18 10:04:49,709 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:06:21,020 - root - INFO - ############################### START ###############################
+2017-07-18 10:06:24,516 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.494504451751709 seconds
+2017-07-18 10:06:25,690 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1740953922271729 seconds
+2017-07-18 10:06:27,608 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 1.9171080589294434 seconds
+2017-07-18 10:06:28,017 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.40856027603149414 seconds
+2017-07-18 10:06:31,064 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.032092332839966 seconds
+2017-07-18 10:06:31,065 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:08:51,631 - root - INFO - ############################### START ###############################
+2017-07-18 10:08:55,080 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4490551948547363 seconds
+2017-07-18 10:08:56,265 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1843035221099854 seconds
+2017-07-18 10:08:58,534 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.268012046813965 seconds
+2017-07-18 10:08:58,960 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.42463088035583496 seconds
+2017-07-18 10:09:02,008 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0317656993865967 seconds
+2017-07-18 10:09:02,010 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:12:11,197 - root - INFO - ############################### START ###############################
+2017-07-18 10:12:14,660 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4611475467681885 seconds
+2017-07-18 10:12:15,837 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1772832870483398 seconds
+2017-07-18 10:12:16,929 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.0897421836853027 seconds
+2017-07-18 10:12:17,043 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.11401987075805664 seconds
+2017-07-18 10:12:19,069 - root - INFO - SUCCESS    Get current window title, Spend 0.011687040328979492 seconds
+2017-07-18 10:12:19,080 - root - INFO - SUCCESS    Get current window title, Spend 0.009995460510253906 seconds
+2017-07-18 10:12:22,139 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.058689832687378 seconds
+2017-07-18 10:12:22,140 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:25:52,928 - root - INFO - ############################### START ###############################
+2017-07-18 10:25:56,405 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.474747657775879 seconds
+2017-07-18 10:25:57,561 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1554138660430908 seconds
+2017-07-18 10:25:58,730 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.168027400970459 seconds
+2017-07-18 10:25:58,847 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.1169896125793457 seconds
+2017-07-18 10:26:01,921 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.05530047416687 seconds
+2017-07-18 10:26:01,922 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:26:31,075 - root - INFO - ############################### START ###############################
+2017-07-18 10:26:34,718 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.641876220703125 seconds
+2017-07-18 10:26:35,880 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.161320686340332 seconds
+2017-07-18 10:26:38,011 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 2.1294069290161133 seconds
+2017-07-18 10:26:38,426 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.413348913192749 seconds
+2017-07-18 10:26:38,943 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.5016546249389648 seconds
+2017-07-18 10:26:58,002 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.010535717010498 seconds
+2017-07-18 10:26:58,003 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:27:26,470 - root - INFO - ############################### START ###############################
+2017-07-18 10:27:29,908 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4367477893829346 seconds
+2017-07-18 10:27:31,051 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1424775123596191 seconds
+2017-07-18 10:27:32,137 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.0857975482940674 seconds
+2017-07-18 10:27:32,261 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.12282633781433105 seconds
+2017-07-18 10:27:44,280 - root - INFO - SUCCESS    Get current window title, Spend 0.00592350959777832 seconds
+2017-07-18 10:27:44,285 - root - INFO - SUCCESS    Get current window title, Spend 0.005014657974243164 seconds
+2017-07-18 10:27:47,318 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.031949281692505 seconds
+2017-07-18 10:27:47,319 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:29:50,926 - root - INFO - ############################### START ###############################
+2017-07-18 10:29:54,400 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.47279953956604 seconds
+2017-07-18 10:29:55,578 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1774649620056152 seconds
+2017-07-18 10:29:56,665 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.0867488384246826 seconds
+2017-07-18 10:29:56,786 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.12012672424316406 seconds
+2017-07-18 10:30:08,804 - root - INFO - SUCCESS    Get current window title, Spend 0.004931449890136719 seconds
+2017-07-18 10:30:08,809 - root - INFO - SUCCESS    Get current window title, Spend 0.004323482513427734 seconds
+2017-07-18 10:30:11,840 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030766010284424 seconds
+2017-07-18 10:30:11,841 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:31:21,811 - root - INFO - ############################### START ###############################
+2017-07-18 10:31:25,501 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.688033103942871 seconds
+2017-07-18 10:31:26,649 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.147425889968872 seconds
+2017-07-18 10:31:27,847 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.1977739334106445 seconds
+2017-07-18 10:31:27,965 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.11706113815307617 seconds
+2017-07-18 10:31:39,986 - root - INFO - SUCCESS    Get current window title, Spend 0.007026195526123047 seconds
+2017-07-18 10:31:43,053 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.067203998565674 seconds
+2017-07-18 10:31:43,054 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:33:20,699 - root - INFO - ############################### START ###############################
+2017-07-18 10:33:24,208 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.508514642715454 seconds
+2017-07-18 10:33:25,387 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.178772211074829 seconds
+2017-07-18 10:33:26,474 - root - INFO - SUCCESS    Navigated to http://www.baidu.com, Spend 1.0861701965332031 seconds
+2017-07-18 10:33:26,590 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.11549973487854004 seconds
+2017-07-18 10:33:45,667 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026416301727295 seconds
+2017-07-18 10:33:45,669 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:33:54,421 - root - INFO - ############################### START ###############################
+2017-07-18 10:33:58,160 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7376749515533447 seconds
+2017-07-18 10:33:59,305 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1443428993225098 seconds
+2017-07-18 10:34:01,194 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 1.8875491619110107 seconds
+2017-07-18 10:34:01,616 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.4191248416900635 seconds
+2017-07-18 10:34:02,101 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.4703648090362549 seconds
+2017-07-18 10:34:05,151 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0363218784332275 seconds
+2017-07-18 10:34:05,152 - root - INFO - ###############################  End  ###############################
+2017-07-18 10:34:28,174 - root - INFO - ############################### START ###############################
+2017-07-18 10:34:31,652 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4769089221954346 seconds
+2017-07-18 10:34:32,833 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1791999340057373 seconds
+2017-07-18 10:34:34,802 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 1.968263864517212 seconds
+2017-07-18 10:34:35,221 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.41843390464782715 seconds
+2017-07-18 10:34:54,279 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0152533054351807 seconds
+2017-07-18 10:34:54,281 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:31:09,506 - root - INFO - ############################### START ###############################
+2017-07-18 13:31:13,015 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5081145763397217 seconds
+2017-07-18 13:31:14,199 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1822545528411865 seconds
+2017-07-18 13:31:15,445 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2464990615844727 seconds
+2017-07-18 13:31:15,662 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21523737907409668 seconds
+2017-07-18 13:31:18,699 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0354630947113037 seconds
+2017-07-18 13:31:18,702 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:32:00,486 - root - INFO - ############################### START ###############################
+2017-07-18 13:32:03,990 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.50372576713562 seconds
+2017-07-18 13:32:05,175 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1838195323944092 seconds
+2017-07-18 13:32:06,472 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2955026626586914 seconds
+2017-07-18 13:32:06,687 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21460199356079102 seconds
+2017-07-18 13:32:09,762 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0552260875701904 seconds
+2017-07-18 13:32:09,763 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:34:22,685 - root - INFO - ############################### START ###############################
+2017-07-18 13:34:26,144 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4583077430725098 seconds
+2017-07-18 13:34:27,301 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1564643383026123 seconds
+2017-07-18 13:34:28,769 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.464639663696289 seconds
+2017-07-18 13:34:29,005 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.2353658676147461 seconds
+2017-07-18 13:34:32,056 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0306577682495117 seconds
+2017-07-18 13:34:32,057 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:37:18,336 - root - INFO - ############################### START ###############################
+2017-07-18 13:37:22,028 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6921770572662354 seconds
+2017-07-18 13:37:23,190 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1609694957733154 seconds
+2017-07-18 13:37:24,458 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2665069103240967 seconds
+2017-07-18 13:37:24,678 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.2193303108215332 seconds
+2017-07-18 13:37:27,728 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030839681625366 seconds
+2017-07-18 13:37:27,729 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:40:37,460 - root - INFO - ############################### START ###############################
+2017-07-18 13:40:40,949 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.488588809967041 seconds
+2017-07-18 13:40:42,128 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1781389713287354 seconds
+2017-07-18 13:40:43,359 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2312736511230469 seconds
+2017-07-18 13:40:43,573 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.2129535675048828 seconds
+2017-07-18 13:40:46,630 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0380375385284424 seconds
+2017-07-18 13:40:46,631 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:41:40,868 - root - INFO - ############################### START ###############################
+2017-07-18 13:41:44,397 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5274341106414795 seconds
+2017-07-18 13:41:45,582 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1853160858154297 seconds
+2017-07-18 13:41:46,789 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2045323848724365 seconds
+2017-07-18 13:41:47,024 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.23437714576721191 seconds
+2017-07-18 13:41:47,087 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.0451200008392334 seconds
+2017-07-18 13:41:59,110 - root - INFO - SUCCESS    Get current window title, Spend 0.013029813766479492 seconds
+2017-07-18 13:41:59,120 - root - INFO - SUCCESS    Get current window title, Spend 0.008987665176391602 seconds
+2017-07-18 13:42:02,170 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0494120121002197 seconds
+2017-07-18 13:42:02,171 - root - INFO - ###############################  End  ###############################
+2017-07-18 13:57:59,550 - root - INFO - ############################### START ###############################
+2017-07-18 13:58:03,036 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4846184253692627 seconds
+2017-07-18 13:58:04,179 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1419684886932373 seconds
+2017-07-18 13:58:13,779 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 9.598478078842163 seconds
+2017-07-18 13:58:13,996 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21645855903625488 seconds
+2017-07-18 13:58:14,052 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.043114662170410156 seconds
+2017-07-18 13:58:26,218 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.15633320808410645 seconds
+2017-07-18 13:58:29,270 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0523948669433594 seconds
+2017-07-18 13:58:29,271 - root - INFO - ###############################  End  ###############################
+2017-07-18 14:03:03,194 - root - INFO - ############################### START ###############################
+2017-07-18 14:03:06,690 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4955554008483887 seconds
+2017-07-18 14:03:07,865 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172126293182373 seconds
+2017-07-18 14:03:17,510 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 9.643318176269531 seconds
+2017-07-18 14:03:17,730 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21880030632019043 seconds
+2017-07-18 14:03:17,800 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.05614781379699707 seconds
+2017-07-18 14:03:32,895 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0867764949798584 seconds
+2017-07-18 14:03:32,897 - root - INFO - ###############################  End  ###############################
+2017-07-18 14:06:37,184 - root - INFO - ############################### START ###############################
+2017-07-18 14:06:40,680 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.49525785446167 seconds
+2017-07-18 14:06:41,838 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1559641361236572 seconds
+2017-07-18 14:06:51,498 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 9.659554958343506 seconds
+2017-07-18 14:06:51,837 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.3378326892852783 seconds
+2017-07-18 14:06:51,897 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.044119834899902344 seconds
+2017-07-18 14:07:04,943 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033822774887085 seconds
+2017-07-18 14:07:04,944 - root - INFO - ###############################  End  ###############################
+2017-07-18 14:07:43,749 - root - INFO - ############################### START ###############################
+2017-07-18 14:07:47,294 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.544200897216797 seconds
+2017-07-18 14:07:48,481 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1860411167144775 seconds
+2017-07-18 14:07:58,114 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 9.630768775939941 seconds
+2017-07-18 14:07:58,367 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.25167059898376465 seconds
+2017-07-18 14:07:58,496 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.0932474136352539 seconds
+2017-07-18 14:08:11,557 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0504367351531982 seconds
+2017-07-18 14:08:11,559 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:24:29,400 - root - INFO - ############################### START ###############################
+2017-07-18 15:24:32,906 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.504842758178711 seconds
+2017-07-18 15:24:34,087 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1806883811950684 seconds
+2017-07-18 15:24:37,170 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.03782057762146 seconds
+2017-07-18 15:24:37,171 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:24:37,173 - root - INFO - ############################### START ###############################
+2017-07-18 15:24:40,651 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.477259874343872 seconds
+2017-07-18 15:24:41,820 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1682720184326172 seconds
+2017-07-18 15:24:44,865 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0414483547210693 seconds
+2017-07-18 15:24:44,866 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:24:44,867 - root - INFO - ############################### START ###############################
+2017-07-18 15:24:48,336 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.467564344406128 seconds
+2017-07-18 15:24:49,508 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1707499027252197 seconds
+2017-07-18 15:24:52,589 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041330337524414 seconds
+2017-07-18 15:24:52,591 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:24:52,595 - root - INFO - ############################### START ###############################
+2017-07-18 15:24:56,128 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5304312705993652 seconds
+2017-07-18 15:24:57,312 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.183767318725586 seconds
+2017-07-18 15:24:58,491 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.1791584491729736 seconds
+2017-07-18 15:24:58,717 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.224564790725708 seconds
+2017-07-18 15:25:01,752 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033870220184326 seconds
+2017-07-18 15:25:01,754 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:36:32,581 - root - INFO - ############################### START ###############################
+2017-07-18 15:36:36,052 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4696099758148193 seconds
+2017-07-18 15:36:37,204 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1514666080474854 seconds
+2017-07-18 15:36:40,288 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.038435459136963 seconds
+2017-07-18 15:36:40,289 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:36:40,295 - root - INFO - ############################### START ###############################
+2017-07-18 15:36:43,802 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.505998373031616 seconds
+2017-07-18 15:36:44,945 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1424295902252197 seconds
+2017-07-18 15:36:47,976 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.02921986579895 seconds
+2017-07-18 15:36:47,977 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:36:47,979 - root - INFO - ############################### START ###############################
+2017-07-18 15:36:51,967 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.986936092376709 seconds
+2017-07-18 15:36:53,148 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1808812618255615 seconds
+2017-07-18 15:36:56,256 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.047659158706665 seconds
+2017-07-18 15:36:56,257 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:36:56,259 - root - INFO - ############################### START ###############################
+2017-07-18 15:36:59,760 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.500446081161499 seconds
+2017-07-18 15:37:00,907 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1465809345245361 seconds
+2017-07-18 15:37:02,105 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.196061372756958 seconds
+2017-07-18 15:37:02,324 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21839475631713867 seconds
+2017-07-18 15:37:05,366 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0410988330841064 seconds
+2017-07-18 15:37:05,368 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:42:25,590 - root - INFO - ############################### START ###############################
+2017-07-18 15:42:29,412 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8219430446624756 seconds
+2017-07-18 15:42:30,567 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.154179573059082 seconds
+2017-07-18 15:42:31,911 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3426311016082764 seconds
+2017-07-18 15:42:32,129 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21814727783203125 seconds
+2017-07-18 15:42:32,190 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.047126054763793945 seconds
+2017-07-18 15:42:44,273 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.0730886459350586 seconds
+2017-07-18 15:42:47,314 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0404419898986816 seconds
+2017-07-18 15:42:47,315 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:43:55,374 - root - INFO - ############################### START ###############################
+2017-07-18 15:43:59,351 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.9770190715789795 seconds
+2017-07-18 15:44:00,496 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.14505934715271 seconds
+2017-07-18 15:44:01,702 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2029640674591064 seconds
+2017-07-18 15:44:01,923 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21955275535583496 seconds
+2017-07-18 15:44:01,979 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.042777299880981445 seconds
+2017-07-18 15:44:07,023 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.037100791931152344 seconds
+2017-07-18 15:44:10,067 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0430915355682373 seconds
+2017-07-18 15:44:10,068 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:46:08,064 - root - INFO - ############################### START ###############################
+2017-07-18 15:46:11,768 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.704909086227417 seconds
+2017-07-18 15:46:12,911 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.141592025756836 seconds
+2017-07-18 15:46:14,038 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.126007318496704 seconds
+2017-07-18 15:46:14,262 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.22263646125793457 seconds
+2017-07-18 15:46:14,319 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.04304385185241699 seconds
+2017-07-18 15:46:19,368 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.038550615310668945 seconds
+2017-07-18 15:46:22,406 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.037344455718994 seconds
+2017-07-18 15:46:22,408 - root - INFO - ###############################  End  ###############################
+2017-07-18 15:48:25,150 - root - INFO - ############################### START ###############################
+2017-07-18 15:48:28,657 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5063459873199463 seconds
+2017-07-18 15:48:29,813 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1558640003204346 seconds
+2017-07-18 15:48:31,029 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.214771032333374 seconds
+2017-07-18 15:48:31,245 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\jenkins\\UItestframework\report\image\2017-07-18_111.png, Spend 0.21435046195983887 seconds
+2017-07-18 15:48:31,299 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.04010653495788574 seconds
+2017-07-18 15:48:34,340 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.03300619125366211 seconds
+2017-07-18 15:48:37,385 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0437545776367188 seconds
+2017-07-18 15:48:37,388 - root - INFO - ###############################  End  ###############################
+2017-07-18 16:56:25,171 - root - INFO - ############################### START ###############################
+2017-07-18 16:56:28,655 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.483433485031128 seconds
+2017-07-18 16:56:30,005 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.34879469871521 seconds
+2017-07-18 16:56:31,163 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1563618183135986 seconds
+2017-07-18 16:56:31,225 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.046952247619628906 seconds
+2017-07-18 16:56:36,280 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.0461878776550293 seconds
+2017-07-18 16:56:39,324 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0423314571380615 seconds
+2017-07-18 16:56:39,325 - root - INFO - ###############################  End  ###############################
+2017-07-18 16:56:39,327 - root - INFO - ############################### START ###############################
+2017-07-18 16:56:43,348 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 4.019136667251587 seconds
+2017-07-18 16:56:44,628 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2800648212432861 seconds
+2017-07-18 16:56:45,801 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1715528964996338 seconds
+2017-07-18 16:56:48,837 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0357842445373535 seconds
+2017-07-18 16:56:48,838 - root - INFO - ###############################  End  ###############################
+2017-07-18 16:56:48,839 - root - INFO - ############################### START ###############################
+2017-07-18 16:56:52,344 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.503842353820801 seconds
+2017-07-18 16:56:53,568 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2242987155914307 seconds
+2017-07-18 16:56:54,717 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1484904289245605 seconds
+2017-07-18 16:56:54,783 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.05013298988342285 seconds
+2017-07-18 16:56:57,877 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.08795928955078125 seconds
+2017-07-18 16:57:00,918 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0407521724700928 seconds
+2017-07-18 16:57:00,920 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:03:28,920 - root - INFO - ############################### START ###############################
+2017-07-18 17:03:32,409 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4883944988250732 seconds
+2017-07-18 17:03:33,700 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2895619869232178 seconds
+2017-07-18 17:03:34,871 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1688902378082275 seconds
+2017-07-18 17:03:37,913 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0403876304626465 seconds
+2017-07-18 17:03:37,915 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:03:37,918 - root - INFO - ############################### START ###############################
+2017-07-18 17:03:41,403 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4838569164276123 seconds
+2017-07-18 17:03:42,619 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2154734134674072 seconds
+2017-07-18 17:03:43,787 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1680257320404053 seconds
+2017-07-18 17:03:46,838 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.047895669937134 seconds
+2017-07-18 17:03:46,839 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:03:46,842 - root - INFO - ############################### START ###############################
+2017-07-18 17:03:50,275 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.432713747024536 seconds
+2017-07-18 17:03:51,476 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.1981732845306396 seconds
+2017-07-18 17:03:52,638 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1619820594787598 seconds
+2017-07-18 17:03:55,669 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0297341346740723 seconds
+2017-07-18 17:03:55,670 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:04:42,700 - root - INFO - ############################### START ###############################
+2017-07-18 17:04:46,167 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.465489387512207 seconds
+2017-07-18 17:04:47,587 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.4183392524719238 seconds
+2017-07-18 17:04:48,749 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1615231037139893 seconds
+2017-07-18 17:04:53,830 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.05889558792114258 seconds
+2017-07-18 17:04:56,868 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0359716415405273 seconds
+2017-07-18 17:04:56,869 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:04:56,871 - root - INFO - ############################### START ###############################
+2017-07-18 17:05:00,386 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5145339965820312 seconds
+2017-07-18 17:05:01,605 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2168834209442139 seconds
+2017-07-18 17:05:02,755 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1493747234344482 seconds
+2017-07-18 17:05:08,844 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.065061569213867 seconds
+2017-07-18 17:05:08,845 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:05:08,846 - root - INFO - ############################### START ###############################
+2017-07-18 17:05:12,601 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.754549503326416 seconds
+2017-07-18 17:05:13,870 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2690675258636475 seconds
+2017-07-18 17:05:15,045 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1733512878417969 seconds
+2017-07-18 17:05:18,105 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.03808856010437012 seconds
+2017-07-18 17:05:21,156 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0480148792266846 seconds
+2017-07-18 17:05:21,158 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:07:30,268 - root - INFO - ############################### START ###############################
+2017-07-18 17:07:33,776 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5070765018463135 seconds
+2017-07-18 17:07:35,165 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3870079517364502 seconds
+2017-07-18 17:07:36,345 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1801066398620605 seconds
+2017-07-18 17:07:41,421 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.05153059959411621 seconds
+2017-07-18 17:07:44,463 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0424797534942627 seconds
+2017-07-18 17:07:44,464 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:07:44,466 - root - INFO - ############################### START ###############################
+2017-07-18 17:07:47,997 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5302085876464844 seconds
+2017-07-18 17:07:49,252 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2549526691436768 seconds
+2017-07-18 17:07:50,426 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1727173328399658 seconds
+2017-07-18 17:07:56,519 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0701873302459717 seconds
+2017-07-18 17:07:56,520 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:07:56,522 - root - INFO - ############################### START ###############################
+2017-07-18 17:07:59,959 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.435814142227173 seconds
+2017-07-18 17:08:01,322 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3625833988189697 seconds
+2017-07-18 17:08:02,469 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1456153392791748 seconds
+2017-07-18 17:08:05,587 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.06009840965270996 seconds
+2017-07-18 17:08:08,625 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0378897190093994 seconds
+2017-07-18 17:08:08,626 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:17:11,598 - root - INFO - ############################### START ###############################
+2017-07-18 17:17:15,090 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.490516185760498 seconds
+2017-07-18 17:17:16,434 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3434600830078125 seconds
+2017-07-18 17:17:17,581 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1466593742370605 seconds
+2017-07-18 17:17:17,653 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.05476689338684082 seconds
+2017-07-18 17:17:26,682 - root - INFO - FAIL    Unable to get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 4.0187108516693115 seconds
+2017-07-18 17:17:29,692 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0108354091644287 seconds
+2017-07-18 17:17:29,693 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:17:29,728 - root - INFO - ############################### START ###############################
+2017-07-18 17:17:33,203 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4735331535339355 seconds
+2017-07-18 17:17:34,369 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.165463924407959 seconds
+2017-07-18 17:17:35,551 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1814401149749756 seconds
+2017-07-18 17:17:35,641 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderDefaultSubNotice_1fdD9>span>, Spend 0.07404804229736328 seconds
+2017-07-18 17:17:38,693 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0313522815704346 seconds
+2017-07-18 17:17:38,694 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:17:38,697 - root - INFO - ############################### START ###############################
+2017-07-18 17:17:42,192 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4926278591156006 seconds
+2017-07-18 17:17:43,695 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.5011775493621826 seconds
+2017-07-18 17:17:44,845 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1492087841033936 seconds
+2017-07-18 17:17:44,910 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.047133445739746094 seconds
+2017-07-18 17:17:48,020 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.10262131690979004 seconds
+2017-07-18 17:17:51,056 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.034179210662842 seconds
+2017-07-18 17:17:51,057 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:35:51,073 - root - INFO - ############################### START ###############################
+2017-07-18 17:35:54,623 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5486598014831543 seconds
+2017-07-18 17:35:55,912 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.287703037261963 seconds
+2017-07-18 17:35:57,056 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1430706977844238 seconds
+2017-07-18 17:36:00,098 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0399129390716553 seconds
+2017-07-18 17:36:00,099 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:36:00,102 - root - INFO - ############################### START ###############################
+2017-07-18 17:36:03,591 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.487882137298584 seconds
+2017-07-18 17:36:04,871 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.280390739440918 seconds
+2017-07-18 17:36:06,025 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1523346900939941 seconds
+2017-07-18 17:36:06,119 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderDefaultSubNotice_1fdD9>span>, Spend 0.07680869102478027 seconds
+2017-07-18 17:36:09,174 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0381972789764404 seconds
+2017-07-18 17:36:09,177 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:36:09,185 - root - INFO - ############################### START ###############################
+2017-07-18 17:36:12,719 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.532653570175171 seconds
+2017-07-18 17:36:14,098 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3771276473999023 seconds
+2017-07-18 17:36:15,251 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1524860858917236 seconds
+2017-07-18 17:36:15,314 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.047811031341552734 seconds
+2017-07-18 17:36:18,424 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.1032114028930664 seconds
+2017-07-18 17:36:21,469 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.043910264968872 seconds
+2017-07-18 17:36:21,470 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:38:06,008 - root - INFO - ############################### START ###############################
+2017-07-18 17:38:09,713 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7055845260620117 seconds
+2017-07-18 17:38:10,922 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2082786560058594 seconds
+2017-07-18 17:38:12,096 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1731197834014893 seconds
+2017-07-18 17:38:12,165 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.05100846290588379 seconds
+2017-07-18 17:38:17,206 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.03408932685852051 seconds
+2017-07-18 17:38:20,249 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041109323501587 seconds
+2017-07-18 17:38:20,251 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:38:20,254 - root - INFO - ############################### START ###############################
+2017-07-18 17:38:23,745 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4902732372283936 seconds
+2017-07-18 17:38:25,033 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.286978006362915 seconds
+2017-07-18 17:38:26,212 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.177886962890625 seconds
+2017-07-18 17:38:26,307 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderDefaultSubNotice_1fdD9>span>, Spend 0.07774543762207031 seconds
+2017-07-18 17:38:29,354 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0326602458953857 seconds
+2017-07-18 17:38:29,355 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:38:29,357 - root - INFO - ############################### START ###############################
+2017-07-18 17:38:32,864 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5068087577819824 seconds
+2017-07-18 17:38:34,131 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.2649791240692139 seconds
+2017-07-18 17:38:35,281 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1497926712036133 seconds
+2017-07-18 17:38:35,343 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.04774832725524902 seconds
+2017-07-18 17:38:38,423 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.07437324523925781 seconds
+2017-07-18 17:38:41,465 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.040395736694336 seconds
+2017-07-18 17:38:41,467 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:43:39,076 - root - INFO - ############################### START ###############################
+2017-07-18 17:43:42,568 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.492035388946533 seconds
+2017-07-18 17:43:43,881 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3115332126617432 seconds
+2017-07-18 17:43:45,050 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1676208972930908 seconds
+2017-07-18 17:43:45,120 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 0.04778742790222168 seconds
+2017-07-18 17:43:50,214 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.08643436431884766 seconds
+2017-07-18 17:43:53,254 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0382139682769775 seconds
+2017-07-18 17:43:53,254 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:43:53,255 - root - INFO - ############################### START ###############################
+2017-07-18 17:43:56,738 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.480414867401123 seconds
+2017-07-18 17:43:57,929 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.1906101703643799 seconds
+2017-07-18 17:43:59,077 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1480467319488525 seconds
+2017-07-18 17:43:59,167 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderDefaultSubNotice_1fdD9>span>, Spend 0.0748295783996582 seconds
+2017-07-18 17:44:02,214 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0326709747314453 seconds
+2017-07-18 17:44:02,214 - root - INFO - ###############################  End  ###############################
+2017-07-18 17:44:02,217 - root - INFO - ############################### START ###############################
+2017-07-18 17:44:05,686 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.467646360397339 seconds
+2017-07-18 17:44:07,025 - root - INFO - SUCCESS    Navigated to http://www.intranet.szjys.com/, Spend 1.3370871543884277 seconds
+2017-07-18 17:44:08,170 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1456358432769775 seconds
+2017-07-18 17:44:08,233 - root - INFO - SUCCESS    Clicked element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(3)>, Spend 0.04539084434509277 seconds
+2017-07-18 17:44:11,296 - root - INFO - SUCCESS    Get element text element: <css->.loginHeaderCurrencyContent_19Rrh>p>, Spend 0.05660605430603027 seconds
+2017-07-18 17:44:14,329 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0322279930114746 seconds
+2017-07-18 17:44:14,330 - root - INFO - ###############################  End  ###############################

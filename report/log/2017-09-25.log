@@ -1,0 +1,773 @@
+2017-09-25 13:18:59,678 - root - INFO - ############################### START ###############################
+2017-09-25 13:19:03,450 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.771669626235962 seconds
+2017-09-25 13:19:04,490 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.039078950881958 seconds
+2017-09-25 13:19:05,627 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1366055011749268 seconds
+2017-09-25 13:19:05,702 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07419776916503906 seconds
+2017-09-25 13:19:06,903 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1998045444488525 seconds
+2017-09-25 13:19:07,068 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16393280029296875 seconds
+2017-09-25 13:19:12,159 - root - INFO - SUCCESS    Get current window url, Spend 0.03794264793395996 seconds
+2017-09-25 13:19:17,242 - root - INFO - FAIL    Unable to click element: <css->div[class^=walletList_]>div:nth-child(1)>div>span:nth-child(3)>, Spend 5.080934286117554 seconds
+2017-09-25 13:19:20,330 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0863606929779053 seconds
+2017-09-25 13:19:20,331 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:21:55,595 - root - INFO - ############################### START ###############################
+2017-09-25 13:21:59,370 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.775022029876709 seconds
+2017-09-25 13:22:00,460 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.087759256362915 seconds
+2017-09-25 13:22:01,628 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1671884059906006 seconds
+2017-09-25 13:22:01,699 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07114553451538086 seconds
+2017-09-25 13:22:02,805 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1058759689331055 seconds
+2017-09-25 13:22:03,005 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.19852566719055176 seconds
+2017-09-25 13:22:08,096 - root - INFO - SUCCESS    Get current window url, Spend 0.027950525283813477 seconds
+2017-09-25 13:22:13,172 - root - INFO - FAIL    Unable to click element: <xpath->div[class^=walletList_]>div:nth-child(1)>div>span:nth-child(3)>, Spend 5.076496601104736 seconds
+2017-09-25 13:22:16,223 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0492756366729736 seconds
+2017-09-25 13:22:16,225 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:23:12,435 - root - INFO - ############################### START ###############################
+2017-09-25 13:23:16,102 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6661062240600586 seconds
+2017-09-25 13:23:17,254 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1489958763122559 seconds
+2017-09-25 13:23:18,428 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172616720199585 seconds
+2017-09-25 13:23:18,496 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06718063354492188 seconds
+2017-09-25 13:23:19,692 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.195847749710083 seconds
+2017-09-25 13:23:19,847 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.15390563011169434 seconds
+2017-09-25 13:23:24,928 - root - INFO - SUCCESS    Get current window url, Spend 0.027117252349853516 seconds
+2017-09-25 13:23:25,041 - root - INFO - SUCCESS    Clicked element: <link_text->充值>, Spend 0.11229801177978516 seconds
+2017-09-25 13:23:28,108 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.048898935317993 seconds
+2017-09-25 13:23:28,110 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:26:55,321 - root - INFO - ############################### START ###############################
+2017-09-25 13:26:59,007 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.684807777404785 seconds
+2017-09-25 13:27:00,129 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.12056303024292 seconds
+2017-09-25 13:27:01,276 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1462314128875732 seconds
+2017-09-25 13:27:01,348 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07068943977355957 seconds
+2017-09-25 13:27:02,525 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.176004409790039 seconds
+2017-09-25 13:27:02,688 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16193008422851562 seconds
+2017-09-25 13:27:07,759 - root - INFO - SUCCESS    Get current window url, Spend 0.01704716682434082 seconds
+2017-09-25 13:27:12,835 - root - INFO - FAIL    Unable to click element: <css->div[class^=walletList_]>div[class^=wallet_]:nth-child(1)>span:nth-child(3)>, Spend 5.075060129165649 seconds
+2017-09-25 13:27:15,881 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.044224500656128 seconds
+2017-09-25 13:27:15,882 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:32:02,502 - root - INFO - ############################### START ###############################
+2017-09-25 13:32:06,174 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6711747646331787 seconds
+2017-09-25 13:32:07,309 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.132643222808838 seconds
+2017-09-25 13:32:08,479 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.169837236404419 seconds
+2017-09-25 13:32:08,553 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07269477844238281 seconds
+2017-09-25 13:32:09,788 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2347183227539062 seconds
+2017-09-25 13:32:09,927 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1388685703277588 seconds
+2017-09-25 13:32:15,017 - root - INFO - SUCCESS    Get current window url, Spend 0.026035308837890625 seconds
+2017-09-25 13:32:20,100 - root - INFO - FAIL    Unable to click element: <css->div[class^=walletList_]>div:nth-child(1)>div>span:nth-child(3)>a>, Spend 5.082460403442383 seconds
+2017-09-25 13:32:23,132 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0304501056671143 seconds
+2017-09-25 13:32:23,132 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:35:03,334 - root - INFO - ############################### START ###############################
+2017-09-25 13:35:07,031 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6966819763183594 seconds
+2017-09-25 13:35:08,243 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.2097573280334473 seconds
+2017-09-25 13:35:09,419 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1747374534606934 seconds
+2017-09-25 13:35:09,489 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07073092460632324 seconds
+2017-09-25 13:35:10,691 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2014963626861572 seconds
+2017-09-25 13:35:10,851 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.15842103958129883 seconds
+2017-09-25 13:35:15,928 - root - INFO - SUCCESS    Get current window url, Spend 0.02105426788330078 seconds
+2017-09-25 13:35:21,009 - root - INFO - FAIL    Unable to click element: <xpath->.//div[@class^=walletList_]/div:nth-child(1)/div/span:nth-child(3)>, Spend 5.080489635467529 seconds
+2017-09-25 13:35:24,067 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0571649074554443 seconds
+2017-09-25 13:35:24,068 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:38:17,937 - root - INFO - ############################### START ###############################
+2017-09-25 13:38:21,600 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6628432273864746 seconds
+2017-09-25 13:38:22,705 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1038181781768799 seconds
+2017-09-25 13:38:23,886 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1806018352508545 seconds
+2017-09-25 13:38:23,960 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07269692420959473 seconds
+2017-09-25 13:38:25,156 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1956112384796143 seconds
+2017-09-25 13:38:25,289 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13235163688659668 seconds
+2017-09-25 13:38:30,395 - root - INFO - SUCCESS    Get current window url, Spend 0.027841567993164062 seconds
+2017-09-25 13:38:35,501 - root - INFO - FAIL    Unable to click element: <xpath->.//div[@class^=walletList_]/div[1]/div/span[3]>, Spend 5.104894638061523 seconds
+2017-09-25 13:38:38,550 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.048044443130493 seconds
+2017-09-25 13:38:38,552 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:41:57,688 - root - INFO - ############################### START ###############################
+2017-09-25 13:42:01,392 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.70357346534729 seconds
+2017-09-25 13:42:02,424 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0287342071533203 seconds
+2017-09-25 13:42:03,582 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1573216915130615 seconds
+2017-09-25 13:42:03,652 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0691840648651123 seconds
+2017-09-25 13:42:04,774 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1207399368286133 seconds
+2017-09-25 13:42:04,936 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1624317169189453 seconds
+2017-09-25 13:42:10,024 - root - INFO - SUCCESS    Get current window url, Spend 0.026062488555908203 seconds
+2017-09-25 13:42:10,116 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.090240478515625 seconds
+2017-09-25 13:42:13,177 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.040860176086426 seconds
+2017-09-25 13:42:13,178 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:44:31,353 - root - INFO - ############################### START ###############################
+2017-09-25 13:44:35,032 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.677654504776001 seconds
+2017-09-25 13:44:36,102 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.067065715789795 seconds
+2017-09-25 13:44:37,260 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1577973365783691 seconds
+2017-09-25 13:44:37,331 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06918573379516602 seconds
+2017-09-25 13:44:38,512 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1809136867523193 seconds
+2017-09-25 13:44:38,649 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13586068153381348 seconds
+2017-09-25 13:44:43,740 - root - INFO - SUCCESS    Get current window url, Spend 0.027100324630737305 seconds
+2017-09-25 13:44:43,813 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.07267141342163086 seconds
+2017-09-25 13:44:46,881 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.038475751876831 seconds
+2017-09-25 13:44:46,883 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:46:30,661 - root - INFO - ############################### START ###############################
+2017-09-25 13:46:34,348 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6860666275024414 seconds
+2017-09-25 13:46:35,458 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1078581809997559 seconds
+2017-09-25 13:46:36,634 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.175583839416504 seconds
+2017-09-25 13:46:36,710 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0736992359161377 seconds
+2017-09-25 13:46:37,928 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.218177080154419 seconds
+2017-09-25 13:46:38,095 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16543984413146973 seconds
+2017-09-25 13:46:43,184 - root - INFO - SUCCESS    Get current window url, Spend 0.03409600257873535 seconds
+2017-09-25 13:46:43,292 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.10695886611938477 seconds
+2017-09-25 13:46:46,349 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0369343757629395 seconds
+2017-09-25 13:46:46,351 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:48:13,857 - root - INFO - ############################### START ###############################
+2017-09-25 13:48:17,561 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7030105590820312 seconds
+2017-09-25 13:48:18,705 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1409814357757568 seconds
+2017-09-25 13:48:19,893 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.186669111251831 seconds
+2017-09-25 13:48:19,963 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0697023868560791 seconds
+2017-09-25 13:48:21,121 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1570005416870117 seconds
+2017-09-25 13:48:21,289 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16694331169128418 seconds
+2017-09-25 13:48:26,371 - root - INFO - SUCCESS    Get current window url, Spend 0.02707076072692871 seconds
+2017-09-25 13:48:26,459 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08672642707824707 seconds
+2017-09-25 13:48:29,518 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.035841703414917 seconds
+2017-09-25 13:48:29,519 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:51:02,507 - root - INFO - ############################### START ###############################
+2017-09-25 13:51:06,170 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6627540588378906 seconds
+2017-09-25 13:51:07,372 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1997876167297363 seconds
+2017-09-25 13:51:08,539 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.166855812072754 seconds
+2017-09-25 13:51:08,610 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07096552848815918 seconds
+2017-09-25 13:51:09,792 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.181020736694336 seconds
+2017-09-25 13:51:09,942 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.14956068992614746 seconds
+2017-09-25 13:51:15,036 - root - INFO - SUCCESS    Get current window url, Spend 0.01303243637084961 seconds
+2017-09-25 13:51:15,119 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08262181282043457 seconds
+2017-09-25 13:51:18,182 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041016101837158 seconds
+2017-09-25 13:51:18,183 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:54:55,165 - root - INFO - ############################### START ###############################
+2017-09-25 13:54:58,878 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7123708724975586 seconds
+2017-09-25 13:54:59,966 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0845940113067627 seconds
+2017-09-25 13:55:01,111 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1457602977752686 seconds
+2017-09-25 13:55:01,185 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0721595287322998 seconds
+2017-09-25 13:55:02,370 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1835274696350098 seconds
+2017-09-25 13:55:02,611 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.24100947380065918 seconds
+2017-09-25 13:55:07,730 - root - INFO - SUCCESS    Get current window url, Spend 0.021048784255981445 seconds
+2017-09-25 13:55:07,812 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08171701431274414 seconds
+2017-09-25 13:55:07,853 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.04060697555541992 seconds
+2017-09-25 13:55:07,907 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.05314183235168457 seconds
+2017-09-25 13:55:10,946 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0277514457702637 seconds
+2017-09-25 13:55:10,947 - root - INFO - ###############################  End  ###############################
+2017-09-25 13:58:01,003 - root - INFO - ############################### START ###############################
+2017-09-25 13:58:05,309 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 4.30417799949646 seconds
+2017-09-25 13:58:06,359 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0498266220092773 seconds
+2017-09-25 13:58:07,538 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1778788566589355 seconds
+2017-09-25 13:58:07,627 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.08770489692687988 seconds
+2017-09-25 13:58:07,759 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 0.13140177726745605 seconds
+2017-09-25 13:58:07,926 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.166945219039917 seconds
+2017-09-25 13:58:13,006 - root - INFO - SUCCESS    Get current window url, Spend 0.026531457901000977 seconds
+2017-09-25 13:58:13,088 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08121109008789062 seconds
+2017-09-25 13:58:13,123 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.03409004211425781 seconds
+2017-09-25 13:58:13,169 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.04461860656738281 seconds
+2017-09-25 13:58:13,225 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.03859829902648926 seconds
+2017-09-25 13:58:16,303 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0524325370788574 seconds
+2017-09-25 13:58:16,305 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:00:16,997 - root - INFO - ############################### START ###############################
+2017-09-25 14:00:20,748 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.750298023223877 seconds
+2017-09-25 14:00:21,964 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.2149183750152588 seconds
+2017-09-25 14:00:23,144 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1785075664520264 seconds
+2017-09-25 14:00:23,214 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06918573379516602 seconds
+2017-09-25 14:00:24,405 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1909520626068115 seconds
+2017-09-25 14:00:24,540 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13435649871826172 seconds
+2017-09-25 14:00:29,644 - root - INFO - SUCCESS    Get current window url, Spend 0.02105879783630371 seconds
+2017-09-25 14:00:29,723 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.0792083740234375 seconds
+2017-09-25 14:00:29,767 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02305316925048828 seconds
+2017-09-25 14:00:29,813 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.04543590545654297 seconds
+2017-09-25 14:00:29,874 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.0416111946105957 seconds
+2017-09-25 14:00:32,932 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.032283306121826 seconds
+2017-09-25 14:00:32,934 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:04:01,875 - root - INFO - ############################### START ###############################
+2017-09-25 14:04:05,580 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.704094648361206 seconds
+2017-09-25 14:04:06,642 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.060143232345581 seconds
+2017-09-25 14:04:07,786 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.144263744354248 seconds
+2017-09-25 14:04:07,863 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07596731185913086 seconds
+2017-09-25 14:04:09,107 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2433927059173584 seconds
+2017-09-25 14:04:09,200 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09172534942626953 seconds
+2017-09-25 14:04:14,322 - root - INFO - SUCCESS    Get current window url, Spend 0.027635574340820312 seconds
+2017-09-25 14:04:14,408 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08422207832336426 seconds
+2017-09-25 14:04:14,451 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.024562358856201172 seconds
+2017-09-25 14:04:14,496 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.045087337493896484 seconds
+2017-09-25 14:04:14,561 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.04610562324523926 seconds
+2017-09-25 14:04:17,617 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0291855335235596 seconds
+2017-09-25 14:04:17,617 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:24:11,385 - root - INFO - ############################### START ###############################
+2017-09-25 14:24:15,059 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6721088886260986 seconds
+2017-09-25 14:24:16,168 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.106994867324829 seconds
+2017-09-25 14:24:17,334 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1643757820129395 seconds
+2017-09-25 14:24:17,405 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0706946849822998 seconds
+2017-09-25 14:24:18,529 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1235668659210205 seconds
+2017-09-25 14:24:18,691 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16092967987060547 seconds
+2017-09-25 14:24:23,793 - root - INFO - SUCCESS    Get current window url, Spend 0.04010653495788574 seconds
+2017-09-25 14:24:23,869 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.07570123672485352 seconds
+2017-09-25 14:24:23,942 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.05664992332458496 seconds
+2017-09-25 14:24:26,977 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0336999893188477 seconds
+2017-09-25 14:24:26,978 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:24:26,979 - root - INFO - ############################### START ###############################
+2017-09-25 14:24:30,686 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7059154510498047 seconds
+2017-09-25 14:24:31,809 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1220779418945312 seconds
+2017-09-25 14:24:32,978 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1691224575042725 seconds
+2017-09-25 14:24:33,050 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07019853591918945 seconds
+2017-09-25 14:24:34,299 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2476341724395752 seconds
+2017-09-25 14:24:34,379 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08026337623596191 seconds
+2017-09-25 14:24:39,490 - root - INFO - SUCCESS    Get current window url, Spend 0.026068925857543945 seconds
+2017-09-25 14:24:39,572 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.08116960525512695 seconds
+2017-09-25 14:24:39,614 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.024064064025878906 seconds
+2017-09-25 14:24:42,648 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0328798294067383 seconds
+2017-09-25 14:24:42,650 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:24:42,652 - root - INFO - ############################### START ###############################
+2017-09-25 14:24:46,462 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8089888095855713 seconds
+2017-09-25 14:24:47,555 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0925014019012451 seconds
+2017-09-25 14:24:48,769 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.213151216506958 seconds
+2017-09-25 14:24:48,846 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07569479942321777 seconds
+2017-09-25 14:24:50,001 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1542072296142578 seconds
+2017-09-25 14:24:50,251 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.24962639808654785 seconds
+2017-09-25 14:24:55,369 - root - INFO - SUCCESS    Get current window url, Spend 0.02794361114501953 seconds
+2017-09-25 14:24:55,474 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.10343003273010254 seconds
+2017-09-25 14:24:55,519 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02556896209716797 seconds
+2017-09-25 14:24:58,558 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.036698341369629 seconds
+2017-09-25 14:24:58,560 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:56:10,443 - root - INFO - ############################### START ###############################
+2017-09-25 14:56:13,927 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.483496904373169 seconds
+2017-09-25 14:56:15,228 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.300189733505249 seconds
+2017-09-25 14:56:16,371 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1417911052703857 seconds
+2017-09-25 14:56:16,473 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.10038638114929199 seconds
+2017-09-25 14:56:17,620 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1469533443450928 seconds
+2017-09-25 14:56:17,789 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16756606101989746 seconds
+2017-09-25 14:56:22,914 - root - INFO - SUCCESS    Get current window url, Spend 0.026034832000732422 seconds
+2017-09-25 14:56:22,986 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.07166600227355957 seconds
+2017-09-25 14:56:23,028 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.026070594787597656 seconds
+2017-09-25 14:56:26,056 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026672601699829 seconds
+2017-09-25 14:56:26,057 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:56:26,058 - root - INFO - ############################### START ###############################
+2017-09-25 14:56:29,761 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7026703357696533 seconds
+2017-09-25 14:56:30,836 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.073005199432373 seconds
+2017-09-25 14:56:32,020 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1837444305419922 seconds
+2017-09-25 14:56:32,094 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07267880439758301 seconds
+2017-09-25 14:56:33,237 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.141939401626587 seconds
+2017-09-25 14:56:33,407 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.169450044631958 seconds
+2017-09-25 14:56:38,538 - root - INFO - SUCCESS    Get current window url, Spend 0.03001117706298828 seconds
+2017-09-25 14:56:38,624 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.0850059986114502 seconds
+2017-09-25 14:56:39,762 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.136763334274292 seconds
+2017-09-25 14:56:40,870 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 1.1068854331970215 seconds
+2017-09-25 14:56:40,918 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.04783129692077637 seconds
+2017-09-25 14:56:40,998 - root - INFO - SUCCESS    Typed element: <name->target> content: mwCULfHpkYvPZiV6Tc5TUmLPDs7o9RSb8X, Spend 0.07918000221252441 seconds
+2017-09-25 14:56:41,205 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.20604896545410156 seconds
+2017-09-25 14:56:41,262 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.05690908432006836 seconds
+2017-09-25 14:56:41,329 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.0661764144897461 seconds
+2017-09-25 14:56:41,378 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.0481259822845459 seconds
+2017-09-25 14:56:41,378 - root - INFO - FAIL    Unable to click element: <tag_name->button>, Spend 0.0 seconds
+2017-09-25 14:56:44,413 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0338454246520996 seconds
+2017-09-25 14:56:44,415 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:56:44,418 - root - INFO - ############################### START ###############################
+2017-09-25 14:56:48,110 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6902096271514893 seconds
+2017-09-25 14:56:49,777 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.6657655239105225 seconds
+2017-09-25 14:56:50,940 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1615912914276123 seconds
+2017-09-25 14:56:51,011 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07118439674377441 seconds
+2017-09-25 14:56:52,152 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1390087604522705 seconds
+2017-09-25 14:56:52,329 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17647004127502441 seconds
+2017-09-25 14:56:57,414 - root - INFO - SUCCESS    Get current window url, Spend 0.030477523803710938 seconds
+2017-09-25 14:56:57,488 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.0726933479309082 seconds
+2017-09-25 14:56:57,533 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.028073787689208984 seconds
+2017-09-25 14:57:00,578 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0437395572662354 seconds
+2017-09-25 14:57:00,579 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:57:00,580 - root - INFO - ############################### START ###############################
+2017-09-25 14:57:04,114 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5328681468963623 seconds
+2017-09-25 14:57:05,161 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0467336177825928 seconds
+2017-09-25 14:57:06,325 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1630926132202148 seconds
+2017-09-25 14:57:06,398 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07266569137573242 seconds
+2017-09-25 14:57:07,614 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2149057388305664 seconds
+2017-09-25 14:57:07,773 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.15741872787475586 seconds
+2017-09-25 14:57:12,853 - root - INFO - SUCCESS    Get current window url, Spend 0.026072978973388672 seconds
+2017-09-25 14:57:12,927 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.07318949699401855 seconds
+2017-09-25 14:57:12,971 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.028577327728271484 seconds
+2017-09-25 14:57:16,007 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0349371433258057 seconds
+2017-09-25 14:57:16,008 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:58:54,583 - root - INFO - ############################### START ###############################
+2017-09-25 14:58:58,566 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.9816555976867676 seconds
+2017-09-25 14:58:59,775 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.2080433368682861 seconds
+2017-09-25 14:59:00,948 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1716148853302002 seconds
+2017-09-25 14:59:01,017 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06868624687194824 seconds
+2017-09-25 14:59:02,157 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1400878429412842 seconds
+2017-09-25 14:59:02,299 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.14137530326843262 seconds
+2017-09-25 14:59:07,385 - root - INFO - SUCCESS    Get current window url, Spend 0.010509252548217773 seconds
+2017-09-25 14:59:07,465 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.07870841026306152 seconds
+2017-09-25 14:59:07,511 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.03058147430419922 seconds
+2017-09-25 14:59:10,554 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041718006134033 seconds
+2017-09-25 14:59:10,555 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:59:10,556 - root - INFO - ############################### START ###############################
+2017-09-25 14:59:14,247 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.689457416534424 seconds
+2017-09-25 14:59:15,813 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.5657308101654053 seconds
+2017-09-25 14:59:16,974 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1609725952148438 seconds
+2017-09-25 14:59:17,043 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06868672370910645 seconds
+2017-09-25 14:59:18,167 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1234707832336426 seconds
+2017-09-25 14:59:18,336 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16839218139648438 seconds
+2017-09-25 14:59:23,415 - root - INFO - SUCCESS    Get current window url, Spend 0.017936229705810547 seconds
+2017-09-25 14:59:23,488 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.07302594184875488 seconds
+2017-09-25 14:59:24,618 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.129448413848877 seconds
+2017-09-25 14:59:25,713 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 1.0937886238098145 seconds
+2017-09-25 14:59:25,752 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.0375978946685791 seconds
+2017-09-25 14:59:25,844 - root - INFO - SUCCESS    Typed element: <name->target> content: mwCULfHpkYvPZiV6Tc5TUmLPDs7o9RSb8X, Spend 0.09224748611450195 seconds
+2017-09-25 14:59:26,047 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.20176029205322266 seconds
+2017-09-25 14:59:26,093 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.04549694061279297 seconds
+2017-09-25 14:59:26,142 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.04862475395202637 seconds
+2017-09-25 14:59:26,189 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.045664310455322266 seconds
+2017-09-25 14:59:29,274 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0246269702911377 seconds
+2017-09-25 14:59:29,275 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:59:29,276 - root - INFO - ############################### START ###############################
+2017-09-25 14:59:32,989 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.711852788925171 seconds
+2017-09-25 14:59:34,182 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1705989837646484 seconds
+2017-09-25 14:59:35,355 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1731183528900146 seconds
+2017-09-25 14:59:35,428 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07119369506835938 seconds
+2017-09-25 14:59:36,569 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1414880752563477 seconds
+2017-09-25 14:59:36,701 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13214945793151855 seconds
+2017-09-25 14:59:41,816 - root - INFO - SUCCESS    Get current window url, Spend 0.029030323028564453 seconds
+2017-09-25 14:59:41,893 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.07563591003417969 seconds
+2017-09-25 14:59:41,936 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.026262283325195312 seconds
+2017-09-25 14:59:44,979 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041325807571411 seconds
+2017-09-25 14:59:44,980 - root - INFO - ###############################  End  ###############################
+2017-09-25 14:59:44,981 - root - INFO - ############################### START ###############################
+2017-09-25 14:59:48,518 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5356733798980713 seconds
+2017-09-25 14:59:49,643 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1237678527832031 seconds
+2017-09-25 14:59:50,802 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1579980850219727 seconds
+2017-09-25 14:59:50,871 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06879067420959473 seconds
+2017-09-25 14:59:52,074 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.201507806777954 seconds
+2017-09-25 14:59:52,231 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1559157371520996 seconds
+2017-09-25 14:59:57,325 - root - INFO - SUCCESS    Get current window url, Spend 0.03977370262145996 seconds
+2017-09-25 14:59:57,421 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.09538674354553223 seconds
+2017-09-25 14:59:57,465 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02807164192199707 seconds
+2017-09-25 15:00:00,500 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0336172580718994 seconds
+2017-09-25 15:00:00,503 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:01:45,919 - root - INFO - ############################### START ###############################
+2017-09-25 16:01:49,638 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7179319858551025 seconds
+2017-09-25 16:01:50,712 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0731613636016846 seconds
+2017-09-25 16:01:51,850 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1371445655822754 seconds
+2017-09-25 16:01:51,984 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.13297796249389648 seconds
+2017-09-25 16:01:53,168 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1825885772705078 seconds
+2017-09-25 16:01:53,320 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1512742042541504 seconds
+2017-09-25 16:01:58,399 - root - INFO - SUCCESS    Get current window url, Spend 0.025153636932373047 seconds
+2017-09-25 16:01:58,469 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.07045388221740723 seconds
+2017-09-25 16:01:59,620 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.1502678394317627 seconds
+2017-09-25 16:01:59,740 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.11903858184814453 seconds
+2017-09-25 16:01:59,777 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.03624534606933594 seconds
+2017-09-25 16:01:59,853 - root - INFO - SUCCESS    Typed element: <name->target> content: mwCULfHpkYvPZiV6Tc5TUmLPDs7o9RSb8X, Spend 0.07563614845275879 seconds
+2017-09-25 16:02:00,049 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.1951913833618164 seconds
+2017-09-25 16:02:00,088 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.03760361671447754 seconds
+2017-09-25 16:02:00,137 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.04762744903564453 seconds
+2017-09-25 16:02:00,180 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04311084747314453 seconds
+2017-09-25 16:02:03,281 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0277037620544434 seconds
+2017-09-25 16:02:03,283 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:02:03,285 - root - INFO - ############################### START ###############################
+2017-09-25 16:02:06,829 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5433168411254883 seconds
+2017-09-25 16:02:07,882 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0520095825195312 seconds
+2017-09-25 16:02:09,065 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1824498176574707 seconds
+2017-09-25 16:02:09,121 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.05464625358581543 seconds
+2017-09-25 16:02:10,330 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2084853649139404 seconds
+2017-09-25 16:02:10,480 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1483924388885498 seconds
+2017-09-25 16:02:15,582 - root - INFO - SUCCESS    Get current window url, Spend 0.02603626251220703 seconds
+2017-09-25 16:02:15,664 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.0796976089477539 seconds
+2017-09-25 16:02:15,708 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.025572776794433594 seconds
+2017-09-25 16:02:18,746 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.035691738128662 seconds
+2017-09-25 16:02:18,748 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:02:18,749 - root - INFO - ############################### START ###############################
+2017-09-25 16:02:22,462 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.712131977081299 seconds
+2017-09-25 16:02:23,512 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0490648746490479 seconds
+2017-09-25 16:02:24,689 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1758825778961182 seconds
+2017-09-25 16:02:24,756 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0671687126159668 seconds
+2017-09-25 16:02:25,930 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.172806978225708 seconds
+2017-09-25 16:02:26,067 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13636374473571777 seconds
+2017-09-25 16:02:31,184 - root - INFO - SUCCESS    Get current window url, Spend 0.027699708938598633 seconds
+2017-09-25 16:02:36,288 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[4]/div/span[2]>, Spend 5.103251218795776 seconds
+2017-09-25 16:02:39,327 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0376923084259033 seconds
+2017-09-25 16:02:39,328 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:02:39,332 - root - INFO - ############################### START ###############################
+2017-09-25 16:02:42,851 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.517869472503662 seconds
+2017-09-25 16:02:43,849 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 0.996978759765625 seconds
+2017-09-25 16:02:45,011 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1618294715881348 seconds
+2017-09-25 16:02:45,082 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06920146942138672 seconds
+2017-09-25 16:02:46,297 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2144973278045654 seconds
+2017-09-25 16:02:46,450 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1524050235748291 seconds
+2017-09-25 16:02:51,562 - root - INFO - SUCCESS    Get current window url, Spend 0.033611297607421875 seconds
+2017-09-25 16:02:51,639 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.0761728286743164 seconds
+2017-09-25 16:02:51,681 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02556896209716797 seconds
+2017-09-25 16:02:54,718 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0364537239074707 seconds
+2017-09-25 16:02:54,720 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:02:54,722 - root - INFO - ############################### START ###############################
+2017-09-25 16:02:58,254 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5315775871276855 seconds
+2017-09-25 16:02:59,328 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0727357864379883 seconds
+2017-09-25 16:03:00,499 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1695761680603027 seconds
+2017-09-25 16:03:00,569 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0696568489074707 seconds
+2017-09-25 16:03:01,751 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1805939674377441 seconds
+2017-09-25 16:03:01,923 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17149686813354492 seconds
+2017-09-25 16:03:07,012 - root - INFO - SUCCESS    Get current window url, Spend 0.03394341468811035 seconds
+2017-09-25 16:03:07,091 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]>, Spend 0.0779719352722168 seconds
+2017-09-25 16:03:08,179 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.0875270366668701 seconds
+2017-09-25 16:03:08,296 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.11603140830993652 seconds
+2017-09-25 16:03:08,334 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.03738260269165039 seconds
+2017-09-25 16:03:08,408 - root - INFO - SUCCESS    Typed element: <name->target> content: 0x6575ee991fc8b7fa5350588d44ba7476c7bd6fcc, Spend 0.07312583923339844 seconds
+2017-09-25 16:03:08,641 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.23093175888061523 seconds
+2017-09-25 16:03:08,687 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.04511880874633789 seconds
+2017-09-25 16:03:08,740 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.05213618278503418 seconds
+2017-09-25 16:03:08,783 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04361677169799805 seconds
+2017-09-25 16:03:11,871 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0256118774414062 seconds
+2017-09-25 16:03:11,873 - root - INFO - ###############################  End  ###############################
+2017-09-25 16:03:11,874 - root - INFO - ############################### START ###############################
+2017-09-25 16:03:15,414 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.538196086883545 seconds
+2017-09-25 16:03:16,475 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0611677169799805 seconds
+2017-09-25 16:03:17,638 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1612780094146729 seconds
+2017-09-25 16:03:17,706 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0678558349609375 seconds
+2017-09-25 16:03:18,913 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2059011459350586 seconds
+2017-09-25 16:03:19,076 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16183066368103027 seconds
+2017-09-25 16:03:24,168 - root - INFO - SUCCESS    Get current window url, Spend 0.03852033615112305 seconds
+2017-09-25 16:03:24,251 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.07772970199584961 seconds
+2017-09-25 16:03:24,296 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.027573347091674805 seconds
+2017-09-25 16:03:27,333 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0352578163146973 seconds
+2017-09-25 16:03:27,335 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:16:01,514 - root - INFO - ############################### START ###############################
+2017-09-25 17:16:05,223 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7073535919189453 seconds
+2017-09-25 17:16:06,856 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.6327707767486572 seconds
+2017-09-25 17:16:08,024 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.167482614517212 seconds
+2017-09-25 17:16:08,094 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0696866512298584 seconds
+2017-09-25 17:16:09,290 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1937661170959473 seconds
+2017-09-25 17:16:09,447 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.15715408325195312 seconds
+2017-09-25 17:16:14,526 - root - INFO - SUCCESS    Get current window url, Spend 0.02396869659423828 seconds
+2017-09-25 17:16:14,609 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.08037614822387695 seconds
+2017-09-25 17:16:15,763 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.153784990310669 seconds
+2017-09-25 17:16:15,875 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.1107945442199707 seconds
+2017-09-25 17:16:15,905 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.02857494354248047 seconds
+2017-09-25 17:16:16,118 - root - INFO - SUCCESS    Typed element: <name->target> content: mwCULfHpkYvPZiV6Tc5TUmLPDs7o9RSb8X, Spend 0.21306490898132324 seconds
+2017-09-25 17:16:16,185 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.06567502021789551 seconds
+2017-09-25 17:16:16,225 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.039102792739868164 seconds
+2017-09-25 17:16:16,275 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.0486297607421875 seconds
+2017-09-25 17:16:16,319 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04361295700073242 seconds
+2017-09-25 17:16:19,441 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0356810092926025 seconds
+2017-09-25 17:16:19,442 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:16:19,443 - root - INFO - ############################### START ###############################
+2017-09-25 17:16:23,157 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.713770627975464 seconds
+2017-09-25 17:16:24,210 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0519630908966064 seconds
+2017-09-25 17:16:25,382 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1712722778320312 seconds
+2017-09-25 17:16:25,439 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0561518669128418 seconds
+2017-09-25 17:16:26,606 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1664838790893555 seconds
+2017-09-25 17:16:26,757 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1495964527130127 seconds
+2017-09-25 17:16:31,848 - root - INFO - SUCCESS    Get current window url, Spend 0.0210568904876709 seconds
+2017-09-25 17:16:31,918 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.06818127632141113 seconds
+2017-09-25 17:16:31,962 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02406167984008789 seconds
+2017-09-25 17:16:35,001 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0371267795562744 seconds
+2017-09-25 17:16:35,002 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:16:35,004 - root - INFO - ############################### START ###############################
+2017-09-25 17:16:38,735 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7292640209198 seconds
+2017-09-25 17:16:39,856 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1201670169830322 seconds
+2017-09-25 17:16:40,992 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1360187530517578 seconds
+2017-09-25 17:16:41,067 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07299375534057617 seconds
+2017-09-25 17:16:41,221 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 0.15350723266601562 seconds
+2017-09-25 17:16:41,404 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1826012134552002 seconds
+2017-09-25 17:16:46,522 - root - INFO - SUCCESS    Get current window url, Spend 0.0356450080871582 seconds
+2017-09-25 17:16:46,571 - root - INFO - FAIL    Unable to click element: <xpath->//*[contains(text(),复制地址)]>, Spend 0.04938006401062012 seconds
+2017-09-25 17:16:49,613 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.040733814239502 seconds
+2017-09-25 17:16:49,615 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:16:49,625 - root - INFO - ############################### START ###############################
+2017-09-25 17:16:53,155 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.530177593231201 seconds
+2017-09-25 17:16:54,194 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.037297248840332 seconds
+2017-09-25 17:16:55,361 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1657512187957764 seconds
+2017-09-25 17:16:55,428 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06717729568481445 seconds
+2017-09-25 17:16:56,623 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.193204402923584 seconds
+2017-09-25 17:16:56,785 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1625978946685791 seconds
+2017-09-25 17:17:01,874 - root - INFO - SUCCESS    Get current window url, Spend 0.0327296257019043 seconds
+2017-09-25 17:17:06,980 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[4]/div/span[2]>, Spend 5.105169773101807 seconds
+2017-09-25 17:17:10,048 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.06656813621521 seconds
+2017-09-25 17:17:10,050 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:17:10,054 - root - INFO - ############################### START ###############################
+2017-09-25 17:17:13,609 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5533647537231445 seconds
+2017-09-25 17:17:14,701 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.090639352798462 seconds
+2017-09-25 17:17:15,866 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1644203662872314 seconds
+2017-09-25 17:17:15,937 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06928038597106934 seconds
+2017-09-25 17:17:17,118 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1804330348968506 seconds
+2017-09-25 17:17:17,287 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1686079502105713 seconds
+2017-09-25 17:17:22,369 - root - INFO - SUCCESS    Get current window url, Spend 0.027518510818481445 seconds
+2017-09-25 17:17:22,454 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.08522558212280273 seconds
+2017-09-25 17:17:22,497 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.023061513900756836 seconds
+2017-09-25 17:17:25,538 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0402915477752686 seconds
+2017-09-25 17:17:25,540 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:17:25,542 - root - INFO - ############################### START ###############################
+2017-09-25 17:17:29,079 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.53586483001709 seconds
+2017-09-25 17:17:30,134 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0536367893218994 seconds
+2017-09-25 17:17:31,295 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.160146713256836 seconds
+2017-09-25 17:17:31,365 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0696709156036377 seconds
+2017-09-25 17:17:32,547 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1809864044189453 seconds
+2017-09-25 17:17:32,653 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10586237907409668 seconds
+2017-09-25 17:17:37,729 - root - INFO - SUCCESS    Get current window url, Spend 0.023059368133544922 seconds
+2017-09-25 17:17:37,824 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]>, Spend 0.0935516357421875 seconds
+2017-09-25 17:17:38,944 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.119825839996338 seconds
+2017-09-25 17:17:40,050 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 1.1059398651123047 seconds
+2017-09-25 17:17:40,086 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.03459286689758301 seconds
+2017-09-25 17:17:40,165 - root - INFO - SUCCESS    Typed element: <name->target> content: 0x6575ee991fc8b7fa5350588d44ba7476c7bd6fcc, Spend 0.07820820808410645 seconds
+2017-09-25 17:17:40,404 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.23863482475280762 seconds
+2017-09-25 17:17:40,442 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.03709888458251953 seconds
+2017-09-25 17:17:40,491 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.04762673377990723 seconds
+2017-09-25 17:17:40,535 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04361534118652344 seconds
+2017-09-25 17:17:43,647 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026867151260376 seconds
+2017-09-25 17:17:43,649 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:17:43,650 - root - INFO - ############################### START ###############################
+2017-09-25 17:17:47,364 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7130987644195557 seconds
+2017-09-25 17:17:48,377 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0117859840393066 seconds
+2017-09-25 17:17:49,541 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.164383888244629 seconds
+2017-09-25 17:17:49,612 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06968450546264648 seconds
+2017-09-25 17:17:49,761 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 0.1400618553161621 seconds
+2017-09-25 17:17:49,886 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.12383008003234863 seconds
+2017-09-25 17:17:54,991 - root - INFO - SUCCESS    Get current window url, Spend 0.033883094787597656 seconds
+2017-09-25 17:17:55,080 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.08872318267822266 seconds
+2017-09-25 17:17:55,123 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.026070117950439453 seconds
+2017-09-25 17:17:58,159 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.034715414047241 seconds
+2017-09-25 17:17:58,161 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:20:35,550 - root - INFO - ############################### START ###############################
+2017-09-25 17:20:39,236 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6865100860595703 seconds
+2017-09-25 17:20:40,395 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1587092876434326 seconds
+2017-09-25 17:20:41,534 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1379435062408447 seconds
+2017-09-25 17:20:41,610 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07519888877868652 seconds
+2017-09-25 17:20:42,802 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.190436601638794 seconds
+2017-09-25 17:20:42,932 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13018202781677246 seconds
+2017-09-25 17:20:48,050 - root - INFO - SUCCESS    Get current window url, Spend 0.022748470306396484 seconds
+2017-09-25 17:20:48,141 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.08922672271728516 seconds
+2017-09-25 17:20:49,304 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.1622371673583984 seconds
+2017-09-25 17:20:49,427 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.12181210517883301 seconds
+2017-09-25 17:20:49,454 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.027242660522460938 seconds
+2017-09-25 17:20:49,533 - root - INFO - SUCCESS    Typed element: <name->target> content: mwCULfHpkYvPZiV6Tc5TUmLPDs7o9RSb8X, Spend 0.07799267768859863 seconds
+2017-09-25 17:20:49,728 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.1941843032836914 seconds
+2017-09-25 17:20:49,768 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.04029679298400879 seconds
+2017-09-25 17:20:49,820 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.051732540130615234 seconds
+2017-09-25 17:20:49,865 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04556536674499512 seconds
+2017-09-25 17:20:52,972 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033759355545044 seconds
+2017-09-25 17:20:52,974 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:20:52,975 - root - INFO - ############################### START ###############################
+2017-09-25 17:20:56,479 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5039944648742676 seconds
+2017-09-25 17:20:57,476 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 0.9963700771331787 seconds
+2017-09-25 17:20:58,659 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1829047203063965 seconds
+2017-09-25 17:20:58,727 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06667757034301758 seconds
+2017-09-25 17:20:59,947 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2198896408081055 seconds
+2017-09-25 17:21:00,110 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16158437728881836 seconds
+2017-09-25 17:21:05,191 - root - INFO - SUCCESS    Get current window url, Spend 0.027080535888671875 seconds
+2017-09-25 17:21:05,278 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a>, Spend 0.08649325370788574 seconds
+2017-09-25 17:21:05,320 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.02533745765686035 seconds
+2017-09-25 17:21:08,348 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0265071392059326 seconds
+2017-09-25 17:21:08,350 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:21:08,352 - root - INFO - ############################### START ###############################
+2017-09-25 17:21:11,906 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5527894496917725 seconds
+2017-09-25 17:21:13,052 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1457104682922363 seconds
+2017-09-25 17:21:14,230 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1766235828399658 seconds
+2017-09-25 17:21:14,302 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07119274139404297 seconds
+2017-09-25 17:21:15,487 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1837680339813232 seconds
+2017-09-25 17:21:15,655 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16694426536560059 seconds
+2017-09-25 17:21:20,747 - root - INFO - SUCCESS    Get current window url, Spend 0.033089637756347656 seconds
+2017-09-25 17:21:25,846 - root - INFO - FAIL    Unable to click element: <css->span[class^=copy_]>, Spend 5.098088026046753 seconds
+2017-09-25 17:21:28,924 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0746853351593018 seconds
+2017-09-25 17:21:28,924 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:21:28,929 - root - INFO - ############################### START ###############################
+2017-09-25 17:21:32,638 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7093007564544678 seconds
+2017-09-25 17:21:33,867 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.2267491817474365 seconds
+2017-09-25 17:21:35,027 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1593494415283203 seconds
+2017-09-25 17:21:35,098 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0701758861541748 seconds
+2017-09-25 17:21:36,288 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1893773078918457 seconds
+2017-09-25 17:21:36,452 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1634359359741211 seconds
+2017-09-25 17:21:41,537 - root - INFO - SUCCESS    Get current window url, Spend 0.03218984603881836 seconds
+2017-09-25 17:21:46,634 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[4]/div/span[2]>, Spend 5.0963523387908936 seconds
+2017-09-25 17:21:49,681 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0449492931365967 seconds
+2017-09-25 17:21:49,682 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:21:49,685 - root - INFO - ############################### START ###############################
+2017-09-25 17:21:53,347 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6594254970550537 seconds
+2017-09-25 17:21:54,362 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0144071578979492 seconds
+2017-09-25 17:21:55,518 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.155531883239746 seconds
+2017-09-25 17:21:55,587 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06868481636047363 seconds
+2017-09-25 17:21:56,769 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1811528205871582 seconds
+2017-09-25 17:21:56,943 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17221927642822266 seconds
+2017-09-25 17:22:02,008 - root - INFO - SUCCESS    Get current window url, Spend 0.029030561447143555 seconds
+2017-09-25 17:22:02,095 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a>, Spend 0.0862283706665039 seconds
+2017-09-25 17:22:02,137 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.027072429656982422 seconds
+2017-09-25 17:22:05,167 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.028080940246582 seconds
+2017-09-25 17:22:05,169 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:22:05,171 - root - INFO - ############################### START ###############################
+2017-09-25 17:22:08,708 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5370357036590576 seconds
+2017-09-25 17:22:09,830 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.119776725769043 seconds
+2017-09-25 17:22:10,993 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1629889011383057 seconds
+2017-09-25 17:22:11,061 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06677055358886719 seconds
+2017-09-25 17:22:12,232 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1694960594177246 seconds
+2017-09-25 17:22:12,395 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16333746910095215 seconds
+2017-09-25 17:22:17,476 - root - INFO - SUCCESS    Get current window url, Spend 0.021059274673461914 seconds
+2017-09-25 17:22:17,553 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]>, Spend 0.07558202743530273 seconds
+2017-09-25 17:22:17,678 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 0.12458562850952148 seconds
+2017-09-25 17:22:17,795 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.11667728424072266 seconds
+2017-09-25 17:22:17,831 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.035186767578125 seconds
+2017-09-25 17:22:18,039 - root - INFO - SUCCESS    Typed element: <name->target> content: 0x6575ee991fc8b7fa5350588d44ba7476c7bd6fcc, Spend 0.20755767822265625 seconds
+2017-09-25 17:22:18,201 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.16164350509643555 seconds
+2017-09-25 17:22:18,247 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.0451197624206543 seconds
+2017-09-25 17:22:18,294 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.04612255096435547 seconds
+2017-09-25 17:22:18,337 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.042612552642822266 seconds
+2017-09-25 17:22:21,427 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027272939682007 seconds
+2017-09-25 17:22:21,429 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:22:21,431 - root - INFO - ############################### START ###############################
+2017-09-25 17:22:25,139 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7064435482025146 seconds
+2017-09-25 17:22:26,805 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.6652626991271973 seconds
+2017-09-25 17:22:27,989 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.182743787765503 seconds
+2017-09-25 17:22:28,055 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06649398803710938 seconds
+2017-09-25 17:22:29,258 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2010407447814941 seconds
+2017-09-25 17:22:29,420 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16124987602233887 seconds
+2017-09-25 17:22:34,509 - root - INFO - SUCCESS    Get current window url, Spend 0.03208470344543457 seconds
+2017-09-25 17:22:34,617 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a>, Spend 0.10762286186218262 seconds
+2017-09-25 17:22:34,658 - root - INFO - SUCCESS    Get element text element: <css->span[class^=address_]>span:nth-child(1)>, Spend 0.024564266204833984 seconds
+2017-09-25 17:22:37,683 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0237834453582764 seconds
+2017-09-25 17:22:37,683 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:25:21,820 - root - INFO - ############################### START ###############################
+2017-09-25 17:25:25,501 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6802139282226562 seconds
+2017-09-25 17:25:26,567 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0645942687988281 seconds
+2017-09-25 17:25:27,747 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1791539192199707 seconds
+2017-09-25 17:25:27,823 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07469511032104492 seconds
+2017-09-25 17:25:29,004 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1805400848388672 seconds
+2017-09-25 17:25:29,146 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.14133977890014648 seconds
+2017-09-25 17:25:54,455 - root - INFO - ############################### START ###############################
+2017-09-25 17:25:58,117 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.660179615020752 seconds
+2017-09-25 17:25:59,705 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.585946798324585 seconds
+2017-09-25 17:26:00,844 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1390271186828613 seconds
+2017-09-25 17:26:00,920 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07518720626831055 seconds
+2017-09-25 17:26:02,058 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1367437839508057 seconds
+2017-09-25 17:26:02,240 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.18097972869873047 seconds
+2017-09-25 17:26:07,305 - root - INFO - SUCCESS    Get current window url, Spend 0.011028528213500977 seconds
+2017-09-25 17:26:12,390 - root - INFO - FAIL    Unable to click element: <css->//*[contains(text(),复制地址)>, Spend 5.084589004516602 seconds
+2017-09-25 17:26:15,467 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0761632919311523 seconds
+2017-09-25 17:26:15,467 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:27:17,371 - root - INFO - ############################### START ###############################
+2017-09-25 17:27:21,075 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7028229236602783 seconds
+2017-09-25 17:27:22,128 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.05061936378479 seconds
+2017-09-25 17:27:23,299 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1702923774719238 seconds
+2017-09-25 17:27:23,368 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06868481636047363 seconds
+2017-09-25 17:27:24,614 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2446849346160889 seconds
+2017-09-25 17:27:24,722 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10678315162658691 seconds
+2017-09-25 17:27:29,800 - root - INFO - SUCCESS    Get current window url, Spend 0.02424335479736328 seconds
+2017-09-25 17:27:29,867 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.06458663940429688 seconds
+2017-09-25 17:27:34,998 - root - INFO - FAIL    Unable to click element: <css->//*[contains(text(),复制地址)>, Spend 5.131203889846802 seconds
+2017-09-25 17:27:38,060 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060556411743164 seconds
+2017-09-25 17:27:38,061 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:28:05,400 - root - INFO - ############################### START ###############################
+2017-09-25 17:28:08,882 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.481044292449951 seconds
+2017-09-25 17:28:10,033 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1503331661224365 seconds
+2017-09-25 17:28:11,205 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1711487770080566 seconds
+2017-09-25 17:28:11,275 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06984806060791016 seconds
+2017-09-25 17:28:12,467 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1892180442810059 seconds
+2017-09-25 17:28:12,634 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16694426536560059 seconds
+2017-09-25 17:28:17,709 - root - INFO - SUCCESS    Get current window url, Spend 0.02196955680847168 seconds
+2017-09-25 17:28:17,792 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.08270621299743652 seconds
+2017-09-25 17:28:22,894 - root - INFO - FAIL    Unable to click element: <css->//*[contains(text(),复制地址)]>, Spend 5.1017210483551025 seconds
+2017-09-25 17:28:25,942 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0451672077178955 seconds
+2017-09-25 17:28:25,943 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:31:06,582 - root - INFO - ############################### START ###############################
+2017-09-25 17:31:10,284 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7012572288513184 seconds
+2017-09-25 17:31:11,309 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0242304801940918 seconds
+2017-09-25 17:31:12,470 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1605806350708008 seconds
+2017-09-25 17:31:12,541 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06914281845092773 seconds
+2017-09-25 17:31:13,712 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1711931228637695 seconds
+2017-09-25 17:31:13,882 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16990160942077637 seconds
+2017-09-25 17:31:18,974 - root - INFO - SUCCESS    Get current window url, Spend 0.038574934005737305 seconds
+2017-09-25 17:31:19,049 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.07425332069396973 seconds
+2017-09-25 17:31:19,050 - root - INFO - FAIL    Unable to click element: <xss->span[class^=copy_]>, Spend 0.0 seconds
+2017-09-25 17:31:22,087 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0354092121124268 seconds
+2017-09-25 17:31:22,088 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:31:40,951 - root - INFO - ############################### START ###############################
+2017-09-25 17:31:44,632 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6792054176330566 seconds
+2017-09-25 17:31:45,684 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0514225959777832 seconds
+2017-09-25 17:31:46,852 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1678004264831543 seconds
+2017-09-25 17:31:46,920 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06728196144104004 seconds
+2017-09-25 17:31:48,056 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1354098320007324 seconds
+2017-09-25 17:31:48,228 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1703510284423828 seconds
+2017-09-25 17:31:53,307 - root - INFO - SUCCESS    Get current window url, Spend 0.024019718170166016 seconds
+2017-09-25 17:31:53,388 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.07971429824829102 seconds
+2017-09-25 17:31:54,488 - root - INFO - SUCCESS    Clicked element: <css->span[class^=copy_]>, Spend 1.0995190143585205 seconds
+2017-09-25 17:31:57,516 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0278568267822266 seconds
+2017-09-25 17:31:57,518 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:35:12,150 - root - INFO - ############################### START ###############################
+2017-09-25 17:35:15,840 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6888272762298584 seconds
+2017-09-25 17:35:16,976 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1349201202392578 seconds
+2017-09-25 17:35:18,117 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1401796340942383 seconds
+2017-09-25 17:35:18,188 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06999325752258301 seconds
+2017-09-25 17:35:19,378 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1892187595367432 seconds
+2017-09-25 17:35:19,564 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.18440556526184082 seconds
+2017-09-25 17:35:24,637 - root - INFO - SUCCESS    Get current window url, Spend 0.011046409606933594 seconds
+2017-09-25 17:35:24,707 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div[1]/span[2]>, Spend 0.06832480430603027 seconds
+2017-09-25 17:35:24,822 - root - INFO - SUCCESS    Clicked element: <css->span[class^=copy_]>, Spend 0.1146237850189209 seconds
+2017-09-25 17:35:32,958 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.063720464706421 seconds
+2017-09-25 17:35:32,959 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:40:35,068 - root - INFO - ############################### START ###############################
+2017-09-25 17:40:38,756 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.687586784362793 seconds
+2017-09-25 17:40:39,846 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0880672931671143 seconds
+2017-09-25 17:40:41,003 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1560723781585693 seconds
+2017-09-25 17:40:41,074 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07018566131591797 seconds
+2017-09-25 17:40:42,304 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.2297725677490234 seconds
+2017-09-25 17:40:42,452 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.14689183235168457 seconds
+2017-09-25 17:40:47,569 - root - INFO - SUCCESS    Get current window url, Spend 0.016542911529541016 seconds
+2017-09-25 17:40:52,640 - root - INFO - FAIL    Unable to click element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[4]/div/span[2]>, Spend 5.071530818939209 seconds
+2017-09-25 17:40:55,681 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0395894050598145 seconds
+2017-09-25 17:40:55,682 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:41:09,409 - root - INFO - ############################### START ###############################
+2017-09-25 17:41:13,107 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.69779634475708 seconds
+2017-09-25 17:41:14,158 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0489189624786377 seconds
+2017-09-25 17:41:15,309 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.149562120437622 seconds
+2017-09-25 17:41:15,380 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06972193717956543 seconds
+2017-09-25 17:41:16,573 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.192199468612671 seconds
+2017-09-25 17:41:16,740 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1664426326751709 seconds
+2017-09-25 17:41:21,827 - root - INFO - SUCCESS    Get current window url, Spend 0.03107905387878418 seconds
+2017-09-25 17:41:21,906 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]>, Spend 0.07820320129394531 seconds
+2017-09-25 17:41:23,057 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.1510634422302246 seconds
+2017-09-25 17:41:24,209 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 1.1520264148712158 seconds
+2017-09-25 17:41:24,241 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.03108358383178711 seconds
+2017-09-25 17:41:24,316 - root - INFO - SUCCESS    Typed element: <name->target> content: 0x6575ee991fc8b7fa5350588d44ba7476c7bd6fcc, Spend 0.07469797134399414 seconds
+2017-09-25 17:41:24,561 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.24314665794372559 seconds
+2017-09-25 17:41:24,596 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.0345914363861084 seconds
+2017-09-25 17:41:24,644 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.04762840270996094 seconds
+2017-09-25 17:41:24,688 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.043114423751831055 seconds
+2017-09-25 17:41:27,798 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0497336387634277 seconds
+2017-09-25 17:41:27,798 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:48:15,934 - root - INFO - ############################### START ###############################
+2017-09-25 17:48:19,572 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6359617710113525 seconds
+2017-09-25 17:48:20,661 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0885801315307617 seconds
+2017-09-25 17:48:21,816 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1543114185333252 seconds
+2017-09-25 17:48:21,886 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06903982162475586 seconds
+2017-09-25 17:48:23,049 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1616761684417725 seconds
+2017-09-25 17:48:23,210 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16092777252197266 seconds
+2017-09-25 17:48:28,283 - root - INFO - SUCCESS    Get current window url, Spend 0.018547773361206055 seconds
+2017-09-25 17:48:28,356 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div[1]/span[3]>, Spend 0.07118868827819824 seconds
+2017-09-25 17:48:33,478 - root - INFO - FAIL    Unable to click element: <link_text->提现>, Spend 5.1212804317474365 seconds
+2017-09-25 17:48:36,513 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0331056118011475 seconds
+2017-09-25 17:48:36,514 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:50:10,809 - root - INFO - ############################### START ###############################
+2017-09-25 17:50:14,507 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6970629692077637 seconds
+2017-09-25 17:50:15,592 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.0823814868927002 seconds
+2017-09-25 17:50:16,749 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1552622318267822 seconds
+2017-09-25 17:50:16,822 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.07114958763122559 seconds
+2017-09-25 17:50:17,960 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.136672019958496 seconds
+2017-09-25 17:50:18,139 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17847371101379395 seconds
+2017-09-25 17:50:23,196 - root - INFO - SUCCESS    Get current window url, Spend 0.019551515579223633 seconds
+2017-09-25 17:50:23,267 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div[1]/span[3]>, Spend 0.07118868827819824 seconds
+2017-09-25 17:50:31,560 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1158175468444824 seconds
+2017-09-25 17:50:31,561 - root - INFO - ###############################  End  ###############################
+2017-09-25 17:56:58,598 - root - INFO - ############################### START ###############################
+2017-09-25 17:57:02,287 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.688762664794922 seconds
+2017-09-25 17:57:03,466 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1777238845825195 seconds
+2017-09-25 17:57:04,627 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1600019931793213 seconds
+2017-09-25 17:57:04,696 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.06875467300415039 seconds
+2017-09-25 17:57:05,841 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1445624828338623 seconds
+2017-09-25 17:57:05,993 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.15140438079833984 seconds
+2017-09-25 17:57:11,093 - root - INFO - SUCCESS    Get current window url, Spend 0.020794153213500977 seconds
+2017-09-25 17:57:11,189 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div[1]/span[3]>, Spend 0.0949254035949707 seconds
+2017-09-25 17:57:18,347 - root - INFO - FAIL    Unable to click element: <link_text->提现>, Spend 5.156832695007324 seconds
+2017-09-25 17:57:21,392 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0433175563812256 seconds
+2017-09-25 17:57:21,393 - root - INFO - ###############################  End  ###############################
+2017-09-25 18:08:18,613 - root - INFO - ############################### START ###############################
+2017-09-25 18:08:22,298 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6837122440338135 seconds
+2017-09-25 18:08:23,452 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 1.1527626514434814 seconds
+2017-09-25 18:08:24,616 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1630909442901611 seconds
+2017-09-25 18:08:24,691 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.0731956958770752 seconds
+2017-09-25 18:08:25,854 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389631, Spend 1.1631824970245361 seconds
+2017-09-25 18:08:26,030 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17496490478515625 seconds
+2017-09-25 18:08:31,107 - root - INFO - SUCCESS    Get current window url, Spend 0.018001079559326172 seconds
+2017-09-25 18:08:31,210 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]>, Spend 0.10123729705810547 seconds
+2017-09-25 18:08:32,357 - root - INFO - SUCCESS    Clicked element: <link_text->提现>, Spend 1.146547794342041 seconds
+2017-09-25 18:08:32,477 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.11902761459350586 seconds
+2017-09-25 18:08:32,512 - root - INFO - SUCCESS    Clicked element: <name->target>, Spend 0.034592390060424805 seconds
+2017-09-25 18:08:32,591 - root - INFO - SUCCESS    Typed element: <name->target> content: 0x9ba1092e90052acb8d7b28ea13c113bdaf122702, Spend 0.07770895957946777 seconds
+2017-09-25 18:08:32,833 - root - INFO - SUCCESS    Clicked element: <name->amount>, Spend 0.24113988876342773 seconds
+2017-09-25 18:08:32,869 - root - INFO - SUCCESS    Typed element: <name->amount> content: 1, Spend 0.03509378433227539 seconds
+2017-09-25 18:08:32,928 - root - INFO - SUCCESS    Clicked element: <name->tradepassword>, Spend 0.057152509689331055 seconds
+2017-09-25 18:08:32,973 - root - INFO - SUCCESS    Typed element: <name->tradepassword> content: 123456, Spend 0.04411673545837402 seconds
+2017-09-25 18:08:36,083 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0292625427246094 seconds
+2017-09-25 18:08:36,084 - root - INFO - ###############################  End  ###############################

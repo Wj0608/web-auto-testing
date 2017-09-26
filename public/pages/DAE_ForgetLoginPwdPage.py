@@ -1,9 +1,29 @@
 #coding=utf-8
 
 from public.common import basepage
-from config import DAE_FirstPage_Element
+from config import DAE_FirstPage_Element,DAE_ForgetLoginPwdPage_Element
 from public.common import pyselenium
 
 class ForgetLoginPwd(basepage.Page):
-    def type_PhoneOrEmail(self):
-        self.dr.type()
+    def click_ForgetLoginPwd(self):
+        self.dr.click(DAE_FirstPage_Element.Login_Button)
+        self.dr.click(DAE_FirstPage_Element.ForgetPassword_Link)
+
+    def type_PhoneAndCaptcha(self,Phone=None,Captcha=None,Vcode=None,Pwd=None,ConfirmPwd=None):
+        self.dr.type(DAE_ForgetLoginPwdPage_Element.EmailOrPhone_Input,Phone)
+        self.dr.type(DAE_ForgetLoginPwdPage_Element.PictureVCode_Input,Captcha)
+        self.click_NextStep()
+        self.Type_VCode(Vcode)
+        self.click_NextStep()
+        self.dr.click(DAE_ForgetLoginPwdPage_Element.LoginPwd_Input)
+        self.dr.type(DAE_ForgetLoginPwdPage_Element.LoginPwd_Input,Pwd)
+        self.dr.click(DAE_ForgetLoginPwdPage_Element.ConfirmLoginPwd)
+        self.dr.type(DAE_ForgetLoginPwdPage_Element.ConfirmLoginPwd,ConfirmPwd)
+
+    def click_NextStep(self):
+        self.dr.click(DAE_ForgetLoginPwdPage_Element.NextStep_Button)
+
+    def Type_VCode(self,VCode):
+        self.dr.click(DAE_ForgetLoginPwdPage_Element.SendVCode_Button)
+        self.dr.element_wait(DAE_ForgetLoginPwdPage_Element.SendVCodeSuccess)
+        self.dr.type(DAE_ForgetLoginPwdPage_Element.VCode_Input,VCode)

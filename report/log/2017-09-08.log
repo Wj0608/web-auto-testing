@@ -1,0 +1,453 @@
+2017-09-08 09:45:19,398 - root - INFO - ############################### START ###############################
+2017-09-08 09:45:22,968 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5694057941436768 seconds
+2017-09-08 09:45:23,654 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6856215000152588 seconds
+2017-09-08 09:45:24,791 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1367626190185547 seconds
+2017-09-08 09:45:24,867 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.07520627975463867 seconds
+2017-09-08 09:45:25,079 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.21132183074951172 seconds
+2017-09-08 09:45:25,154 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.07419776916503906 seconds
+2017-09-08 09:45:28,267 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0303635597229004 seconds
+2017-09-08 09:45:28,268 - root - INFO - ###############################  End  ###############################
+2017-09-08 09:45:28,272 - root - INFO - ############################### START ###############################
+2017-09-08 09:45:31,753 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.480837106704712 seconds
+2017-09-08 09:45:32,480 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.726304292678833 seconds
+2017-09-08 09:45:33,665 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1836416721343994 seconds
+2017-09-08 09:45:33,729 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.062163591384887695 seconds
+2017-09-08 09:45:33,891 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.16084647178649902 seconds
+2017-09-08 09:45:34,048 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.15691661834716797 seconds
+2017-09-08 09:45:39,137 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.0889880657196045 seconds
+2017-09-08 09:45:44,199 - root - INFO - FAIL    Unable to type element: <name->Vcode> content: test123, Spend 5.060150384902954 seconds
+2017-09-08 09:45:47,256 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0555367469787598 seconds
+2017-09-08 09:45:47,258 - root - INFO - ###############################  End  ###############################
+2017-09-08 09:52:21,561 - root - INFO - ############################### START ###############################
+2017-09-08 09:52:25,048 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4855544567108154 seconds
+2017-09-08 09:52:25,717 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6684470176696777 seconds
+2017-09-08 09:52:26,884 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1660888195037842 seconds
+2017-09-08 09:52:26,964 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.08006143569946289 seconds
+2017-09-08 09:52:27,106 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.14181160926818848 seconds
+2017-09-08 09:52:27,265 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1578207015991211 seconds
+2017-09-08 09:52:30,387 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0426199436187744 seconds
+2017-09-08 09:52:30,388 - root - INFO - ###############################  End  ###############################
+2017-09-08 09:52:30,391 - root - INFO - ############################### START ###############################
+2017-09-08 09:52:34,068 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.676852226257324 seconds
+2017-09-08 09:52:34,902 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.8317763805389404 seconds
+2017-09-08 09:52:36,082 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.18045973777771 seconds
+2017-09-08 09:52:36,144 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06204056739807129 seconds
+2017-09-08 09:52:36,299 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15292882919311523 seconds
+2017-09-08 09:52:36,431 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.13148760795593262 seconds
+2017-09-08 09:52:41,523 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.091211318969727 seconds
+2017-09-08 09:52:41,689 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.16525530815124512 seconds
+2017-09-08 09:52:41,773 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.08318614959716797 seconds
+2017-09-08 09:52:41,843 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.06918454170227051 seconds
+2017-09-08 09:52:44,870 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0262203216552734 seconds
+2017-09-08 09:52:44,871 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:11:09,384 - root - INFO - ############################### START ###############################
+2017-09-08 10:11:12,820 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4344680309295654 seconds
+2017-09-08 10:11:13,607 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7867519855499268 seconds
+2017-09-08 10:11:14,782 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.174738883972168 seconds
+2017-09-08 10:11:14,845 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06166553497314453 seconds
+2017-09-08 10:11:15,054 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.20856142044067383 seconds
+2017-09-08 10:11:15,142 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08829426765441895 seconds
+2017-09-08 10:11:18,277 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0338263511657715 seconds
+2017-09-08 10:11:18,278 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:11:18,280 - root - INFO - ############################### START ###############################
+2017-09-08 10:11:21,757 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4767580032348633 seconds
+2017-09-08 10:11:22,435 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6763763427734375 seconds
+2017-09-08 10:11:23,583 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1464736461639404 seconds
+2017-09-08 10:11:23,653 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06917953491210938 seconds
+2017-09-08 10:11:23,806 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.1530289649963379 seconds
+2017-09-08 10:11:23,952 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14536118507385254 seconds
+2017-09-08 10:11:29,042 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.08979606628418 seconds
+2017-09-08 10:11:29,151 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.10883212089538574 seconds
+2017-09-08 10:11:29,232 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.08047890663146973 seconds
+2017-09-08 10:11:29,306 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.07419610023498535 seconds
+2017-09-08 10:11:32,328 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0208873748779297 seconds
+2017-09-08 10:11:32,329 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:15:43,752 - root - INFO - ############################### START ###############################
+2017-09-08 10:15:47,421 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6681740283966064 seconds
+2017-09-08 10:15:48,118 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6962807178497314 seconds
+2017-09-08 10:15:49,272 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.153566598892212 seconds
+2017-09-08 10:15:49,333 - root - INFO - FAIL    Unable to click element: <link_text->使用邮箱/手机登录>, Spend 0.060166120529174805 seconds
+2017-09-08 10:15:52,361 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0272068977355957 seconds
+2017-09-08 10:15:52,363 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:15:52,369 - root - INFO - ############################### START ###############################
+2017-09-08 10:15:56,040 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.67084002494812 seconds
+2017-09-08 10:15:56,743 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7025701999664307 seconds
+2017-09-08 10:15:57,889 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1459088325500488 seconds
+2017-09-08 10:15:57,949 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.0598292350769043 seconds
+2017-09-08 10:15:58,139 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.1891622543334961 seconds
+2017-09-08 10:15:58,280 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14010334014892578 seconds
+2017-09-08 10:16:03,375 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.09344482421875 seconds
+2017-09-08 10:16:03,532 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.1555650234222412 seconds
+2017-09-08 10:16:03,622 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09023809432983398 seconds
+2017-09-08 10:16:03,695 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.07169055938720703 seconds
+2017-09-08 10:16:06,721 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.025299072265625 seconds
+2017-09-08 10:16:06,723 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:44:18,933 - root - INFO - ############################### START ###############################
+2017-09-08 10:44:22,443 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.508669137954712 seconds
+2017-09-08 10:44:23,145 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7013294696807861 seconds
+2017-09-08 10:44:24,315 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1691086292266846 seconds
+2017-09-08 10:44:24,380 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06417059898376465 seconds
+2017-09-08 10:44:24,528 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.14710760116577148 seconds
+2017-09-08 10:44:24,720 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1910083293914795 seconds
+2017-09-08 10:44:27,814 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0306529998779297 seconds
+2017-09-08 10:44:27,814 - root - INFO - ###############################  End  ###############################
+2017-09-08 10:44:27,815 - root - INFO - ############################### START ###############################
+2017-09-08 10:44:31,505 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6888339519500732 seconds
+2017-09-08 10:44:32,188 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6834466457366943 seconds
+2017-09-08 10:44:33,367 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1781320571899414 seconds
+2017-09-08 10:44:33,429 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06166791915893555 seconds
+2017-09-08 10:44:33,666 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.23653173446655273 seconds
+2017-09-08 10:44:33,735 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.06918168067932129 seconds
+2017-09-08 10:44:38,807 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.070896148681641 seconds
+2017-09-08 10:44:38,970 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.16188907623291016 seconds
+2017-09-08 10:44:39,086 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.11580681800842285 seconds
+2017-09-08 10:44:39,129 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.041610002517700195 seconds
+2017-09-08 10:44:42,154 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.025057792663574 seconds
+2017-09-08 10:44:42,155 - root - INFO - ###############################  End  ###############################
+2017-09-08 11:06:03,550 - root - INFO - ############################### START ###############################
+2017-09-08 11:06:07,211 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6597907543182373 seconds
+2017-09-08 11:06:07,941 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.728661060333252 seconds
+2017-09-08 11:06:09,116 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1743078231811523 seconds
+2017-09-08 11:06:09,180 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06316804885864258 seconds
+2017-09-08 11:06:10,365 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 1.1842467784881592 seconds
+2017-09-08 11:06:10,496 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13034462928771973 seconds
+2017-09-08 11:06:13,618 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033442497253418 seconds
+2017-09-08 11:06:13,619 - root - INFO - ###############################  End  ###############################
+2017-09-08 11:06:13,621 - root - INFO - ############################### START ###############################
+2017-09-08 11:06:17,118 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4959380626678467 seconds
+2017-09-08 11:06:17,841 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7234227657318115 seconds
+2017-09-08 11:06:18,990 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1478281021118164 seconds
+2017-09-08 11:06:19,052 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.061139583587646484 seconds
+2017-09-08 11:06:19,203 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15075397491455078 seconds
+2017-09-08 11:06:19,348 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14385080337524414 seconds
+2017-09-08 11:06:24,433 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.084721326828003 seconds
+2017-09-08 11:06:24,559 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.12538719177246094 seconds
+2017-09-08 11:06:24,677 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.11813163757324219 seconds
+2017-09-08 11:06:24,720 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.041692495346069336 seconds
+2017-09-08 11:06:27,755 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0341696739196777 seconds
+2017-09-08 11:06:27,755 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:11:30,274 - root - INFO - ############################### START ###############################
+2017-09-08 13:11:33,941 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.66575026512146 seconds
+2017-09-08 13:11:34,687 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7448170185089111 seconds
+2017-09-08 13:11:35,833 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1450433731079102 seconds
+2017-09-08 13:11:35,899 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06617546081542969 seconds
+2017-09-08 13:11:36,051 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.15114974975585938 seconds
+2017-09-08 13:11:36,214 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.16234445571899414 seconds
+2017-09-08 13:11:39,336 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026073455810547 seconds
+2017-09-08 13:11:39,337 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:11:39,340 - root - INFO - ############################### START ###############################
+2017-09-08 13:11:42,819 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4776313304901123 seconds
+2017-09-08 13:11:43,507 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6877050399780273 seconds
+2017-09-08 13:11:44,645 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1375231742858887 seconds
+2017-09-08 13:11:44,711 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06517672538757324 seconds
+2017-09-08 13:11:44,883 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.1704099178314209 seconds
+2017-09-08 13:11:45,011 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.1278400421142578 seconds
+2017-09-08 13:11:50,092 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.079545974731445 seconds
+2017-09-08 13:11:50,227 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.13535523414611816 seconds
+2017-09-08 13:11:50,336 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.1072852611541748 seconds
+2017-09-08 13:11:50,375 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.039133310317993164 seconds
+2017-09-08 13:11:53,405 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0281732082366943 seconds
+2017-09-08 13:11:53,406 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:13:20,936 - root - INFO - ############################### START ###############################
+2017-09-08 13:13:24,384 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.447598934173584 seconds
+2017-09-08 13:13:25,137 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7514712810516357 seconds
+2017-09-08 13:13:26,285 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1475863456726074 seconds
+2017-09-08 13:13:26,358 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.07196259498596191 seconds
+2017-09-08 13:13:26,528 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.16844844818115234 seconds
+2017-09-08 13:13:26,769 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.2409827709197998 seconds
+2017-09-08 13:13:29,898 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030636787414551 seconds
+2017-09-08 13:13:29,898 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:13:29,899 - root - INFO - ############################### START ###############################
+2017-09-08 13:13:33,552 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6530981063842773 seconds
+2017-09-08 13:13:34,200 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6477334499359131 seconds
+2017-09-08 13:13:35,341 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1407928466796875 seconds
+2017-09-08 13:13:35,405 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06158161163330078 seconds
+2017-09-08 13:13:35,569 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.16390347480773926 seconds
+2017-09-08 13:13:35,713 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14386630058288574 seconds
+2017-09-08 13:13:40,790 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.076142311096191 seconds
+2017-09-08 13:13:40,898 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.10825443267822266 seconds
+2017-09-08 13:13:40,985 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.08687615394592285 seconds
+2017-09-08 13:13:41,056 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.07089447975158691 seconds
+2017-09-08 13:13:44,090 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.032682418823242 seconds
+2017-09-08 13:13:44,092 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:21:52,356 - root - INFO - ############################### START ###############################
+2017-09-08 13:21:55,791 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4346671104431152 seconds
+2017-09-08 13:21:56,425 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6332383155822754 seconds
+2017-09-08 13:21:57,572 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.146979808807373 seconds
+2017-09-08 13:21:57,672 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.09902691841125488 seconds
+2017-09-08 13:21:58,828 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 1.1557233333587646 seconds
+2017-09-08 13:21:58,976 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.14739179611206055 seconds
+2017-09-08 13:22:02,095 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026641368865967 seconds
+2017-09-08 13:22:02,097 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:22:02,099 - root - INFO - ############################### START ###############################
+2017-09-08 13:22:05,554 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.453807830810547 seconds
+2017-09-08 13:22:06,334 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7795202732086182 seconds
+2017-09-08 13:22:07,491 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1562068462371826 seconds
+2017-09-08 13:22:07,554 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06303000450134277 seconds
+2017-09-08 13:22:07,720 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.16515541076660156 seconds
+2017-09-08 13:22:07,892 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.17166757583618164 seconds
+2017-09-08 13:22:12,972 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.079514265060425 seconds
+2017-09-08 13:22:13,102 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.12984490394592285 seconds
+2017-09-08 13:22:13,188 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.08523917198181152 seconds
+2017-09-08 13:22:13,271 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.08322763442993164 seconds
+2017-09-08 13:22:16,305 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0273995399475098 seconds
+2017-09-08 13:22:16,306 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:25:59,206 - root - INFO - ############################### START ###############################
+2017-09-08 13:26:02,660 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4529573917388916 seconds
+2017-09-08 13:26:03,467 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.8062448501586914 seconds
+2017-09-08 13:26:04,637 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1696081161499023 seconds
+2017-09-08 13:26:04,701 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06316804885864258 seconds
+2017-09-08 13:26:04,844 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.1410689353942871 seconds
+2017-09-08 13:26:05,006 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1617112159729004 seconds
+2017-09-08 13:26:08,106 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.034419059753418 seconds
+2017-09-08 13:26:08,107 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:26:08,110 - root - INFO - ############################### START ###############################
+2017-09-08 13:26:11,598 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4865448474884033 seconds
+2017-09-08 13:26:12,279 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6798343658447266 seconds
+2017-09-08 13:26:13,420 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1405339241027832 seconds
+2017-09-08 13:26:13,483 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06166410446166992 seconds
+2017-09-08 13:26:13,682 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.1976461410522461 seconds
+2017-09-08 13:26:13,806 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.1233518123626709 seconds
+2017-09-08 13:26:18,878 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.071878671646118 seconds
+2017-09-08 13:26:18,993 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.1143031120300293 seconds
+2017-09-08 13:26:19,118 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.12382793426513672 seconds
+2017-09-08 13:26:19,180 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.06216621398925781 seconds
+2017-09-08 13:26:22,218 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0372674465179443 seconds
+2017-09-08 13:26:22,219 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:46:58,119 - root - INFO - ############################### START ###############################
+2017-09-08 13:47:01,604 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4838640689849854 seconds
+2017-09-08 13:47:02,287 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6816215515136719 seconds
+2017-09-08 13:47:03,466 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1796350479125977 seconds
+2017-09-08 13:47:03,530 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.0626671314239502 seconds
+2017-09-08 13:47:03,673 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.1418774127960205 seconds
+2017-09-08 13:47:03,813 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1383669376373291 seconds
+2017-09-08 13:47:06,934 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0336432456970215 seconds
+2017-09-08 13:47:06,935 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:47:06,938 - root - INFO - ############################### START ###############################
+2017-09-08 13:47:10,477 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5381805896759033 seconds
+2017-09-08 13:47:11,186 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7076437473297119 seconds
+2017-09-08 13:47:12,357 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1696105003356934 seconds
+2017-09-08 13:47:12,421 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06316566467285156 seconds
+2017-09-08 13:47:12,574 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15218329429626465 seconds
+2017-09-08 13:47:12,710 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.13586020469665527 seconds
+2017-09-08 13:47:17,782 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.070979118347168 seconds
+2017-09-08 13:47:17,914 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.13081693649291992 seconds
+2017-09-08 13:47:18,012 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09775900840759277 seconds
+2017-09-08 13:47:18,075 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.062165260314941406 seconds
+2017-09-08 13:47:21,115 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0273149013519287 seconds
+2017-09-08 13:47:21,117 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:49:30,114 - root - INFO - ############################### START ###############################
+2017-09-08 13:49:33,661 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.545926094055176 seconds
+2017-09-08 13:49:34,428 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7660491466522217 seconds
+2017-09-08 13:49:35,565 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1355135440826416 seconds
+2017-09-08 13:49:35,631 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06517362594604492 seconds
+2017-09-08 13:49:35,852 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.21929502487182617 seconds
+2017-09-08 13:49:35,979 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.12733793258666992 seconds
+2017-09-08 13:49:39,112 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.031026601791382 seconds
+2017-09-08 13:49:39,113 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:49:39,116 - root - INFO - ############################### START ###############################
+2017-09-08 13:49:42,618 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5004723072052 seconds
+2017-09-08 13:49:43,331 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7120425701141357 seconds
+2017-09-08 13:49:44,476 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1435387134552002 seconds
+2017-09-08 13:49:44,541 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06467294692993164 seconds
+2017-09-08 13:49:44,697 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15517449378967285 seconds
+2017-09-08 13:49:44,836 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.1388688087463379 seconds
+2017-09-08 13:49:49,908 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.070979833602905 seconds
+2017-09-08 13:49:50,028 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.11981773376464844 seconds
+2017-09-08 13:49:50,121 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09224653244018555 seconds
+2017-09-08 13:49:50,203 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.08121562004089355 seconds
+2017-09-08 13:49:53,244 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.024808168411255 seconds
+2017-09-08 13:49:53,245 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:55:46,919 - root - INFO - ############################### START ###############################
+2017-09-08 13:55:50,626 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7059550285339355 seconds
+2017-09-08 13:55:51,342 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7144663333892822 seconds
+2017-09-08 13:55:52,506 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1635017395019531 seconds
+2017-09-08 13:55:52,571 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06417417526245117 seconds
+2017-09-08 13:55:52,713 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.14274048805236816 seconds
+2017-09-08 13:55:52,860 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1453869342803955 seconds
+2017-09-08 13:55:55,991 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026958703994751 seconds
+2017-09-08 13:55:55,992 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:55:55,996 - root - INFO - ############################### START ###############################
+2017-09-08 13:55:59,490 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.492020606994629 seconds
+2017-09-08 13:56:00,210 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7185020446777344 seconds
+2017-09-08 13:56:01,354 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1430439949035645 seconds
+2017-09-08 13:56:01,426 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.07169294357299805 seconds
+2017-09-08 13:56:01,593 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.16593599319458008 seconds
+2017-09-08 13:56:01,726 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.13235259056091309 seconds
+2017-09-08 13:56:06,822 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.094588994979858 seconds
+2017-09-08 13:56:06,956 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.1338341236114502 seconds
+2017-09-08 13:56:07,056 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09926319122314453 seconds
+2017-09-08 13:56:07,115 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.05865788459777832 seconds
+2017-09-08 13:56:10,145 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.028351306915283 seconds
+2017-09-08 13:56:10,147 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:56:36,519 - root - INFO - ############################### START ###############################
+2017-09-08 13:56:40,013 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4930405616760254 seconds
+2017-09-08 13:56:40,725 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7115914821624756 seconds
+2017-09-08 13:56:41,863 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1366655826568604 seconds
+2017-09-08 13:56:41,927 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06343197822570801 seconds
+2017-09-08 13:56:42,072 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.14379072189331055 seconds
+2017-09-08 13:56:42,245 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.17296504974365234 seconds
+2017-09-08 13:56:45,333 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026073932647705 seconds
+2017-09-08 13:56:45,333 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:56:45,334 - root - INFO - ############################### START ###############################
+2017-09-08 13:56:48,999 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.663881540298462 seconds
+2017-09-08 13:56:49,708 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.708118200302124 seconds
+2017-09-08 13:56:50,846 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.137927770614624 seconds
+2017-09-08 13:56:50,904 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.057183265686035156 seconds
+2017-09-08 13:56:51,055 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.1500082015991211 seconds
+2017-09-08 13:56:51,192 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.136765718460083 seconds
+2017-09-08 13:56:56,279 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.0859715938568115 seconds
+2017-09-08 13:56:56,474 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.19472360610961914 seconds
+2017-09-08 13:56:56,560 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.08522701263427734 seconds
+2017-09-08 13:56:56,641 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.07996630668640137 seconds
+2017-09-08 13:56:59,669 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.021890878677368 seconds
+2017-09-08 13:56:59,670 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:58:27,361 - root - INFO - ############################### START ###############################
+2017-09-08 13:58:30,821 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4598352909088135 seconds
+2017-09-08 13:58:31,550 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7281911373138428 seconds
+2017-09-08 13:58:32,690 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1391544342041016 seconds
+2017-09-08 13:58:32,769 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.0781712532043457 seconds
+2017-09-08 13:58:32,923 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.15360283851623535 seconds
+2017-09-08 13:58:33,078 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1536860466003418 seconds
+2017-09-08 13:58:36,204 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027848482131958 seconds
+2017-09-08 13:58:36,204 - root - INFO - ###############################  End  ###############################
+2017-09-08 13:58:36,206 - root - INFO - ############################### START ###############################
+2017-09-08 13:58:39,665 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.458017349243164 seconds
+2017-09-08 13:58:40,359 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6936495304107666 seconds
+2017-09-08 13:58:41,534 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.174119472503662 seconds
+2017-09-08 13:58:41,595 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06016111373901367 seconds
+2017-09-08 13:58:41,764 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.16940546035766602 seconds
+2017-09-08 13:58:41,888 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.12322759628295898 seconds
+2017-09-08 13:58:46,971 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.082682847976685 seconds
+2017-09-08 13:58:47,090 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.11781477928161621 seconds
+2017-09-08 13:58:47,198 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.1072850227355957 seconds
+2017-09-08 13:58:47,261 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.062165260314941406 seconds
+2017-09-08 13:58:50,306 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0393753051757812 seconds
+2017-09-08 13:58:50,307 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:07:07,704 - root - INFO - ############################### START ###############################
+2017-09-08 14:07:11,213 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.507514715194702 seconds
+2017-09-08 14:07:12,011 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7975342273712158 seconds
+2017-09-08 14:07:13,176 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1649177074432373 seconds
+2017-09-08 14:07:13,245 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06683802604675293 seconds
+2017-09-08 14:07:13,397 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.15235328674316406 seconds
+2017-09-08 14:07:13,634 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.23488450050354004 seconds
+2017-09-08 14:07:16,761 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026437759399414 seconds
+2017-09-08 14:07:16,761 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:07:16,764 - root - INFO - ############################### START ###############################
+2017-09-08 14:07:20,464 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7002923488616943 seconds
+2017-09-08 14:07:21,290 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.8249211311340332 seconds
+2017-09-08 14:07:22,465 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1741383075714111 seconds
+2017-09-08 14:07:22,525 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.05842471122741699 seconds
+2017-09-08 14:07:23,742 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 1.2156107425689697 seconds
+2017-09-08 14:07:23,887 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14508676528930664 seconds
+2017-09-08 14:07:28,956 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.0675413608551025 seconds
+2017-09-08 14:07:29,105 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.14838194847106934 seconds
+2017-09-08 14:07:29,201 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09575605392456055 seconds
+2017-09-08 14:07:29,281 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.07820653915405273 seconds
+2017-09-08 14:07:32,315 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027559995651245 seconds
+2017-09-08 14:07:32,316 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:26:12,229 - root - INFO - ############################### START ###############################
+2017-09-08 14:26:15,664 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4346115589141846 seconds
+2017-09-08 14:26:16,426 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7613620758056641 seconds
+2017-09-08 14:26:17,577 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1517624855041504 seconds
+2017-09-08 14:26:17,644 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06598901748657227 seconds
+2017-09-08 14:26:17,782 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.13735294342041016 seconds
+2017-09-08 14:26:18,008 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.22477197647094727 seconds
+2017-09-08 14:26:21,157 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0353851318359375 seconds
+2017-09-08 14:26:21,158 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:26:21,163 - root - INFO - ############################### START ###############################
+2017-09-08 14:26:24,666 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5021681785583496 seconds
+2017-09-08 14:26:25,394 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7274954319000244 seconds
+2017-09-08 14:26:26,590 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1954734325408936 seconds
+2017-09-08 14:26:26,653 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06217193603515625 seconds
+2017-09-08 14:26:26,805 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15223360061645508 seconds
+2017-09-08 14:26:26,944 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.13818573951721191 seconds
+2017-09-08 14:26:32,021 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.076847314834595 seconds
+2017-09-08 14:26:32,124 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.10223388671875 seconds
+2017-09-08 14:26:32,242 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.11690211296081543 seconds
+2017-09-08 14:26:32,286 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.04380083084106445 seconds
+2017-09-08 14:26:35,322 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030277967453003 seconds
+2017-09-08 14:26:35,322 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:28:11,793 - root - INFO - ############################### START ###############################
+2017-09-08 14:28:15,253 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.460580587387085 seconds
+2017-09-08 14:28:15,940 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.685575008392334 seconds
+2017-09-08 14:28:17,079 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1382575035095215 seconds
+2017-09-08 14:28:17,145 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06571745872497559 seconds
+2017-09-08 14:28:17,298 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.15233373641967773 seconds
+2017-09-08 14:28:17,430 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13203787803649902 seconds
+2017-09-08 14:28:20,570 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0273804664611816 seconds
+2017-09-08 14:28:20,571 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:28:20,571 - root - INFO - ############################### START ###############################
+2017-09-08 14:28:24,038 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.465674877166748 seconds
+2017-09-08 14:28:24,747 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7085521221160889 seconds
+2017-09-08 14:28:25,929 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1809277534484863 seconds
+2017-09-08 14:28:25,988 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.05899524688720703 seconds
+2017-09-08 14:28:26,150 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.15967082977294922 seconds
+2017-09-08 14:28:26,292 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.14131593704223633 seconds
+2017-09-08 14:28:31,372 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.079468011856079 seconds
+2017-09-08 14:28:31,498 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.12589526176452637 seconds
+2017-09-08 14:28:31,594 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09523153305053711 seconds
+2017-09-08 14:28:31,682 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.08661174774169922 seconds
+2017-09-08 14:28:34,714 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.025240182876587 seconds
+2017-09-08 14:28:34,715 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:29:00,139 - root - INFO - ############################### START ###############################
+2017-09-08 14:29:03,570 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.430752992630005 seconds
+2017-09-08 14:29:04,261 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.6905865669250488 seconds
+2017-09-08 14:29:05,403 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.141531229019165 seconds
+2017-09-08 14:29:05,470 - root - INFO - SUCCESS    Clicked element: <link_text->使用邮箱/手机登录>, Spend 0.06468844413757324 seconds
+2017-09-08 14:29:05,613 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.14186835289001465 seconds
+2017-09-08 14:29:05,751 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13734173774719238 seconds
+2017-09-08 14:29:08,896 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030674457550049 seconds
+2017-09-08 14:29:08,897 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:29:08,898 - root - INFO - ############################### START ###############################
+2017-09-08 14:29:12,355 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4560108184814453 seconds
+2017-09-08 14:29:13,222 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.8669610023498535 seconds
+2017-09-08 14:29:14,367 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.142991542816162 seconds
+2017-09-08 14:29:14,435 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06572961807250977 seconds
+2017-09-08 14:29:14,624 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389637, Spend 0.18897390365600586 seconds
+2017-09-08 14:29:14,778 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.15442800521850586 seconds
+2017-09-08 14:29:19,857 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.078957557678223 seconds
+2017-09-08 14:29:19,967 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.1085822582244873 seconds
+2017-09-08 14:29:20,207 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.24039125442504883 seconds
+2017-09-08 14:29:20,257 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.05006575584411621 seconds
+2017-09-08 14:29:23,295 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.032514810562134 seconds
+2017-09-08 14:29:23,295 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:34:19,178 - root - INFO - ############################### START ###############################
+2017-09-08 14:34:22,853 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6747190952301025 seconds
+2017-09-08 14:34:23,635 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7814464569091797 seconds
+2017-09-08 14:34:24,812 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1761252880096436 seconds
+2017-09-08 14:34:24,877 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.06417179107666016 seconds
+2017-09-08 14:34:25,118 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.24026131629943848 seconds
+2017-09-08 14:34:25,189 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.06968474388122559 seconds
+2017-09-08 14:34:30,249 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.060107469558716 seconds
+2017-09-08 14:34:30,334 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.08371877670288086 seconds
+2017-09-08 14:34:30,482 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.14839458465576172 seconds
+2017-09-08 14:34:30,524 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.041109323501586914 seconds
+2017-09-08 14:34:33,567 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0283124446868896 seconds
+2017-09-08 14:34:33,567 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:35:24,023 - root - INFO - ############################### START ###############################
+2017-09-08 14:35:27,532 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5089104175567627 seconds
+2017-09-08 14:35:28,255 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7219867706298828 seconds
+2017-09-08 14:35:29,425 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.169285774230957 seconds
+2017-09-08 14:35:29,487 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.061663150787353516 seconds
+2017-09-08 14:35:29,656 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.1684284210205078 seconds
+2017-09-08 14:35:29,790 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.13235211372375488 seconds
+2017-09-08 14:35:34,876 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.085371255874634 seconds
+2017-09-08 14:35:34,989 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.11229825019836426 seconds
+2017-09-08 14:35:35,073 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.0832216739654541 seconds
+2017-09-08 14:35:35,146 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.0726919174194336 seconds
+2017-09-08 14:35:38,185 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0267415046691895 seconds
+2017-09-08 14:35:38,186 - root - INFO - ###############################  End  ###############################
+2017-09-08 14:36:38,406 - root - INFO - ############################### START ###############################
+2017-09-08 14:36:41,925 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.517407178878784 seconds
+2017-09-08 14:36:42,703 - root - INFO - SUCCESS    Navigated to http://testing-www.intranet.szjys.com/, Spend 0.7779960632324219 seconds
+2017-09-08 14:36:43,885 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1815264225006104 seconds
+2017-09-08 14:36:43,944 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.05815529823303223 seconds
+2017-09-08 14:36:44,102 - root - INFO - SUCCESS    Typed element: <name->username> content: 18774389635, Spend 0.157029390335083 seconds
+2017-09-08 14:36:44,237 - root - INFO - SUCCESS    Clicked element: <link_text->发送验证码>, Spend 0.135206937789917 seconds
+2017-09-08 14:36:49,300 - root - INFO - FAIL    Element: <css->a[link_text^=请]> is not exist, Spend 5.061818361282349 seconds
+2017-09-08 14:36:49,427 - root - INFO - SUCCESS    Typed element: <name->vcode> content: test123, Spend 0.12633275985717773 seconds
+2017-09-08 14:36:49,524 - root - INFO - SUCCESS    Typed element: <name->confirmPassword> content: test123, Spend 0.09675884246826172 seconds
+2017-09-08 14:36:49,591 - root - INFO - SUCCESS    Clicked element: <css->div[class^=formContainer_]>form>div:nth-child(6)>, Spend 0.06667828559875488 seconds
+2017-09-08 14:36:52,646 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033665657043457 seconds
+2017-09-08 14:36:52,646 - root - INFO - ###############################  End  ###############################

@@ -15,8 +15,8 @@ PictureVCode_Input = 'name->captcha'
 # NextStep_Button
 NextStep_Button = 'tag_name->button'
 
-# Send_VCode_Button
-Send_VCode_Button = 'link_text->发送验证码'
+# SendVCode_Button
+SendVCode_Button = 'link_text->发送验证码'
 
 # VCode_Input
 VCode_Input = 'name->vcode'
@@ -29,3 +29,6 @@ LoginPwd_Input = 'name->new_password'
 
 # ConfirmLoginPwd
 ConfirmLoginPwd ='name->confirm_new_password'
+
+# SendVCodeSuccess
+SendVCodeSuccess = 'css->xpath->//*[contains(text(),发送成功，请查收)'

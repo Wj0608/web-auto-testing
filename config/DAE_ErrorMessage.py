@@ -26,3 +26,6 @@ OldWithdrawPwd_Error = 'xpath->//*[contains(text(),原提币密码不正确)]'
 
 # NotInputNewWithdrawPwd_Error
 NotInputNewWithdrawPwd_Error = 'xpath->//*[contains(text(),请输新提币密码)]'
+
+# CannotInputMyselfAddress_Error
+CannotInputMyselfAddress_Error = 'xpath->//*[contains(text(),不能提到自己的充值地址)]'

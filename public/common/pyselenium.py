@@ -640,6 +640,20 @@ class PySelenium(object):
             print ('light_element:{0}'.format(e))
             raise
 
+    def paste(self,css,secs=0.5):
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            ele = self.get_element(css)
+            ele.send_keys(Keys.CONTROL,'v')
+            time.sleep(secs)
+            self.my_print("{0} Element <{1}> send keys(control+v),and sleep {2} seconds,input ENTER key, Spend {3} seconds".format(
+                success,css,secs,time.time() - t1))
+        except Exception:
+            self.my_print("{0} Unable element <{1}> send keys(control+v),and sleep {2} seconds,input ENTER key, Spend {3} seconds".
+                format(fail, css, secs, time.time() - t1))
+            raise
+
     @property
     def page_source(self):
         return self.driver.page_source

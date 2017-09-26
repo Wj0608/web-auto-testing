@@ -1,6 +1,5 @@
 #coding=utf-8
 
-
 from time import sleep
 from public.common import mytest
 from public.common import publicfunction
@@ -68,4 +67,3 @@ class TestWithdrawPwd(mytest.MyTest):
        personalPage.click_PersonalCenter()
        personalPage.click_EditTradePwd('ChagePwd','123456','abc','123456','124356')
        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.NotInputNewWithdrawPwd_Error).is_displayed())
-
