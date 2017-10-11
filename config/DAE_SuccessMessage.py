@@ -11,3 +11,6 @@ ChangePwdSuccess = 'xpath->//*[contains(text(),修改成功！)]'
 
 # RegisterSuccess
 RegisterSuccess = 'xpath->//*[contains(text(),注册成功)]'
+
+# SendVCodeSuccess
+SendVCodeSuccess = 'xpath->//*[contains(text(),发送成功)]'

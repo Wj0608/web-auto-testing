@@ -3,26 +3,41 @@
 import os
 from public.common.readconfig import ReadConfig
 
-# BTCDeposite_Link
-BTCDeposite_Link = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[3]/a'
+# MyBalance_BTC_Deposite
+MyBalance_BTC_Deposite = 'css->div[class^=wallet_\w* eth_\w*]>div>span>a:nth-child(1)'
 
-# ETHDeposite_Link
-ETHDeposite_Link = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span[3]/a'
+# MyBalance_BTC_Withdraw
+MyBalance_BTC_Withdraw = 'link_text->提现'
 
-# ETCDeposite_Link
-ETCDeposite_Link = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[3]/a'
+# MyBalance_ETH_Deposite
+MyBalance_ETH_Deposite = 'css->div[class^=wallet_\w* eth_\w*]>div>a:nth-child(1)'
+
+# MyBalance_ETH_Withdraw
+MyBalance_ETH_Withdraw = 'css->div[class=^wallet_\w* eth_\w*]>div>a:nth-child(2)'
+
+# MyBalance_ETC_Deposite
+MyBalance_ETC_Deposite = 'css->div[class=^wallet_\w* eth_\w*]>div>a:nth-child(1)'
+
+# MyBalance_ETC_Withdraw
+MyBalance_ETC_Withdraw = 'css->div[class=^wallet_\w* eth_\w*]>div>a:nth-child(2)'
+
+# TabBar_Deposite
+TabBar_Deposite = 'css->div[class=^tabbar_]>div:nth:child(1)'
+
+# TabBar_Withdraw
+TabBar_Withdraw = 'css->div[class=^tabbar_]>div:nth:child(2)'
+
+# SideBar_BTC
+SideBar_BTC = 'css->div[class=^sideBarSection_*]>a:nth-child(1)'
+
+# SideBar_ETH
+SideBar_ETH = 'css->div[class=^sideBarSection_*]>a:nth-child(2)'
+
+# SideBar_ETC
+SideBar_ETC = 'css->div[class=^sideBarSection_*]>a:nth-child(3)'
 
 # Deposite_Address
-Deposite_Address = 'css->span[class^=address_]>span:nth-child(1)'
-
-# BTCBalance
-BTCBalance = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/span[2]'
-
-# ETHBalance
-ETHBalance = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]'
-
-# ETCBalance
-ETCBalance = 'xpath->//*[@id="app"]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/span[2]'
+Deposite_Address = 'css->span[class^=address_]>span:nth-child(2)'
 
 # CopyAddress_Link
 CopyAddress_Link = 'css->span[class^=copy_]'
@@ -30,13 +45,10 @@ CopyAddress_Link = 'css->span[class^=copy_]'
 # Copy_Success
 Copy_Success = 'css->//*[contains(text(),已复制)]'
 
-# Withdraw_Button
-Withdraw_Button = 'link_text->提现'
-
 # Address_Input
 Address_Input = 'name->target'
 
-# Amount_Input
+# Amount_Inputs
 Amount_Input = 'name->amount'
 
 # Password_Input

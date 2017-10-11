@@ -188,6 +188,7 @@ class PySelenium(object):
         try:
             self.element_wait(css)
             el = self.get_element(css)
+            el.click()
             el.send_keys(text)
             self.my_print("{0} Typed element: <{1}> content: {2}, Spend {3} seconds".format(success,
                 css,text,time.time() - t1))
