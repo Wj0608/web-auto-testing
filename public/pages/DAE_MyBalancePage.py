@@ -7,10 +7,12 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 class MyBalance(basepage.Page):
+
     def click_BTC_Withdraw(self):
         self.dr.click(DAE_MyBalancePage_Element.MyBalance_BTC_Withdraw)
 
     def click_BTC_Deposite(self):
+        self.dr.element_wait(DAE_MyBalancePage_Element.Balance_Manage)
         self.dr.click(DAE_MyBalancePage_Element.MyBalance_BTC_Deposite)
 
     def click_ETH_Withdraw(self):
@@ -51,16 +53,20 @@ class MyBalance(basepage.Page):
     #     self.dr.click(DAE_MyBalancePage_Element.Address_Input)
     #     self.type_DepositeAddress(Address,Amount,Pwd)
 
-    def Deposite(self,Address,Amount,Pwd):
+    def Deposite(self,Address=None,Amount=None,Pwd=None):
         self.dr.click(DAE_MyBalancePage_Element.Address_Input)
         if(Address=='Paste'):
             address_Input = self.dr.get_element(DAE_MyBalancePage_Element.Address_Input)
-            address_Input.send_Keys(Keys.CONTROL,'v')
-        self.dr.type(DAE_MyBalancePage_Element.Address_Input,Address)
+            address_Input.send_keys(Keys.CONTROL,'v')
+        if(Address!=None):
+            self.dr.type(DAE_MyBalancePage_Element.Address_Input,Address)
         self.dr.click(DAE_MyBalancePage_Element.Amount_Input)
-        self.dr.type(DAE_MyBalancePage_Element.Amount_Input,Amount)
+        if(Amount!=None):
+            self.dr.type(DAE_MyBalancePage_Element.Amount_Input,Amount)
         self.dr.click(DAE_MyBalancePage_Element.Password_Input)
-        self.dr.type(DAE_MyBalancePage_Element.Password_Input,Pwd)
+        if(Pwd!=None):
+            self.dr.type(DAE_MyBalancePage_Element.Password_Input,Pwd)
+        self.dr.click(DAE_MyBalancePage_Element.Amount_Input)
         self.click_SubmitButton()
 
     def click_CopyAddress(self):

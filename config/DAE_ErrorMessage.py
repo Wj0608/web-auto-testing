@@ -29,3 +29,18 @@ NotInputNewWithdrawPwd_Error = 'xpath->//*[contains(text(),请输新提币密码
 
 # CannotInputMyselfAddress_Error
 CannotInputMyselfAddress_Error = 'xpath->//*[contains(text(),不能提到自己的充值地址)]'
+
+# WrongTradePwd_Error
+WrongTradePwd_Error = 'xpath->//*[contains(text(),交易密码错误)]'
+
+# InputAddress_Remind
+InputAddress_Remind = 'xpath->//*[contains(text(),请输入提现地址)]'
+
+# InputPwd_Remind
+InputPwd_Remind = 'xpath->//*[contains(text(),请输入提币密码)]'
+
+# InputAmount_Remind
+InputAmount_Remind = 'xpath->//*[contains(text(),请输入提现金额)]'
+
+# InValidAddress_Remind
+InValidAddress_Remind = 'xpath->//*[contains(text(),无效的提现地址)]'

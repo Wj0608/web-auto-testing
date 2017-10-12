@@ -3,6 +3,7 @@
 from public.common import basepage
 from config import DAE_FirstPage_Element
 from public.common import pyselenium
+import time
 
 class DAEFirstPage(basepage.Page):
 
@@ -31,6 +32,7 @@ class DAEFirstPage(basepage.Page):
 
     def Login(self,EmailOrPhone,Pwd):
         """登录"""
+        time.sleep(2)
         self.dr.element_wait(DAE_FirstPage_Element.LoginUsername_Input)
         self.dr.click(DAE_FirstPage_Element.LoginUsername_Input)
         self.dr.type(DAE_FirstPage_Element.LoginUsername_Input,EmailOrPhone)

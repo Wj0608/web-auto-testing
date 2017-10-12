@@ -14,7 +14,7 @@ from config import globalparam
 
 def run():
     test_dir = './testcase'
-    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_MyBalance.py')
+    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_ForgetWithdrawPwd.py')
 
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
     #reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'

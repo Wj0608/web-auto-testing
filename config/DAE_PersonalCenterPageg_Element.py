@@ -4,9 +4,16 @@ import os
 from public.common.readconfig import ReadConfig
 
 # PersonalCenter_Button
-PersonalCenter_Button = 'link_text->个人中心'
+PersonalCenter_Button = 'css->a[href=/user-center/account]'
 
-# AccountInfo
+# Account_Img
+Account_Img= 'css->div[class^=userInfo_]'
+
+# Security_Set
+Security_Set = 'link_text->安全设置'
+
+# Pwd_Status
+Pwd_Status = 'css->div[class^=status_]'
 
 # KYC_Tab
 KYC_Tab = 'link_text->身份验证'
@@ -16,9 +23,6 @@ TradePassword_Tab = 'link_text->交易密码'
 
 # KYC_Link
 KYC_Link = 'link_text->获取更多权限'
-
-# EditTradePassword_Link
-EditTradePassword_Link = 'link_text->编辑'
 
 # ChangePassword_Link
 ChangePassword_Link = 'link_text->修改提币密码'
