@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DAE钱包.iml" filepath="$PROJECT_DIR$/.idea/DAE钱包.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UItestframework.iml" filepath="$PROJECT_DIR$/.idea/UItestframework.iml" />
     </modules>
   </component>
 </project>

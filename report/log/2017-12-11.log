@@ -8,3 +8,6 @@
 2017-12-11 10:46:14,706 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.07570171356201172 seconds
 2017-12-11 10:46:19,994 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.050459146499634 seconds
 2017-12-11 10:46:19,997 - root - INFO - ###############################  End  ###############################
+2017-12-11 14:25:49,772 - root - INFO - ############################### START ###############################
+2017-12-11 14:25:53,619 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8453309535980225 seconds
+2017-12-11 14:25:54,287 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 0.666569709777832 seconds
