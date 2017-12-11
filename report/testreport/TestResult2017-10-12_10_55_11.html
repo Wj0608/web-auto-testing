@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UI自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>UI自动化测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-10-12 10:55:11</p>
+<p class='attribute'><strong>运行时长:</strong> 0:02:20.042317</p>
+<p class='attribute'><strong>状态:</strong> 通过 6</p>
+
+</div>
+<p class='description'>Test the import testcase</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>概括</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_MyBalance.TestMyBalance: 资产充值提现功能测试</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',6)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_BTC_CopyPasteAddress: 提BTC到自己的地址测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 2017-10-12 10:55:11,552 - root - INFO - ############################### START ###############################
+2017-10-12 10:55:15,224 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6718132495880127 seconds
+2017-10-12 10:55:17,347 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.1228044033050537 seconds
+2017-10-12 10:55:18,502 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1538987159729004 seconds
+2017-10-12 10:55:18,563 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06170296669006348 seconds
+2017-10-12 10:55:18,680 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.09993577003479004 seconds
+2017-10-12 10:55:18,751 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.07115554809570312 seconds
+2017-10-12 10:55:18,874 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.12168264389038086 seconds
+2017-10-12 10:55:18,939 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.06416988372802734 seconds
+2017-10-12 10:55:24,044 - root - INFO - SUCCESS    Get current window url, Spend 0.023064374923706055 seconds
+2017-10-12 10:55:27,150 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/span/a[1]&gt;, Spend 0.07470560073852539 seconds
+2017-10-12 10:55:28,258 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.06974267959594727 seconds
+2017-10-12 10:55:30,369 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.09442138671875 seconds
+2017-10-12 10:55:31,467 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 1.0977351665496826 seconds
+2017-10-12 10:55:31,559 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;target&gt; content: Paste, Spend 0.05414390563964844 seconds
+2017-10-12 10:55:31,626 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.0663602352142334 seconds
+2017-10-12 10:55:31,683 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.05564594268798828 seconds
+2017-10-12 10:55:31,741 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.05765175819396973 seconds
+2017-10-12 10:55:31,799 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;tradepassword&gt; content: 123456, Spend 0.05715131759643555 seconds
+2017-10-12 10:55:31,861 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.0616607666015625 seconds
+2017-10-12 10:55:34,945 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.030348539352417 seconds
+2017-10-12 10:55:34,946 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_BTC_NullAddress: 提BTC不输入地址功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 2017-10-12 10:55:34,947 - root - INFO - ############################### START ###############################
+2017-10-12 10:55:38,655 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.707038402557373 seconds
+2017-10-12 10:55:40,730 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0739500522613525 seconds
+2017-10-12 10:55:41,889 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1583788394927979 seconds
+2017-10-12 10:55:41,953 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06403231620788574 seconds
+2017-10-12 10:55:42,063 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.0945894718170166 seconds
+2017-10-12 10:55:42,127 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.06316661834716797 seconds
+2017-10-12 10:55:42,247 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11892962455749512 seconds
+2017-10-12 10:55:42,313 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.0666806697845459 seconds
+2017-10-12 10:55:47,434 - root - INFO - SUCCESS    Get current window url, Spend 0.03597664833068848 seconds
+2017-10-12 10:55:50,570 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/span/a[1]&gt;, Spend 0.09803891181945801 seconds
+2017-10-12 10:55:51,698 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.08626103401184082 seconds
+2017-10-12 10:55:53,823 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.10894513130187988 seconds
+2017-10-12 10:55:54,998 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 1.17327880859375 seconds
+2017-10-12 10:55:55,055 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.056626081466674805 seconds
+2017-10-12 10:55:55,118 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.06316947937011719 seconds
+2017-10-12 10:55:55,169 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.050131797790527344 seconds
+2017-10-12 10:55:55,231 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;tradepassword&gt; content: 123456, Spend 0.061161041259765625 seconds
+2017-10-12 10:55:55,285 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.047624826431274414 seconds
+2017-10-12 10:55:58,368 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0314438343048096 seconds
+2017-10-12 10:55:58,369 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_BTC_NullPwd: 提BTC不输入密码功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 2017-10-12 10:55:58,370 - root - INFO - ############################### START ###############################
+2017-10-12 10:56:02,099 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.726822853088379 seconds
+2017-10-12 10:56:04,334 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.2341244220733643 seconds
+2017-10-12 10:56:05,504 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1706030368804932 seconds
+2017-10-12 10:56:05,568 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06276941299438477 seconds
+2017-10-12 10:56:05,681 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.09632754325866699 seconds
+2017-10-12 10:56:05,753 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.07240772247314453 seconds
+2017-10-12 10:56:05,864 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.10911726951599121 seconds
+2017-10-12 10:56:05,928 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.06319928169250488 seconds
+2017-10-12 10:56:11,029 - root - INFO - SUCCESS    Get current window url, Spend 0.01748180389404297 seconds
+2017-10-12 10:56:14,166 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/span/a[1]&gt;, Spend 0.09124636650085449 seconds
+2017-10-12 10:56:15,271 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.06817507743835449 seconds
+2017-10-12 10:56:17,394 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.10787749290466309 seconds
+2017-10-12 10:56:18,538 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 1.1448500156402588 seconds
+2017-10-12 10:56:18,638 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;target&gt; content: fjdhgdfj46178564783vnm,cbjkda, Spend 0.0988759994506836 seconds
+2017-10-12 10:56:18,830 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.19145989418029785 seconds
+2017-10-12 10:56:18,884 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.05268502235412598 seconds
+2017-10-12 10:56:18,933 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.04864788055419922 seconds
+2017-10-12 10:56:18,970 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.03597545623779297 seconds
+2017-10-12 10:56:22,049 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0283803939819336 seconds
+2017-10-12 10:56:22,049 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_BTC_WithdrawWrongPwd: 提BTC密码错误测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 2017-10-12 10:56:22,050 - root - INFO - ############################### START ###############################
+2017-10-12 10:56:25,737 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6861274242401123 seconds
+2017-10-12 10:56:27,861 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.1230387687683105 seconds
+2017-10-12 10:56:29,028 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1660425662994385 seconds
+2017-10-12 10:56:29,090 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06216621398925781 seconds
+2017-10-12 10:56:29,198 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.09518861770629883 seconds
+2017-10-12 10:56:29,265 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.06573367118835449 seconds
+2017-10-12 10:56:29,379 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11302375793457031 seconds
+2017-10-12 10:56:29,449 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.07019281387329102 seconds
+2017-10-12 10:56:34,558 - root - INFO - SUCCESS    Get current window url, Spend 0.026644468307495117 seconds
+2017-10-12 10:56:37,679 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/span/a[1]&gt;, Spend 0.08071255683898926 seconds
+2017-10-12 10:56:38,807 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.08689594268798828 seconds
+2017-10-12 10:56:40,929 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.1082456111907959 seconds
+2017-10-12 10:56:41,058 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 0.12784075736999512 seconds
+2017-10-12 10:56:41,155 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;target&gt; content: Paste, Spend 0.05965685844421387 seconds
+2017-10-12 10:56:41,218 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.06316709518432617 seconds
+2017-10-12 10:56:41,274 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.05464577674865723 seconds
+2017-10-12 10:56:41,324 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.04963064193725586 seconds
+2017-10-12 10:56:41,381 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;tradepassword&gt; content: 456789, Spend 0.05564761161804199 seconds
+2017-10-12 10:56:41,435 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.05364346504211426 seconds
+2017-10-12 10:56:44,529 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.043646812438965 seconds
+2017-10-12 10:56:44,530 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_ETC_CopyPasteAddress: 提ETC到自己的地址测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 2017-10-12 10:56:44,531 - root - INFO - ############################### START ###############################
+2017-10-12 10:56:48,281 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7493720054626465 seconds
+2017-10-12 10:56:50,338 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0559818744659424 seconds
+2017-10-12 10:56:51,501 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1618311405181885 seconds
+2017-10-12 10:56:51,562 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06066107749938965 seconds
+2017-10-12 10:56:51,671 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.09427547454833984 seconds
+2017-10-12 10:56:51,735 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.06316828727722168 seconds
+2017-10-12 10:56:51,852 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11693549156188965 seconds
+2017-10-12 10:56:51,922 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.0690772533416748 seconds
+2017-10-12 10:56:57,033 - root - INFO - SUCCESS    Get current window url, Spend 0.029484272003173828 seconds
+2017-10-12 10:57:00,133 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[3]/div/span/a[1]&gt;, Spend 0.098724365234375 seconds
+2017-10-12 10:57:01,254 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.08472323417663574 seconds
+2017-10-12 10:57:03,363 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.08919048309326172 seconds
+2017-10-12 10:57:04,478 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 1.1147418022155762 seconds
+2017-10-12 10:57:04,624 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;target&gt; content: Paste, Spend 0.09274625778198242 seconds
+2017-10-12 10:57:04,695 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.07118940353393555 seconds
+2017-10-12 10:57:04,752 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.05614590644836426 seconds
+2017-10-12 10:57:04,803 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.050635576248168945 seconds
+2017-10-12 10:57:04,864 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;tradepassword&gt; content: 123456, Spend 0.060158491134643555 seconds
+2017-10-12 10:57:04,921 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.05665016174316406 seconds
+2017-10-12 10:57:08,006 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0338902473449707 seconds
+2017-10-12 10:57:08,007 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_ETH_CopyPasteAddress: 提ETH到自己的地址测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: 2017-10-12 10:57:08,008 - root - INFO - ############################### START ###############################
+2017-10-12 10:57:11,729 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.720531463623047 seconds
+2017-10-12 10:57:13,882 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.1528003215789795 seconds
+2017-10-12 10:57:15,038 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1550452709197998 seconds
+2017-10-12 10:57:15,103 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.0641930103302002 seconds
+2017-10-12 10:57:15,212 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.09497189521789551 seconds
+2017-10-12 10:57:15,277 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.06316304206848145 seconds
+2017-10-12 10:57:15,395 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11809349060058594 seconds
+2017-10-12 10:57:15,464 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.06820416450500488 seconds
+2017-10-12 10:57:20,576 - root - INFO - SUCCESS    Get current window url, Spend 0.026398897171020508 seconds
+2017-10-12 10:57:23,684 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/span/a[1]&gt;, Spend 0.10718083381652832 seconds
+2017-10-12 10:57:24,837 - root - INFO - SUCCESS    Clicked element: &lt;css-&gt;span[class^=copy_]&gt;, Spend 0.07850289344787598 seconds
+2017-10-12 10:57:26,940 - root - INFO - SUCCESS    Clicked element: &lt;xpath-&gt;//*[@id="app"]/div/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]&gt;, Spend 0.08568930625915527 seconds
+2017-10-12 10:57:28,102 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;target&gt;, Spend 1.1616699695587158 seconds
+2017-10-12 10:57:28,218 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;target&gt; content: Paste, Spend 0.0726938247680664 seconds
+2017-10-12 10:57:28,287 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.06818151473999023 seconds
+2017-10-12 10:57:28,344 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;amount&gt; content: 1, Spend 0.05614948272705078 seconds
+2017-10-12 10:57:28,395 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;tradepassword&gt;, Spend 0.050633907318115234 seconds
+2017-10-12 10:57:28,452 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;tradepassword&gt; content: 123456, Spend 0.057152509689331055 seconds
+2017-10-12 10:57:28,507 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;amount&gt;, Spend 0.054145097732543945 seconds
+2017-10-12 10:57:31,593 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.035388231277466 seconds
+2017-10-12 10:57:31,594 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

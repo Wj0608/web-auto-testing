@@ -1,0 +1,1015 @@
+2017-12-07 10:44:55,626 - root - INFO - ############################### START ###############################
+2017-12-07 10:44:59,369 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.740309953689575 seconds
+2017-12-07 10:45:00,856 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4852173328399658 seconds
+2017-12-07 10:45:02,027 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.169558048248291 seconds
+2017-12-07 10:45:02,296 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2651700973510742 seconds
+2017-12-07 10:45:04,173 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8757052421569824 seconds
+2017-12-07 10:45:04,238 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06316661834716797 seconds
+2017-12-07 10:45:04,340 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10126948356628418 seconds
+2017-12-07 10:45:04,546 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['V', 'A', 'C', 'u'], Spend 0.09425091743469238 seconds
+2017-12-07 10:45:14,624 - root - INFO - SUCCESS    Get current window url, Spend 0.010226964950561523 seconds
+2017-12-07 10:45:17,693 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0623340606689453 seconds
+2017-12-07 10:45:17,696 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:45:17,703 - root - INFO - ############################### START ###############################
+2017-12-07 10:45:21,218 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.512587547302246 seconds
+2017-12-07 10:45:22,752 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.532505989074707 seconds
+2017-12-07 10:45:23,932 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.177696943283081 seconds
+2017-12-07 10:45:24,231 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.29717302322387695 seconds
+2017-12-07 10:45:26,036 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.803642988204956 seconds
+2017-12-07 10:45:26,775 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7369215488433838 seconds
+2017-12-07 10:45:29,817 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0400373935699463 seconds
+2017-12-07 10:45:29,820 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:45:29,824 - root - INFO - ############################### START ###############################
+2017-12-07 10:45:33,551 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7251956462860107 seconds
+2017-12-07 10:45:35,107 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5538055896759033 seconds
+2017-12-07 10:45:36,295 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1863069534301758 seconds
+2017-12-07 10:45:36,640 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3424046039581299 seconds
+2017-12-07 10:45:38,450 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.8079142570495605 seconds
+2017-12-07 10:45:39,262 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8106732368469238 seconds
+2017-12-07 10:45:42,362 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0433578491210938 seconds
+2017-12-07 10:45:42,365 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:45:42,376 - root - INFO - ############################### START ###############################
+2017-12-07 10:45:45,895 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.516317129135132 seconds
+2017-12-07 10:45:47,329 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4326913356781006 seconds
+2017-12-07 10:45:48,467 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1351163387298584 seconds
+2017-12-07 10:45:48,798 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3287334442138672 seconds
+2017-12-07 10:45:49,796 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 0.9956023693084717 seconds
+2017-12-07 10:45:50,584 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7849669456481934 seconds
+2017-12-07 10:45:53,644 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0321102142333984 seconds
+2017-12-07 10:45:53,648 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:45:53,654 - root - INFO - ############################### START ###############################
+2017-12-07 10:45:57,211 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.552851676940918 seconds
+2017-12-07 10:45:58,742 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5277328491210938 seconds
+2017-12-07 10:45:59,922 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.178586483001709 seconds
+2017-12-07 10:46:00,156 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.23294758796691895 seconds
+2017-12-07 10:46:02,007 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.8489015102386475 seconds
+2017-12-07 10:46:02,630 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6206543445587158 seconds
+2017-12-07 10:46:05,689 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0574557781219482 seconds
+2017-12-07 10:46:05,691 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:46:05,692 - root - INFO - ############################### START ###############################
+2017-12-07 10:46:09,223 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5294363498687744 seconds
+2017-12-07 10:46:10,620 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3952560424804688 seconds
+2017-12-07 10:46:11,794 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172114610671997 seconds
+2017-12-07 10:46:11,992 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.1956946849822998 seconds
+2017-12-07 10:46:13,840 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.8456077575683594 seconds
+2017-12-07 10:46:14,460 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6165015697479248 seconds
+2017-12-07 10:46:17,523 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0600507259368896 seconds
+2017-12-07 10:46:17,529 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:46:17,534 - root - INFO - ############################### START ###############################
+2017-12-07 10:46:21,277 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7404215335845947 seconds
+2017-12-07 10:46:22,730 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.451098918914795 seconds
+2017-12-07 10:46:23,901 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1693108081817627 seconds
+2017-12-07 10:46:24,232 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.32912135124206543 seconds
+2017-12-07 10:46:25,158 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.9232053756713867 seconds
+2017-12-07 10:46:25,752 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5916016101837158 seconds
+2017-12-07 10:46:28,797 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0424628257751465 seconds
+2017-12-07 10:46:28,799 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:49:34,427 - root - INFO - ############################### START ###############################
+2017-12-07 10:49:37,961 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5320653915405273 seconds
+2017-12-07 10:49:39,389 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.427495002746582 seconds
+2017-12-07 10:49:40,564 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1745574474334717 seconds
+2017-12-07 10:49:40,716 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.15172076225280762 seconds
+2017-12-07 10:49:41,676 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.9589219093322754 seconds
+2017-12-07 10:49:41,737 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.058835744857788086 seconds
+2017-12-07 10:49:41,833 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09572625160217285 seconds
+2017-12-07 10:49:42,042 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['6', 'O', 'w', 'A'], Spend 0.09776067733764648 seconds
+2017-12-07 10:49:52,121 - root - INFO - SUCCESS    Get current window url, Spend 0.008515119552612305 seconds
+2017-12-07 10:49:55,164 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.040928840637207 seconds
+2017-12-07 10:49:55,166 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:49:55,169 - root - INFO - ############################### START ###############################
+2017-12-07 10:49:58,663 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.492711305618286 seconds
+2017-12-07 10:50:00,238 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5746891498565674 seconds
+2017-12-07 10:50:01,430 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1911499500274658 seconds
+2017-12-07 10:50:01,672 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.24021053314208984 seconds
+2017-12-07 10:50:03,503 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.83182954788208 seconds
+2017-12-07 10:50:04,226 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7212314605712891 seconds
+2017-12-07 10:50:07,272 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0445570945739746 seconds
+2017-12-07 10:50:07,273 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:50:07,275 - root - INFO - ############################### START ###############################
+2017-12-07 10:50:11,004 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7276923656463623 seconds
+2017-12-07 10:50:12,494 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4880075454711914 seconds
+2017-12-07 10:50:13,695 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2005865573883057 seconds
+2017-12-07 10:50:14,004 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3080463409423828 seconds
+2017-12-07 10:50:14,951 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 0.9468555450439453 seconds
+2017-12-07 10:50:15,593 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6422512531280518 seconds
+2017-12-07 10:50:18,654 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0280566215515137 seconds
+2017-12-07 10:50:18,655 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:50:18,662 - root - INFO - ############################### START ###############################
+2017-12-07 10:50:22,180 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5177688598632812 seconds
+2017-12-07 10:50:23,676 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4943132400512695 seconds
+2017-12-07 10:50:24,876 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1991980075836182 seconds
+2017-12-07 10:50:25,160 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.2835855484008789 seconds
+2017-12-07 10:50:27,028 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.8674919605255127 seconds
+2017-12-07 10:50:27,855 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8268153667449951 seconds
+2017-12-07 10:50:30,943 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0351386070251465 seconds
+2017-12-07 10:50:30,945 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:50:30,948 - root - INFO - ############################### START ###############################
+2017-12-07 10:50:34,691 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.742798089981079 seconds
+2017-12-07 10:50:36,072 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3803761005401611 seconds
+2017-12-07 10:50:37,253 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1803762912750244 seconds
+2017-12-07 10:50:37,560 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.30693483352661133 seconds
+2017-12-07 10:50:39,338 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.776503324508667 seconds
+2017-12-07 10:50:39,944 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6055874824523926 seconds
+2017-12-07 10:50:42,992 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0473005771636963 seconds
+2017-12-07 10:50:42,993 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:50:42,994 - root - INFO - ############################### START ###############################
+2017-12-07 10:50:46,518 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5224578380584717 seconds
+2017-12-07 10:50:48,043 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5237548351287842 seconds
+2017-12-07 10:50:49,228 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1847238540649414 seconds
+2017-12-07 10:50:49,534 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.30440497398376465 seconds
+2017-12-07 10:50:50,441 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 0.9075543880462646 seconds
+2017-12-07 10:50:51,061 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6175518035888672 seconds
+2017-12-07 10:50:54,115 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.052400827407837 seconds
+2017-12-07 10:50:54,116 - root - INFO - ###############################  End  ###############################
+2017-12-07 10:50:54,119 - root - INFO - ############################### START ###############################
+2017-12-07 10:50:57,818 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6996936798095703 seconds
+2017-12-07 10:50:59,376 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5570464134216309 seconds
+2017-12-07 10:51:00,563 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1857740879058838 seconds
+2017-12-07 10:51:00,868 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3036539554595947 seconds
+2017-12-07 10:51:02,678 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.8086516857147217 seconds
+2017-12-07 10:51:03,293 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6153206825256348 seconds
+2017-12-07 10:51:06,338 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0430819988250732 seconds
+2017-12-07 10:51:06,339 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:02:03,234 - root - INFO - ############################### START ###############################
+2017-12-07 11:02:06,734 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.499877691268921 seconds
+2017-12-07 11:02:08,170 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4349071979522705 seconds
+2017-12-07 11:02:09,341 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.169609785079956 seconds
+2017-12-07 11:02:09,530 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.18889856338500977 seconds
+2017-12-07 11:02:11,472 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.939330816268921 seconds
+2017-12-07 11:02:11,548 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07616043090820312 seconds
+2017-12-07 11:02:11,642 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09325122833251953 seconds
+2017-12-07 11:02:11,847 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['w', 'u', 'R', 'k'], Spend 0.09684324264526367 seconds
+2017-12-07 11:02:21,949 - root - INFO - SUCCESS    Get current window url, Spend 0.014931440353393555 seconds
+2017-12-07 11:02:25,055 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1041769981384277 seconds
+2017-12-07 11:02:25,057 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:02:25,060 - root - INFO - ############################### START ###############################
+2017-12-07 11:02:28,776 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.713789701461792 seconds
+2017-12-07 11:02:30,297 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.520026445388794 seconds
+2017-12-07 11:02:31,470 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1726245880126953 seconds
+2017-12-07 11:02:31,814 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3421621322631836 seconds
+2017-12-07 11:02:33,558 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.7446098327636719 seconds
+2017-12-07 11:02:34,265 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7062053680419922 seconds
+2017-12-07 11:02:37,313 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.046381950378418 seconds
+2017-12-07 11:02:37,314 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:02:37,316 - root - INFO - ############################### START ###############################
+2017-12-07 11:02:41,031 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7141520977020264 seconds
+2017-12-07 11:02:42,551 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5197365283966064 seconds
+2017-12-07 11:02:43,733 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1805789470672607 seconds
+2017-12-07 11:02:44,074 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3402273654937744 seconds
+2017-12-07 11:02:45,850 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7748081684112549 seconds
+2017-12-07 11:02:46,637 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7867312431335449 seconds
+2017-12-07 11:02:49,699 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.033143997192383 seconds
+2017-12-07 11:02:49,701 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:02:49,704 - root - INFO - ############################### START ###############################
+2017-12-07 11:02:53,211 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5072295665740967 seconds
+2017-12-07 11:02:54,720 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5075418949127197 seconds
+2017-12-07 11:02:55,892 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1714484691619873 seconds
+2017-12-07 11:02:56,064 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.170731782913208 seconds
+2017-12-07 11:02:57,913 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.8478870391845703 seconds
+2017-12-07 11:02:58,714 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8010056018829346 seconds
+2017-12-07 11:03:01,776 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0412166118621826 seconds
+2017-12-07 11:03:01,778 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:03:01,780 - root - INFO - ############################### START ###############################
+2017-12-07 11:03:05,314 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5322725772857666 seconds
+2017-12-07 11:03:06,798 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4832344055175781 seconds
+2017-12-07 11:03:07,969 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1698870658874512 seconds
+2017-12-07 11:03:08,301 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.33285093307495117 seconds
+2017-12-07 11:03:10,093 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7905604839324951 seconds
+2017-12-07 11:03:10,689 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5950007438659668 seconds
+2017-12-07 11:03:13,725 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.034592628479004 seconds
+2017-12-07 11:03:13,727 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:03:13,729 - root - INFO - ############################### START ###############################
+2017-12-07 11:03:17,291 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5607640743255615 seconds
+2017-12-07 11:03:18,728 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4369471073150635 seconds
+2017-12-07 11:03:19,901 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1719276905059814 seconds
+2017-12-07 11:03:20,238 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.33769750595092773 seconds
+2017-12-07 11:03:21,121 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 0.8820843696594238 seconds
+2017-12-07 11:03:21,740 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6186604499816895 seconds
+2017-12-07 11:03:24,792 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.049670696258545 seconds
+2017-12-07 11:03:24,794 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:03:24,796 - root - INFO - ############################### START ###############################
+2017-12-07 11:03:28,519 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7225253582000732 seconds
+2017-12-07 11:03:29,939 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.419381856918335 seconds
+2017-12-07 11:03:31,110 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1698672771453857 seconds
+2017-12-07 11:03:31,418 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.30702877044677734 seconds
+2017-12-07 11:03:33,206 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.7867801189422607 seconds
+2017-12-07 11:03:33,796 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5899789333343506 seconds
+2017-12-07 11:03:36,850 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0525426864624023 seconds
+2017-12-07 11:03:36,851 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:04:56,312 - root - INFO - ############################### START ###############################
+2017-12-07 11:04:59,977 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.664483070373535 seconds
+2017-12-07 11:05:01,477 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5000674724578857 seconds
+2017-12-07 11:05:02,657 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.178506851196289 seconds
+2017-12-07 11:05:02,996 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3392946720123291 seconds
+2017-12-07 11:05:04,227 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.2293500900268555 seconds
+2017-12-07 11:05:04,312 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08436369895935059 seconds
+2017-12-07 11:05:04,419 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10630941390991211 seconds
+2017-12-07 11:05:04,627 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['v', '4', 'Y', 'z'], Spend 0.09035229682922363 seconds
+2017-12-07 11:05:14,688 - root - INFO - SUCCESS    Get current window url, Spend 0.011583089828491211 seconds
+2017-12-07 11:05:17,755 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0649149417877197 seconds
+2017-12-07 11:05:17,756 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:05:17,759 - root - INFO - ############################### START ###############################
+2017-12-07 11:05:21,462 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7030158042907715 seconds
+2017-12-07 11:05:23,007 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5450844764709473 seconds
+2017-12-07 11:05:24,173 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1640324592590332 seconds
+2017-12-07 11:05:24,524 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.35155177116394043 seconds
+2017-12-07 11:05:26,251 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.7269723415374756 seconds
+2017-12-07 11:05:26,972 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.719738245010376 seconds
+2017-12-07 11:05:30,019 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0471744537353516 seconds
+2017-12-07 11:05:30,019 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:05:30,020 - root - INFO - ############################### START ###############################
+2017-12-07 11:05:33,732 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.711148738861084 seconds
+2017-12-07 11:05:35,139 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4066157341003418 seconds
+2017-12-07 11:05:36,298 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1585431098937988 seconds
+2017-12-07 11:05:36,700 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.40216708183288574 seconds
+2017-12-07 11:05:38,480 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7782962322235107 seconds
+2017-12-07 11:05:39,266 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7838318347930908 seconds
+2017-12-07 11:05:39,513 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.16896986961364746 seconds
+2017-12-07 11:05:42,550 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.037067174911499 seconds
+2017-12-07 11:05:42,551 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:05:42,552 - root - INFO - ############################### START ###############################
+2017-12-07 11:05:46,029 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4763102531433105 seconds
+2017-12-07 11:05:47,476 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4445521831512451 seconds
+2017-12-07 11:05:48,652 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1759235858917236 seconds
+2017-12-07 11:05:49,003 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3506343364715576 seconds
+2017-12-07 11:05:50,847 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.8423430919647217 seconds
+2017-12-07 11:05:51,730 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8825397491455078 seconds
+2017-12-07 11:05:51,886 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.08923745155334473 seconds
+2017-12-07 11:05:54,916 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0288589000701904 seconds
+2017-12-07 11:05:54,917 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:05:54,919 - root - INFO - ############################### START ###############################
+2017-12-07 11:05:58,473 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.551995038986206 seconds
+2017-12-07 11:06:00,008 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.53218412399292 seconds
+2017-12-07 11:06:01,182 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1733226776123047 seconds
+2017-12-07 11:06:01,503 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.31980347633361816 seconds
+2017-12-07 11:06:02,496 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 0.9926600456237793 seconds
+2017-12-07 11:06:03,109 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.611868143081665 seconds
+2017-12-07 11:06:06,146 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0358715057373047 seconds
+2017-12-07 11:06:06,148 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:06:06,150 - root - INFO - ############################### START ###############################
+2017-12-07 11:06:09,852 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.701594114303589 seconds
+2017-12-07 11:06:11,433 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5794830322265625 seconds
+2017-12-07 11:06:12,628 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.194547176361084 seconds
+2017-12-07 11:06:12,990 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.36043572425842285 seconds
+2017-12-07 11:06:14,000 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.0091278553009033 seconds
+2017-12-07 11:06:14,583 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5818052291870117 seconds
+2017-12-07 11:06:17,611 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027684211730957 seconds
+2017-12-07 11:06:17,612 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:06:17,612 - root - INFO - ############################### START ###############################
+2017-12-07 11:06:21,277 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6644022464752197 seconds
+2017-12-07 11:06:22,781 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5029473304748535 seconds
+2017-12-07 11:06:23,969 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1861474514007568 seconds
+2017-12-07 11:06:24,209 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.2394390106201172 seconds
+2017-12-07 11:06:25,180 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.969287633895874 seconds
+2017-12-07 11:06:25,820 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6392133235931396 seconds
+2017-12-07 11:06:28,845 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0258901119232178 seconds
+2017-12-07 11:06:28,845 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:08:48,829 - root - INFO - ############################### START ###############################
+2017-12-07 11:08:52,494 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.66463303565979 seconds
+2017-12-07 11:08:54,111 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.6173272132873535 seconds
+2017-12-07 11:08:55,289 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1771316528320312 seconds
+2017-12-07 11:08:55,630 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3399062156677246 seconds
+2017-12-07 11:08:57,649 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.0186519622802734 seconds
+2017-12-07 11:08:57,755 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.10523629188537598 seconds
+2017-12-07 11:08:57,856 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1007680892944336 seconds
+2017-12-07 11:08:58,067 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['s', 'm', 'E', 'K'], Spend 0.09959077835083008 seconds
+2017-12-07 11:09:08,164 - root - INFO - SUCCESS    Get current window url, Spend 0.007932424545288086 seconds
+2017-12-07 11:09:11,213 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0475494861602783 seconds
+2017-12-07 11:09:11,214 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:09:11,215 - root - INFO - ############################### START ###############################
+2017-12-07 11:09:14,708 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4916138648986816 seconds
+2017-12-07 11:09:16,174 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4646985530853271 seconds
+2017-12-07 11:09:17,345 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1701676845550537 seconds
+2017-12-07 11:09:17,585 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.23854279518127441 seconds
+2017-12-07 11:09:19,443 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.8586235046386719 seconds
+2017-12-07 11:09:20,173 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.728424072265625 seconds
+2017-12-07 11:09:23,216 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0420782566070557 seconds
+2017-12-07 11:09:23,217 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:09:23,218 - root - INFO - ############################### START ###############################
+2017-12-07 11:09:26,740 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5201714038848877 seconds
+2017-12-07 11:09:28,191 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4511141777038574 seconds
+2017-12-07 11:09:29,350 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1575772762298584 seconds
+2017-12-07 11:09:29,664 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3130509853363037 seconds
+2017-12-07 11:09:31,444 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7807934284210205 seconds
+2017-12-07 11:09:32,229 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7844555377960205 seconds
+2017-12-07 11:09:32,387 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.09324836730957031 seconds
+2017-12-07 11:09:35,469 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0289111137390137 seconds
+2017-12-07 11:09:35,470 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:09:35,472 - root - INFO - ############################### START ###############################
+2017-12-07 11:09:38,948 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4749300479888916 seconds
+2017-12-07 11:09:40,358 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.408555030822754 seconds
+2017-12-07 11:09:41,541 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1827647686004639 seconds
+2017-12-07 11:09:41,849 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.30672383308410645 seconds
+2017-12-07 11:09:42,838 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 0.9866800308227539 seconds
+2017-12-07 11:09:43,670 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8323864936828613 seconds
+2017-12-07 11:09:43,836 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10678386688232422 seconds
+2017-12-07 11:09:46,928 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0248048305511475 seconds
+2017-12-07 11:09:46,929 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:09:46,931 - root - INFO - ############################### START ###############################
+2017-12-07 11:09:50,447 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.515655517578125 seconds
+2017-12-07 11:09:51,861 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4119350910186768 seconds
+2017-12-07 11:09:53,038 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1768779754638672 seconds
+2017-12-07 11:09:53,269 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.22942399978637695 seconds
+2017-12-07 11:09:55,116 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.8462727069854736 seconds
+2017-12-07 11:09:55,731 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6145036220550537 seconds
+2017-12-07 11:09:58,799 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0315232276916504 seconds
+2017-12-07 11:09:58,800 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:09:58,801 - root - INFO - ############################### START ###############################
+2017-12-07 11:10:02,314 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.511414051055908 seconds
+2017-12-07 11:10:03,712 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3980662822723389 seconds
+2017-12-07 11:10:04,902 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1887803077697754 seconds
+2017-12-07 11:10:05,256 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.35454535484313965 seconds
+2017-12-07 11:10:06,197 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 0.940000057220459 seconds
+2017-12-07 11:10:06,806 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.606015682220459 seconds
+2017-12-07 11:10:09,875 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0294172763824463 seconds
+2017-12-07 11:10:09,876 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:10:09,878 - root - INFO - ############################### START ###############################
+2017-12-07 11:10:13,366 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.48728346824646 seconds
+2017-12-07 11:10:14,763 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3963580131530762 seconds
+2017-12-07 11:10:15,942 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1781022548675537 seconds
+2017-12-07 11:10:16,254 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.31061697006225586 seconds
+2017-12-07 11:10:17,152 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.8973665237426758 seconds
+2017-12-07 11:10:17,780 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.627251386642456 seconds
+2017-12-07 11:10:20,862 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0366649627685547 seconds
+2017-12-07 11:10:20,863 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:11:30,492 - root - INFO - ############################### START ###############################
+2017-12-07 11:11:33,995 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.503197193145752 seconds
+2017-12-07 11:11:35,519 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5222766399383545 seconds
+2017-12-07 11:11:36,689 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1688694953918457 seconds
+2017-12-07 11:11:36,950 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.260190486907959 seconds
+2017-12-07 11:11:38,990 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.038874387741089 seconds
+2017-12-07 11:11:39,115 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.12465715408325195 seconds
+2017-12-07 11:11:39,214 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09826087951660156 seconds
+2017-12-07 11:11:39,419 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['c', '3', '4', 'd'], Spend 0.09625625610351562 seconds
+2017-12-07 11:11:49,526 - root - INFO - SUCCESS    Get current window url, Spend 0.013363122940063477 seconds
+2017-12-07 11:11:52,582 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.05469012260437 seconds
+2017-12-07 11:11:52,584 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:11:52,587 - root - INFO - ############################### START ###############################
+2017-12-07 11:11:56,293 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7045605182647705 seconds
+2017-12-07 11:11:57,733 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4394943714141846 seconds
+2017-12-07 11:11:58,904 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1696557998657227 seconds
+2017-12-07 11:11:59,233 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.32895922660827637 seconds
+2017-12-07 11:12:00,220 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 0.9862868785858154 seconds
+2017-12-07 11:12:00,942 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7204766273498535 seconds
+2017-12-07 11:12:04,008 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0300118923187256 seconds
+2017-12-07 11:12:04,009 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:12:04,011 - root - INFO - ############################### START ###############################
+2017-12-07 11:12:07,725 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.713531732559204 seconds
+2017-12-07 11:12:09,098 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3715722560882568 seconds
+2017-12-07 11:12:10,271 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172698736190796 seconds
+2017-12-07 11:12:10,628 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3549509048461914 seconds
+2017-12-07 11:12:11,561 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 0.9320852756500244 seconds
+2017-12-07 11:12:12,235 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6736409664154053 seconds
+2017-12-07 11:12:12,380 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.09224557876586914 seconds
+2017-12-07 11:12:15,475 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0388739109039307 seconds
+2017-12-07 11:12:15,476 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:12:15,478 - root - INFO - ############################### START ###############################
+2017-12-07 11:12:19,001 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5222153663635254 seconds
+2017-12-07 11:12:20,438 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4352805614471436 seconds
+2017-12-07 11:12:21,610 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172182559967041 seconds
+2017-12-07 11:12:21,947 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3360261917114258 seconds
+2017-12-07 11:12:23,753 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.8050577640533447 seconds
+2017-12-07 11:12:24,619 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8643689155578613 seconds
+2017-12-07 11:12:24,786 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.09475016593933105 seconds
+2017-12-07 11:12:27,866 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026548147201538 seconds
+2017-12-07 11:12:27,867 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:12:27,867 - root - INFO - ############################### START ###############################
+2017-12-07 11:12:31,359 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.490384101867676 seconds
+2017-12-07 11:12:32,800 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.440258264541626 seconds
+2017-12-07 11:12:33,965 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1652107238769531 seconds
+2017-12-07 11:12:34,291 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3243234157562256 seconds
+2017-12-07 11:12:36,068 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7767055034637451 seconds
+2017-12-07 11:12:36,675 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6066136360168457 seconds
+2017-12-07 11:12:39,749 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0348405838012695 seconds
+2017-12-07 11:12:39,751 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:12:39,753 - root - INFO - ############################### START ###############################
+2017-12-07 11:12:43,457 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7026634216308594 seconds
+2017-12-07 11:12:44,878 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4213783740997314 seconds
+2017-12-07 11:12:46,047 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1675777435302734 seconds
+2017-12-07 11:12:46,348 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3006863594055176 seconds
+2017-12-07 11:12:47,278 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 0.9295852184295654 seconds
+2017-12-07 11:12:47,882 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.602346658706665 seconds
+2017-12-07 11:12:50,931 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0272159576416016 seconds
+2017-12-07 11:12:50,932 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:12:50,933 - root - INFO - ############################### START ###############################
+2017-12-07 11:12:54,434 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.498647689819336 seconds
+2017-12-07 11:12:55,982 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5470144748687744 seconds
+2017-12-07 11:12:57,150 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1671335697174072 seconds
+2017-12-07 11:12:57,473 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3226931095123291 seconds
+2017-12-07 11:12:58,418 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.9426243305206299 seconds
+2017-12-07 11:12:59,033 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.614281177520752 seconds
+2017-12-07 11:13:02,110 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0331051349639893 seconds
+2017-12-07 11:13:02,111 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:23:24,821 - root - INFO - ############################### START ###############################
+2017-12-07 11:23:28,511 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6894173622131348 seconds
+2017-12-07 11:23:29,907 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.395711898803711 seconds
+2017-12-07 11:23:31,052 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1438887119293213 seconds
+2017-12-07 11:23:31,279 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.22623038291931152 seconds
+2017-12-07 11:23:33,307 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.026031970977783 seconds
+2017-12-07 11:23:33,401 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.0934295654296875 seconds
+2017-12-07 11:23:33,496 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09375 seconds
+2017-12-07 11:23:33,705 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['0', 'K', 'C', 'x'], Spend 0.09692764282226562 seconds
+2017-12-07 11:23:43,813 - root - INFO - SUCCESS    Get current window url, Spend 0.01505279541015625 seconds
+2017-12-07 11:23:46,872 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0554375648498535 seconds
+2017-12-07 11:23:46,874 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:23:46,878 - root - INFO - ############################### START ###############################
+2017-12-07 11:23:50,415 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5364532470703125 seconds
+2017-12-07 11:23:51,894 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.477224588394165 seconds
+2017-12-07 11:23:53,066 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.170959234237671 seconds
+2017-12-07 11:23:53,378 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.31226277351379395 seconds
+2017-12-07 11:23:55,158 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.779761552810669 seconds
+2017-12-07 11:23:55,882 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7229158878326416 seconds
+2017-12-07 11:23:58,973 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.036888837814331 seconds
+2017-12-07 11:23:58,975 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:23:58,977 - root - INFO - ############################### START ###############################
+2017-12-07 11:24:02,528 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5503387451171875 seconds
+2017-12-07 11:24:04,130 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5999736785888672 seconds
+2017-12-07 11:24:05,296 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1633291244506836 seconds
+2017-12-07 11:24:05,644 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3470332622528076 seconds
+2017-12-07 11:24:07,443 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7983593940734863 seconds
+2017-12-07 11:24:08,090 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6458978652954102 seconds
+2017-12-07 11:24:08,236 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.09174418449401855 seconds
+2017-12-07 11:24:11,318 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0288708209991455 seconds
+2017-12-07 11:24:11,320 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:24:11,321 - root - INFO - ############################### START ###############################
+2017-12-07 11:24:14,848 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5248303413391113 seconds
+2017-12-07 11:24:16,226 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.3767585754394531 seconds
+2017-12-07 11:24:17,409 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.181746244430542 seconds
+2017-12-07 11:24:17,743 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3323812484741211 seconds
+2017-12-07 11:24:19,540 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.7968392372131348 seconds
+2017-12-07 11:24:20,327 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7864999771118164 seconds
+2017-12-07 11:24:20,481 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10076737403869629 seconds
+2017-12-07 11:24:23,559 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.026660680770874 seconds
+2017-12-07 11:24:23,560 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:24:23,562 - root - INFO - ############################### START ###############################
+2017-12-07 11:24:27,280 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.714015245437622 seconds
+2017-12-07 11:24:28,686 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4051542282104492 seconds
+2017-12-07 11:24:29,866 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1793224811553955 seconds
+2017-12-07 11:24:30,203 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.33739447593688965 seconds
+2017-12-07 11:24:31,986 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.781874418258667 seconds
+2017-12-07 11:24:32,625 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6372344493865967 seconds
+2017-12-07 11:24:35,693 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0294454097747803 seconds
+2017-12-07 11:24:35,695 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:24:35,697 - root - INFO - ############################### START ###############################
+2017-12-07 11:24:39,194 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4963250160217285 seconds
+2017-12-07 11:24:40,727 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5312514305114746 seconds
+2017-12-07 11:24:41,898 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1696569919586182 seconds
+2017-12-07 11:24:42,234 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3359494209289551 seconds
+2017-12-07 11:24:43,909 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.673985481262207 seconds
+2017-12-07 11:24:44,546 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6356329917907715 seconds
+2017-12-07 11:24:47,626 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0318362712860107 seconds
+2017-12-07 11:24:47,628 - root - INFO - ###############################  End  ###############################
+2017-12-07 11:24:47,630 - root - INFO - ############################### START ###############################
+2017-12-07 11:24:51,348 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7165143489837646 seconds
+2017-12-07 11:24:52,879 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5305681228637695 seconds
+2017-12-07 11:24:54,017 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1371002197265625 seconds
+2017-12-07 11:24:54,364 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.34594202041625977 seconds
+2017-12-07 11:24:55,292 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.9261784553527832 seconds
+2017-12-07 11:24:55,883 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5899372100830078 seconds
+2017-12-07 11:24:58,965 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.047807216644287 seconds
+2017-12-07 11:24:58,966 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:44:13,038 - root - INFO - ############################### START ###############################
+2017-12-07 13:44:16,737 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6992032527923584 seconds
+2017-12-07 13:44:18,492 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.7535572052001953 seconds
+2017-12-07 13:44:19,669 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.175243616104126 seconds
+2017-12-07 13:44:19,966 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.29686927795410156 seconds
+2017-12-07 13:44:20,980 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.0124619007110596 seconds
+2017-12-07 13:44:21,056 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07467055320739746 seconds
+2017-12-07 13:44:21,153 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09675741195678711 seconds
+2017-12-07 13:44:21,361 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['F', 'x', '5', 'p'], Spend 0.09425020217895508 seconds
+2017-12-07 13:44:31,451 - root - INFO - SUCCESS    Get current window url, Spend 0.014353752136230469 seconds
+2017-12-07 13:44:34,524 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0703928470611572 seconds
+2017-12-07 13:44:34,525 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:44:34,528 - root - INFO - ############################### START ###############################
+2017-12-07 13:44:38,239 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7102134227752686 seconds
+2017-12-07 13:44:39,778 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5380549430847168 seconds
+2017-12-07 13:44:40,944 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.165632963180542 seconds
+2017-12-07 13:44:41,141 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.19588589668273926 seconds
+2017-12-07 13:44:43,023 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.8799383640289307 seconds
+2017-12-07 13:44:43,782 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7574942111968994 seconds
+2017-12-07 13:44:46,849 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0468761920928955 seconds
+2017-12-07 13:44:46,850 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:44:46,852 - root - INFO - ############################### START ###############################
+2017-12-07 13:44:50,557 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.704108476638794 seconds
+2017-12-07 13:44:52,028 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.469773292541504 seconds
+2017-12-07 13:44:53,208 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1793973445892334 seconds
+2017-12-07 13:44:53,336 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.1266789436340332 seconds
+2017-12-07 13:44:55,199 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.8619301319122314 seconds
+2017-12-07 13:44:55,870 - root - INFO - SUCCESS    Element <name->email> type content: 123456789@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6701602935791016 seconds
+2017-12-07 13:44:56,032 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10559654235839844 seconds
+2017-12-07 13:45:01,139 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.105871915817261 seconds
+2017-12-07 13:45:04,202 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.061798572540283 seconds
+2017-12-07 13:45:04,203 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:45:04,207 - root - INFO - ############################### START ###############################
+2017-12-07 13:45:07,920 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7110538482666016 seconds
+2017-12-07 13:45:09,355 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4339771270751953 seconds
+2017-12-07 13:45:10,521 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1648294925689697 seconds
+2017-12-07 13:45:10,835 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3129429817199707 seconds
+2017-12-07 13:45:11,765 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 0.9289946556091309 seconds
+2017-12-07 13:45:12,627 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8612463474273682 seconds
+2017-12-07 13:45:12,785 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10176968574523926 seconds
+2017-12-07 13:45:15,888 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0493698120117188 seconds
+2017-12-07 13:45:15,889 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:45:15,890 - root - INFO - ############################### START ###############################
+2017-12-07 13:45:19,405 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5139498710632324 seconds
+2017-12-07 13:45:20,896 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4913368225097656 seconds
+2017-12-07 13:45:22,068 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.171159267425537 seconds
+2017-12-07 13:45:22,313 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.24428868293762207 seconds
+2017-12-07 13:45:24,120 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.8059747219085693 seconds
+2017-12-07 13:45:24,739 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6176426410675049 seconds
+2017-12-07 13:45:27,862 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0733306407928467 seconds
+2017-12-07 13:45:27,863 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:45:27,865 - root - INFO - ############################### START ###############################
+2017-12-07 13:45:31,598 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.732522964477539 seconds
+2017-12-07 13:45:33,126 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5272371768951416 seconds
+2017-12-07 13:45:34,299 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.171299695968628 seconds
+2017-12-07 13:45:34,543 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.2423107624053955 seconds
+2017-12-07 13:45:36,396 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.8519721031188965 seconds
+2017-12-07 13:45:37,038 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6407036781311035 seconds
+2017-12-07 13:45:40,126 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0455708503723145 seconds
+2017-12-07 13:45:40,127 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:45:40,128 - root - INFO - ############################### START ###############################
+2017-12-07 13:45:43,870 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.740011692047119 seconds
+2017-12-07 13:45:45,291 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.419830560684204 seconds
+2017-12-07 13:45:46,479 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.187645673751831 seconds
+2017-12-07 13:45:46,802 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3220674991607666 seconds
+2017-12-07 13:45:48,602 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.798119068145752 seconds
+2017-12-07 13:45:49,202 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5990924835205078 seconds
+2017-12-07 13:45:52,262 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0466511249542236 seconds
+2017-12-07 13:45:52,263 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:47:25,256 - root - INFO - ############################### START ###############################
+2017-12-07 13:47:28,953 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.695216417312622 seconds
+2017-12-07 13:47:30,422 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.467879056930542 seconds
+2017-12-07 13:47:31,596 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1721384525299072 seconds
+2017-12-07 13:47:31,740 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.1423647403717041 seconds
+2017-12-07 13:47:33,791 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.0506553649902344 seconds
+2017-12-07 13:47:33,856 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06417012214660645 seconds
+2017-12-07 13:47:33,975 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1193079948425293 seconds
+2017-12-07 13:47:34,173 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['F', 'v', 'Q', 'O'], Spend 0.09525632858276367 seconds
+2017-12-07 13:47:44,284 - root - INFO - SUCCESS    Get current window url, Spend 0.013463258743286133 seconds
+2017-12-07 13:47:47,349 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.062370538711548 seconds
+2017-12-07 13:47:47,350 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:47:47,352 - root - INFO - ############################### START ###############################
+2017-12-07 13:47:50,888 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5340726375579834 seconds
+2017-12-07 13:47:52,337 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4484961032867432 seconds
+2017-12-07 13:47:53,521 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1826872825622559 seconds
+2017-12-07 13:47:53,771 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.24789834022521973 seconds
+2017-12-07 13:47:55,647 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.8760292530059814 seconds
+2017-12-07 13:47:56,384 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7354567050933838 seconds
+2017-12-07 13:47:59,478 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.04689884185791 seconds
+2017-12-07 13:47:59,478 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:47:59,479 - root - INFO - ############################### START ###############################
+2017-12-07 13:48:02,945 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4650683403015137 seconds
+2017-12-07 13:48:04,469 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5236351490020752 seconds
+2017-12-07 13:48:05,628 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1575157642364502 seconds
+2017-12-07 13:48:05,877 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.2484421730041504 seconds
+2017-12-07 13:48:07,731 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.8527255058288574 seconds
+2017-12-07 13:48:08,395 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6627614498138428 seconds
+2017-12-07 13:48:08,542 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10177063941955566 seconds
+2017-12-07 13:48:13,620 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.077007293701172 seconds
+2017-12-07 13:48:16,678 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0567996501922607 seconds
+2017-12-07 13:48:16,679 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:48:16,682 - root - INFO - ############################### START ###############################
+2017-12-07 13:48:20,447 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.763953924179077 seconds
+2017-12-07 13:48:22,005 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5543410778045654 seconds
+2017-12-07 13:48:23,183 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1759076118469238 seconds
+2017-12-07 13:48:23,527 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.34347057342529297 seconds
+2017-12-07 13:48:24,475 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 0.9487452507019043 seconds
+2017-12-07 13:48:25,314 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8367257118225098 seconds
+2017-12-07 13:48:25,479 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10277295112609863 seconds
+2017-12-07 13:48:28,581 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0469436645507812 seconds
+2017-12-07 13:48:28,582 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:48:28,583 - root - INFO - ############################### START ###############################
+2017-12-07 13:48:32,353 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7690582275390625 seconds
+2017-12-07 13:48:33,878 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5239348411560059 seconds
+2017-12-07 13:48:35,034 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1545708179473877 seconds
+2017-12-07 13:48:35,341 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3058152198791504 seconds
+2017-12-07 13:48:37,149 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.807391881942749 seconds
+2017-12-07 13:48:37,772 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6216535568237305 seconds
+2017-12-07 13:48:40,856 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.044713258743286 seconds
+2017-12-07 13:48:40,857 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:48:40,858 - root - INFO - ############################### START ###############################
+2017-12-07 13:48:44,401 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.5411882400512695 seconds
+2017-12-07 13:48:46,194 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.7919549942016602 seconds
+2017-12-07 13:48:47,333 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.138737678527832 seconds
+2017-12-07 13:48:47,685 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.35175585746765137 seconds
+2017-12-07 13:48:49,479 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.792585849761963 seconds
+2017-12-07 13:48:50,097 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6171455383300781 seconds
+2017-12-07 13:48:53,205 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0561347007751465 seconds
+2017-12-07 13:48:53,206 - root - INFO - ###############################  End  ###############################
+2017-12-07 13:48:53,207 - root - INFO - ############################### START ###############################
+2017-12-07 13:48:57,003 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.795076370239258 seconds
+2017-12-07 13:48:58,462 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4582462310791016 seconds
+2017-12-07 13:48:59,633 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1693744659423828 seconds
+2017-12-07 13:48:59,950 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3170511722564697 seconds
+2017-12-07 13:49:01,805 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.8527913093566895 seconds
+2017-12-07 13:49:02,433 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6281709671020508 seconds
+2017-12-07 13:49:05,532 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.064578056335449 seconds
+2017-12-07 13:49:05,532 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:11:07,918 - root - INFO - ############################### START ###############################
+2017-12-07 14:11:11,588 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6688051223754883 seconds
+2017-12-07 14:11:13,357 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.7685410976409912 seconds
+2017-12-07 14:11:14,505 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.146958351135254 seconds
+2017-12-07 14:11:14,769 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2628335952758789 seconds
+2017-12-07 14:11:16,609 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8394510746002197 seconds
+2017-12-07 14:11:16,676 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.0661475658416748 seconds
+2017-12-07 14:11:16,792 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.11527180671691895 seconds
+2017-12-07 14:11:17,006 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['h', 'P', 'v', 'y'], Spend 0.09826183319091797 seconds
+2017-12-07 14:11:27,150 - root - INFO - SUCCESS    Get current window url, Spend 0.011026144027709961 seconds
+2017-12-07 14:11:30,203 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.050461769104004 seconds
+2017-12-07 14:11:30,205 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:11:30,207 - root - INFO - ############################### START ###############################
+2017-12-07 14:11:33,989 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7806127071380615 seconds
+2017-12-07 14:11:35,512 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5222418308258057 seconds
+2017-12-07 14:11:36,687 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1747322082519531 seconds
+2017-12-07 14:11:37,003 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.31624913215637207 seconds
+2017-12-07 14:11:38,790 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.7867441177368164 seconds
+2017-12-07 14:11:39,523 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7314491271972656 seconds
+2017-12-07 14:11:42,593 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0291991233825684 seconds
+2017-12-07 14:11:42,594 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:11:42,596 - root - INFO - ############################### START ###############################
+2017-12-07 14:11:46,336 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7398011684417725 seconds
+2017-12-07 14:11:47,784 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4473907947540283 seconds
+2017-12-07 14:11:48,962 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.177103042602539 seconds
+2017-12-07 14:11:49,233 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.2703557014465332 seconds
+2017-12-07 14:11:51,054 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.8204529285430908 seconds
+2017-12-07 14:11:51,818 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7635319232940674 seconds
+2017-12-07 14:11:51,979 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10528016090393066 seconds
+2017-12-07 14:11:57,076 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.096029281616211 seconds
+2017-12-07 14:12:00,128 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.051331043243408 seconds
+2017-12-07 14:12:00,129 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:12:00,133 - root - INFO - ############################### START ###############################
+2017-12-07 14:12:03,831 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.695866584777832 seconds
+2017-12-07 14:12:05,345 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5128536224365234 seconds
+2017-12-07 14:12:06,518 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1722419261932373 seconds
+2017-12-07 14:12:06,859 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3396158218383789 seconds
+2017-12-07 14:12:08,670 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.8099520206451416 seconds
+2017-12-07 14:12:09,577 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.9059040546417236 seconds
+2017-12-07 14:12:09,763 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.12382960319519043 seconds
+2017-12-07 14:12:12,858 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.031813621520996 seconds
+2017-12-07 14:12:12,860 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:12:12,861 - root - INFO - ############################### START ###############################
+2017-12-07 14:12:16,608 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.74503755569458 seconds
+2017-12-07 14:12:18,191 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.582275390625 seconds
+2017-12-07 14:12:19,327 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1357600688934326 seconds
+2017-12-07 14:12:19,660 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3318924903869629 seconds
+2017-12-07 14:12:20,604 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 0.9431045055389404 seconds
+2017-12-07 14:12:21,200 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5955498218536377 seconds
+2017-12-07 14:12:24,279 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0325968265533447 seconds
+2017-12-07 14:12:24,280 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:12:24,282 - root - INFO - ############################### START ###############################
+2017-12-07 14:12:27,952 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6695377826690674 seconds
+2017-12-07 14:12:29,407 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4532599449157715 seconds
+2017-12-07 14:12:30,554 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.14609956741333 seconds
+2017-12-07 14:12:30,888 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.33335137367248535 seconds
+2017-12-07 14:12:32,658 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.7689695358276367 seconds
+2017-12-07 14:12:33,226 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5680105686187744 seconds
+2017-12-07 14:12:36,279 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0316226482391357 seconds
+2017-12-07 14:12:36,280 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:12:36,282 - root - INFO - ############################### START ###############################
+2017-12-07 14:12:40,068 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7849841117858887 seconds
+2017-12-07 14:12:41,591 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5226783752441406 seconds
+2017-12-07 14:12:42,734 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1422808170318604 seconds
+2017-12-07 14:12:43,053 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3170633316040039 seconds
+2017-12-07 14:12:44,007 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 0.9536042213439941 seconds
+2017-12-07 14:12:44,584 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.5755305290222168 seconds
+2017-12-07 14:12:47,630 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.028702735900879 seconds
+2017-12-07 14:12:47,631 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:14:56,381 - root - INFO - ############################### START ###############################
+2017-12-07 14:15:00,036 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6536381244659424 seconds
+2017-12-07 14:15:01,580 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5433907508850098 seconds
+2017-12-07 14:15:02,757 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1746244430541992 seconds
+2017-12-07 14:15:03,033 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.27396225929260254 seconds
+2017-12-07 14:15:04,913 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.880274772644043 seconds
+2017-12-07 14:15:05,650 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7364585399627686 seconds
+2017-12-07 14:15:05,809 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10678339004516602 seconds
+2017-12-07 14:15:08,898 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0516250133514404 seconds
+2017-12-07 14:15:08,899 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:15:36,784 - root - INFO - ############################### START ###############################
+2017-12-07 14:15:40,551 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7656166553497314 seconds
+2017-12-07 14:15:41,971 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4175169467926025 seconds
+2017-12-07 14:15:43,108 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.136016845703125 seconds
+2017-12-07 14:15:43,440 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3307368755340576 seconds
+2017-12-07 14:15:45,293 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.8517866134643555 seconds
+2017-12-07 14:15:46,038 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7439806461334229 seconds
+2017-12-07 14:15:46,187 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.10878896713256836 seconds
+2017-12-07 14:15:47,360 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 1.0843820571899414 seconds
+2017-12-07 14:15:47,450 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.08820390701293945 seconds
+2017-12-07 14:15:47,568 - root - INFO - SUCCESS    Clicked element: <name->passwordConfirm>, Spend 0.11630892753601074 seconds
+2017-12-07 14:15:47,638 - root - INFO - SUCCESS    Typed element: <name->passwordConfirm> content: 123456, Spend 0.0686802864074707 seconds
+2017-12-07 14:15:47,846 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['W', 'l', 'D', 'y'], Spend 0.10528206825256348 seconds
+2017-12-07 14:15:53,000 - root - INFO - SUCCESS    Get current window url, Spend 0.05263829231262207 seconds
+2017-12-07 14:15:56,057 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0562427043914795 seconds
+2017-12-07 14:15:56,058 - root - INFO - ###############################  End  ###############################
+2017-12-07 14:53:49,261 - root - INFO - ############################### START ###############################
+2017-12-07 14:53:53,029 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7664151191711426 seconds
+2017-12-07 14:53:54,532 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5018205642700195 seconds
+2017-12-07 14:53:55,708 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.175133228302002 seconds
+2017-12-07 14:53:56,083 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3746664524078369 seconds
+2017-12-07 14:53:57,852 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.7668862342834473 seconds
+2017-12-07 14:53:58,487 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6351158618927002 seconds
+2017-12-07 14:53:58,685 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.12583446502685547 seconds
+2017-12-07 14:54:03,830 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.075770139694214 seconds
+2017-12-07 14:54:06,890 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0571460723876953 seconds
+2017-12-07 14:54:06,891 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:04:14,320 - root - INFO - ############################### START ###############################
+2017-12-07 15:04:17,976 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.655447006225586 seconds
+2017-12-07 15:04:19,430 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4526185989379883 seconds
+2017-12-07 15:04:20,578 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1470482349395752 seconds
+2017-12-07 15:04:20,844 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.26512837409973145 seconds
+2017-12-07 15:04:22,970 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.1243302822113037 seconds
+2017-12-07 15:04:23,056 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08518075942993164 seconds
+2017-12-07 15:04:23,177 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.11981868743896484 seconds
+2017-12-07 15:04:23,390 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['R', 'a', 'W', '2'], Spend 0.10177016258239746 seconds
+2017-12-07 15:04:31,454 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0611438751220703 seconds
+2017-12-07 15:04:31,455 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:05:52,172 - root - INFO - ############################### START ###############################
+2017-12-07 15:05:55,924 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7513535022735596 seconds
+2017-12-07 15:05:57,460 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5341565608978271 seconds
+2017-12-07 15:05:58,621 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1570770740509033 seconds
+2017-12-07 15:05:58,871 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2504606246948242 seconds
+2017-12-07 15:05:59,954 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.0815143585205078 seconds
+2017-12-07 15:06:00,027 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07069253921508789 seconds
+2017-12-07 15:06:00,152 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.12282633781433105 seconds
+2017-12-07 15:06:00,380 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['t', 'T', 'W', 'W'], Spend 0.10377335548400879 seconds
+2017-12-07 15:14:12,717 - root - INFO - ############################### START ###############################
+2017-12-07 15:14:19,156 - root - INFO - ############################### START ###############################
+2017-12-07 15:14:22,828 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6700642108917236 seconds
+2017-12-07 15:14:24,411 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5803489685058594 seconds
+2017-12-07 15:14:25,598 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.18464994430542 seconds
+2017-12-07 15:14:25,881 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2796440124511719 seconds
+2017-12-07 15:14:27,044 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.16102933883667 seconds
+2017-12-07 15:14:27,132 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08572745323181152 seconds
+2017-12-07 15:14:27,239 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10528016090393066 seconds
+2017-12-07 15:14:27,469 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['o', 'D', 'W', 'G'], Spend 0.10578227043151855 seconds
+2017-12-07 15:16:02,380 - root - INFO - ############################### START ###############################
+2017-12-07 15:16:06,082 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7003583908081055 seconds
+2017-12-07 15:16:07,554 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4696407318115234 seconds
+2017-12-07 15:16:08,695 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1385271549224854 seconds
+2017-12-07 15:16:09,008 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3113548755645752 seconds
+2017-12-07 15:16:10,187 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.1762211322784424 seconds
+2017-12-07 15:16:10,276 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08672499656677246 seconds
+2017-12-07 15:16:10,404 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.12633490562438965 seconds
+2017-12-07 15:16:10,653 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['z', 'S', 'T', 'E'], Spend 0.12583661079406738 seconds
+2017-12-07 15:21:43,286 - root - INFO - ############################### START ###############################
+2017-12-07 15:21:46,951 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6635775566101074 seconds
+2017-12-07 15:21:48,440 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4879817962646484 seconds
+2017-12-07 15:21:49,583 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.142035961151123 seconds
+2017-12-07 15:21:49,842 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2558722496032715 seconds
+2017-12-07 15:21:51,711 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8668937683105469 seconds
+2017-12-07 15:21:51,785 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07166361808776855 seconds
+2017-12-07 15:21:51,886 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1007382869720459 seconds
+2017-12-07 15:21:52,112 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['m', 'K', 'b', 'U'], Spend 0.11229896545410156 seconds
+2017-12-07 15:29:56,318 - root - INFO - ############################### START ###############################
+2017-12-07 15:29:59,996 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6761715412139893 seconds
+2017-12-07 15:30:01,509 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5109245777130127 seconds
+2017-12-07 15:30:02,661 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.151062250137329 seconds
+2017-12-07 15:30:03,005 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.34126782417297363 seconds
+2017-12-07 15:30:04,803 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.7968308925628662 seconds
+2017-12-07 15:30:04,889 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08422470092773438 seconds
+2017-12-07 15:30:04,995 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10477876663208008 seconds
+2017-12-07 15:30:05,222 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['r', 'w', 'f', 'N'], Spend 0.11330509185791016 seconds
+2017-12-07 15:30:10,263 - root - INFO - FAIL    Unable to click element: <tag_name->button>, Spend 0.0 seconds
+2017-12-07 15:30:13,321 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.057669162750244 seconds
+2017-12-07 15:30:13,322 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:34:37,941 - root - INFO - ############################### START ###############################
+2017-12-07 15:34:41,602 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6608006954193115 seconds
+2017-12-07 15:34:44,171 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 2.567603588104248 seconds
+2017-12-07 15:34:45,315 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1430373191833496 seconds
+2017-12-07 15:34:45,659 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3428630828857422 seconds
+2017-12-07 15:34:47,392 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.7301723957061768 seconds
+2017-12-07 15:34:47,463 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07018733024597168 seconds
+2017-12-07 15:34:47,602 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.13736605644226074 seconds
+2017-12-07 15:34:47,795 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['S', 'T', '2', 'v'], Spend 0.10879111289978027 seconds
+2017-12-07 15:34:52,851 - root - INFO - FAIL    Unable to click element: <tag_name->button>, Spend 0.0 seconds
+2017-12-07 15:34:55,907 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0539042949676514 seconds
+2017-12-07 15:34:55,911 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:35:37,967 - root - INFO - ############################### START ###############################
+2017-12-07 15:35:41,681 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7119500637054443 seconds
+2017-12-07 15:35:43,199 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5155017375946045 seconds
+2017-12-07 15:35:44,362 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1585805416107178 seconds
+2017-12-07 15:35:44,695 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3294041156768799 seconds
+2017-12-07 15:35:45,599 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.902719259262085 seconds
+2017-12-07 15:35:45,668 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06868362426757812 seconds
+2017-12-07 15:35:45,765 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09475016593933105 seconds
+2017-12-07 15:35:46,015 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['Y', 'E', '1', 'p'], Spend 0.1348583698272705 seconds
+2017-12-07 15:35:54,095 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0368714332580566 seconds
+2017-12-07 15:35:54,100 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:36:15,033 - root - INFO - ############################### START ###############################
+2017-12-07 15:36:18,730 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6946585178375244 seconds
+2017-12-07 15:36:20,403 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.672191858291626 seconds
+2017-12-07 15:36:21,567 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1625909805297852 seconds
+2017-12-07 15:36:21,848 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.27722692489624023 seconds
+2017-12-07 15:36:23,793 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.943253517150879 seconds
+2017-12-07 15:36:23,882 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.0867307186126709 seconds
+2017-12-07 15:36:23,983 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09976482391357422 seconds
+2017-12-07 15:36:24,231 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['V', 'x', '1', 'B'], Spend 0.13034629821777344 seconds
+2017-12-07 15:36:32,452 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041616201400757 seconds
+2017-12-07 15:36:32,457 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:40:23,355 - root - INFO - ############################### START ###############################
+2017-12-07 15:40:27,052 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.696341037750244 seconds
+2017-12-07 15:41:27,368 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 60.31365084648132 seconds
+2017-12-07 15:41:28,522 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1524479389190674 seconds
+2017-12-07 15:41:33,626 - root - INFO - FAIL    Unable to click element: <link_text->登录>, Spend 5.1022632122039795 seconds
+2017-12-07 15:41:36,669 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0417709350585938 seconds
+2017-12-07 15:41:36,670 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:41:43,997 - root - INFO - ############################### START ###############################
+2017-12-07 15:41:47,649 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.651914596557617 seconds
+2017-12-07 15:41:49,180 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5292119979858398 seconds
+2017-12-07 15:41:50,324 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1420326232910156 seconds
+2017-12-07 15:41:50,564 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.23821759223937988 seconds
+2017-12-07 15:41:51,534 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.9599471092224121 seconds
+2017-12-07 15:41:51,625 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08973932266235352 seconds
+2017-12-07 15:41:51,701 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.07419729232788086 seconds
+2017-12-07 15:41:51,945 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['l', 'T', 'G', 'o'], Spend 0.12633538246154785 seconds
+2017-12-07 15:42:02,190 - root - INFO - SUCCESS    Get current window url, Spend 0.03258633613586426 seconds
+2017-12-07 15:42:05,257 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0608012676239014 seconds
+2017-12-07 15:42:05,260 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:44:30,254 - root - INFO - ############################### START ###############################
+2017-12-07 15:44:33,961 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.706310272216797 seconds
+2017-12-07 15:44:35,863 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.9000003337860107 seconds
+2017-12-07 15:44:37,034 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1696090698242188 seconds
+2017-12-07 15:44:37,411 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.37385129928588867 seconds
+2017-12-07 15:44:38,363 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.9501693248748779 seconds
+2017-12-07 15:44:38,440 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07520079612731934 seconds
+2017-12-07 15:44:38,526 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08421945571899414 seconds
+2017-12-07 15:44:38,751 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['2', 'r', 'b', 'k'], Spend 0.11330151557922363 seconds
+2017-12-07 15:44:48,929 - root - INFO - SUCCESS    Get current window url, Spend 0.018049001693725586 seconds
+2017-12-07 15:44:51,973 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0406081676483154 seconds
+2017-12-07 15:44:51,976 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:45:20,628 - root - INFO - ############################### START ###############################
+2017-12-07 15:45:24,313 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6839914321899414 seconds
+2017-12-07 15:45:25,977 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.6634678840637207 seconds
+2017-12-07 15:45:27,117 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1385290622711182 seconds
+2017-12-07 15:45:27,286 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.16903471946716309 seconds
+2017-12-07 15:45:29,218 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.931074857711792 seconds
+2017-12-07 15:45:29,284 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06517291069030762 seconds
+2017-12-07 15:45:29,383 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09876298904418945 seconds
+2017-12-07 15:45:29,593 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['G', 'E', 'm', 'g'], Spend 0.10177111625671387 seconds
+2017-12-07 15:45:39,772 - root - INFO - SUCCESS    Get current window url, Spend 0.029577255249023438 seconds
+2017-12-07 15:45:42,835 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0619146823883057 seconds
+2017-12-07 15:45:42,836 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:45:50,699 - root - INFO - ############################### START ###############################
+2017-12-07 15:45:54,398 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.698157787322998 seconds
+2017-12-07 15:45:55,864 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4652774333953857 seconds
+2017-12-07 15:45:57,044 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1801414489746094 seconds
+2017-12-07 15:45:57,329 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.28353214263916016 seconds
+2017-12-07 15:45:59,189 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8596086502075195 seconds
+2017-12-07 15:45:59,258 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06865286827087402 seconds
+2017-12-07 15:45:59,353 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.09419631958007812 seconds
+2017-12-07 15:45:59,564 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['Z', '3', 'L', '0'], Spend 0.10778522491455078 seconds
+2017-12-07 15:47:04,167 - root - INFO - ############################### START ###############################
+2017-12-07 15:47:07,884 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.71604061126709 seconds
+2017-12-07 15:47:09,490 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.605473279953003 seconds
+2017-12-07 15:47:10,629 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1375246047973633 seconds
+2017-12-07 15:47:10,941 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3114607334136963 seconds
+2017-12-07 15:47:12,061 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.1195952892303467 seconds
+2017-12-07 15:47:12,124 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.061664581298828125 seconds
+2017-12-07 15:47:12,241 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.11580824851989746 seconds
+2017-12-07 15:47:12,463 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['q', 'm', 'b', 'c'], Spend 0.10377645492553711 seconds
+2017-12-07 15:47:20,550 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0475409030914307 seconds
+2017-12-07 15:47:20,552 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:50:19,176 - root - INFO - ############################### START ###############################
+2017-12-07 15:50:22,953 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7754480838775635 seconds
+2017-12-07 15:50:24,559 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.604072093963623 seconds
+2017-12-07 15:50:25,753 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1906664371490479 seconds
+2017-12-07 15:50:25,932 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.176680326461792 seconds
+2017-12-07 15:50:28,107 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.1736040115356445 seconds
+2017-12-07 15:50:28,210 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.1002662181854248 seconds
+2017-12-07 15:50:28,337 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.12583446502685547 seconds
+2017-12-07 15:50:28,553 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['y', 'z', 'N', '0'], Spend 0.10578083992004395 seconds
+2017-12-07 15:50:36,672 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.043208599090576 seconds
+2017-12-07 15:50:36,673 - root - INFO - ###############################  End  ###############################
+2017-12-07 15:52:39,085 - root - INFO - ############################### START ###############################
+2017-12-07 15:52:42,757 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6712887287139893 seconds
+2017-12-07 15:52:44,249 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4900968074798584 seconds
+2017-12-07 15:52:45,428 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1767473220825195 seconds
+2017-12-07 15:52:45,754 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3233911991119385 seconds
+2017-12-07 15:52:47,857 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.0939321517944336 seconds
+2017-12-07 15:52:47,955 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.09475088119506836 seconds
+2017-12-07 15:52:48,077 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.12082266807556152 seconds
+2017-12-07 15:52:48,304 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['K', 'b', 'g', '9'], Spend 0.10528111457824707 seconds
+2017-12-07 15:52:53,480 - root - INFO - FAIL    Unable to click element: <tag_name->button>, Spend 0.0 seconds
+2017-12-07 15:52:56,531 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.048809766769409 seconds
+2017-12-07 15:52:56,532 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:03:40,105 - root - INFO - ############################### START ###############################
+2017-12-07 16:03:43,771 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6647040843963623 seconds
+2017-12-07 16:03:45,314 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5414631366729736 seconds
+2017-12-07 16:03:46,508 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1916358470916748 seconds
+2017-12-07 16:03:46,869 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3582594394683838 seconds
+2017-12-07 16:03:47,957 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.0817601680755615 seconds
+2017-12-07 16:03:48,025 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06717801094055176 seconds
+2017-12-07 16:03:48,131 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.1042778491973877 seconds
+2017-12-07 16:03:48,361 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['W', 't', '2', 'm'], Spend 0.10527896881103516 seconds
+2017-12-07 16:03:53,464 - root - INFO - FAIL    Unable to click element: <tag_name->button>, Spend 0.0 seconds
+2017-12-07 16:03:56,521 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0539419651031494 seconds
+2017-12-07 16:03:56,524 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:05:20,670 - root - INFO - ############################### START ###############################
+2017-12-07 16:05:24,377 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.706439256668091 seconds
+2017-12-07 16:05:25,862 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4831960201263428 seconds
+2017-12-07 16:05:27,040 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.176642656326294 seconds
+2017-12-07 16:05:27,178 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.13549256324768066 seconds
+2017-12-07 16:05:28,348 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.1690728664398193 seconds
+2017-12-07 16:05:28,419 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06968450546264648 seconds
+2017-12-07 16:05:28,528 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.10728573799133301 seconds
+2017-12-07 16:05:28,753 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['1', 'n', 'h', 'g'], Spend 0.1072852611541748 seconds
+2017-12-07 16:05:33,973 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: 123456, Spend 0.0832211971282959 seconds
+2017-12-07 16:05:39,055 - root - INFO - SUCCESS    Get current window url, Spend 0.01701068878173828 seconds
+2017-12-07 16:05:42,136 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0742883682250977 seconds
+2017-12-07 16:05:42,139 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:06:43,910 - root - INFO - ############################### START ###############################
+2017-12-07 16:06:47,588 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.676421642303467 seconds
+2017-12-07 16:06:49,108 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5184993743896484 seconds
+2017-12-07 16:06:50,292 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1826660633087158 seconds
+2017-12-07 16:06:50,634 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3325181007385254 seconds
+2017-12-07 16:06:51,556 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.9190964698791504 seconds
+2017-12-07 16:06:51,624 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06567716598510742 seconds
+2017-12-07 16:06:51,732 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.10728621482849121 seconds
+2017-12-07 16:06:51,953 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['2', 'G', 'Q', 'm'], Spend 0.10277438163757324 seconds
+2017-12-07 16:06:57,209 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: 123456, Spend 0.08321928977966309 seconds
+2017-12-07 16:07:05,339 - root - INFO - SUCCESS    Get current window url, Spend 0.017990589141845703 seconds
+2017-12-07 16:07:08,451 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.1056270599365234 seconds
+2017-12-07 16:07:08,454 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:08:58,061 - root - INFO - ############################### START ###############################
+2017-12-07 16:09:01,758 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6961982250213623 seconds
+2017-12-07 16:09:03,417 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.6565980911254883 seconds
+2017-12-07 16:09:04,598 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1796410083770752 seconds
+2017-12-07 16:09:04,875 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.2729482650756836 seconds
+2017-12-07 16:09:06,051 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.1741597652435303 seconds
+2017-12-07 16:09:06,123 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07068777084350586 seconds
+2017-12-07 16:09:06,231 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.10728597640991211 seconds
+2017-12-07 16:09:06,447 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['M', 'f', 'Y', 'D'], Spend 0.10377764701843262 seconds
+2017-12-07 16:09:14,534 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0415265560150146 seconds
+2017-12-07 16:09:14,538 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:10:21,516 - root - INFO - ############################### START ###############################
+2017-12-07 16:10:25,255 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.737795352935791 seconds
+2017-12-07 16:10:26,769 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.512732744216919 seconds
+2017-12-07 16:10:27,971 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2001616954803467 seconds
+2017-12-07 16:10:28,115 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.1410832405090332 seconds
+2017-12-07 16:10:29,199 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.081782341003418 seconds
+2017-12-07 16:10:29,272 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07169365882873535 seconds
+2017-12-07 16:10:29,376 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.10177063941955566 seconds
+2017-12-07 16:10:29,601 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['c', 'm', 's', 'f'], Spend 0.10628294944763184 seconds
+2017-12-07 16:10:37,704 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060035228729248 seconds
+2017-12-07 16:10:37,708 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:10:53,734 - root - INFO - ############################### START ###############################
+2017-12-07 16:10:57,439 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.703657388687134 seconds
+2017-12-07 16:10:58,962 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5210411548614502 seconds
+2017-12-07 16:11:00,117 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1540679931640625 seconds
+2017-12-07 16:11:00,436 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3173243999481201 seconds
+2017-12-07 16:11:02,431 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.9925587177276611 seconds
+2017-12-07 16:11:02,498 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.0661773681640625 seconds
+2017-12-07 16:11:02,605 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.10578107833862305 seconds
+2017-12-07 16:11:02,821 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['5', 'C', 'j', 'D'], Spend 0.10327458381652832 seconds
+2017-12-07 16:11:07,995 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: 123456, Spend 0.08372211456298828 seconds
+2017-12-07 16:11:16,105 - root - INFO - SUCCESS    Get current window url, Spend 0.02954268455505371 seconds
+2017-12-07 16:11:19,160 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0514121055603027 seconds
+2017-12-07 16:11:19,161 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:12:28,250 - root - INFO - ############################### START ###############################
+2017-12-07 16:12:32,002 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7500357627868652 seconds
+2017-12-07 16:12:33,485 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4822196960449219 seconds
+2017-12-07 16:12:34,631 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1445426940917969 seconds
+2017-12-07 16:12:34,795 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.15989279747009277 seconds
+2017-12-07 16:12:36,020 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.2234103679656982 seconds
+2017-12-07 16:12:36,098 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07670450210571289 seconds
+2017-12-07 16:12:36,218 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.11831545829772949 seconds
+2017-12-07 16:12:36,461 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['g', '7', 'B', '3'], Spend 0.1178133487701416 seconds
+2017-12-07 16:12:41,748 - root - INFO - SUCCESS    Typed element: <name->emailCode> content: 123456, Spend 0.13235020637512207 seconds
+2017-12-07 16:12:49,941 - root - INFO - SUCCESS    Get current window url, Spend 0.03950214385986328 seconds
+2017-12-07 16:12:53,011 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.064403533935547 seconds
+2017-12-07 16:12:53,012 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:13:13,870 - root - INFO - ############################### START ###############################
+2017-12-07 16:13:17,532 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6609890460968018 seconds
+2017-12-07 16:13:19,171 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.6373929977416992 seconds
+2017-12-07 16:13:20,313 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1410329341888428 seconds
+2017-12-07 16:13:20,473 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.15796327590942383 seconds
+2017-12-07 16:13:22,554 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.0786988735198975 seconds
+2017-12-07 16:13:22,674 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.11876773834228516 seconds
+2017-12-07 16:13:22,784 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.10828590393066406 seconds
+2017-12-07 16:13:23,008 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['K', 'w', 'w', 'S'], Spend 0.10528206825256348 seconds
+2017-12-07 16:13:28,238 - root - INFO - SUCCESS    Typed element: <name->emailCode> content: 123456, Spend 0.10878968238830566 seconds
+2017-12-07 16:13:36,407 - root - INFO - SUCCESS    Get current window url, Spend 0.044617414474487305 seconds
+2017-12-07 16:13:39,468 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.058570146560669 seconds
+2017-12-07 16:13:39,470 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:35:04,530 - root - INFO - ############################### START ###############################
+2017-12-07 16:35:08,220 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6886415481567383 seconds
+2017-12-07 16:35:09,740 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5192434787750244 seconds
+2017-12-07 16:35:10,893 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.149627923965454 seconds
+2017-12-07 16:35:11,273 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3773622512817383 seconds
+2017-12-07 16:35:13,079 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 1.8044049739837646 seconds
+2017-12-07 16:35:13,150 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.06966114044189453 seconds
+2017-12-07 16:35:13,233 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08271956443786621 seconds
+2017-12-07 16:35:13,455 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['y', 'I', 'r', 'W'], Spend 0.10794711112976074 seconds
+2017-12-07 16:35:26,749 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0546369552612305 seconds
+2017-12-07 16:35:26,750 - root - INFO - ###############################  End  ###############################
+2017-12-07 16:35:50,768 - root - INFO - ############################### START ###############################
+2017-12-07 16:35:54,483 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7134625911712646 seconds
+2017-12-07 16:35:55,943 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4584274291992188 seconds
+2017-12-07 16:35:57,083 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.138026237487793 seconds
+2017-12-07 16:35:57,413 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3279550075531006 seconds
+2017-12-07 16:35:58,270 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 0.8550643920898438 seconds
+2017-12-07 16:35:58,343 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.0726926326751709 seconds
+2017-12-07 16:35:58,425 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08021283149719238 seconds
+2017-12-07 16:35:58,662 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['O', '8', 'X', 'k'], Spend 0.11831378936767578 seconds
+2017-12-07 16:36:11,971 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0510103702545166 seconds
+2017-12-07 16:36:11,974 - root - INFO - ###############################  End  ###############################

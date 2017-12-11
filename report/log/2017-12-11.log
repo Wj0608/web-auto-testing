@@ -1,0 +1,10 @@
+2017-12-11 10:46:07,046 - root - INFO - ############################### START ###############################
+2017-12-11 10:46:10,902 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8549580574035645 seconds
+2017-12-11 10:46:12,458 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.554227590560913 seconds
+2017-12-11 10:46:13,629 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1686060428619385 seconds
+2017-12-11 10:46:13,967 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3347616195678711 seconds
+2017-12-11 10:46:14,406 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 0.43749451637268066 seconds
+2017-12-11 10:46:14,629 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.22160887718200684 seconds
+2017-12-11 10:46:14,706 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.07570171356201172 seconds
+2017-12-11 10:46:19,994 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.050459146499634 seconds
+2017-12-11 10:46:19,997 - root - INFO - ###############################  End  ###############################

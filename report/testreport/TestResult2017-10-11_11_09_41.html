@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UI自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>UI自动化测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-10-11 11:09:41</p>
+<p class='attribute'><strong>运行时长:</strong> 0:01:17.734989</p>
+<p class='attribute'><strong>状态:</strong> 通过 6</p>
+
+</div>
+<p class='description'>Test the import testcase</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>概括</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_RegisterAndLogin.TestHuiyin: DAE注册登录功能测试</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',6)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a_login: 登录功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 2017-10-11 11:09:41,631 - root - INFO - ############################### START ###############################
+2017-10-11 11:09:45,314 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6826984882354736 seconds
+2017-10-11 11:09:47,387 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0716989040374756 seconds
+2017-10-11 11:09:48,570 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1831693649291992 seconds
+2017-10-11 11:09:48,633 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06216931343078613 seconds
+2017-10-11 11:09:48,759 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.1075904369354248 seconds
+2017-10-11 11:09:48,828 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.06868100166320801 seconds
+2017-10-11 11:09:48,936 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.10728287696838379 seconds
+2017-10-11 11:09:49,000 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.06409072875976562 seconds
+2017-10-11 11:09:54,120 - root - INFO - SUCCESS    Get current window url, Spend 0.03497767448425293 seconds
+2017-10-11 11:09:57,185 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0638070106506348 seconds
+2017-10-11 11:09:57,186 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_login_WrongPassword</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 2017-10-11 11:09:57,188 - root - INFO - ############################### START ###############################
+2017-10-11 11:10:00,923 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7336642742156982 seconds
+2017-10-11 11:10:02,980 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0564918518066406 seconds
+2017-10-11 11:10:04,141 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1608450412750244 seconds
+2017-10-11 11:10:04,209 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;立即登录&gt;, Spend 0.0671536922454834 seconds
+2017-10-11 11:10:04,337 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.06403446197509766 seconds
+2017-10-11 11:10:04,402 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389635, Spend 0.06417131423950195 seconds
+2017-10-11 11:10:04,512 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.10979104042053223 seconds
+2017-10-11 11:10:04,572 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: t123, Spend 0.05989503860473633 seconds
+2017-10-11 11:10:07,696 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.03029465675354 seconds
+2017-10-11 11:10:07,698 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_c_register_DifferentPWD: 注册确认密码不同功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 2017-10-11 11:10:07,699 - root - INFO - ############################### START ###############################
+2017-10-11 11:10:11,412 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7109663486480713 seconds
+2017-10-11 11:10:13,499 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0868947505950928 seconds
+2017-10-11 11:10:14,658 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.158367395401001 seconds
+2017-10-11 11:10:14,719 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.06066179275512695 seconds
+2017-10-11 11:10:14,790 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389630, Spend 0.06987690925598145 seconds
+2017-10-11 11:10:16,049 - root - INFO - SUCCESS    Get attribute element: &lt;name-&gt;username&gt;,attribute: value, Spend 0.027035236358642578 seconds
+2017-10-11 11:10:16,124 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;发送验证码&gt;, Spend 0.07419800758361816 seconds
+2017-10-11 11:10:16,238 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.09966897964477539 seconds
+2017-10-11 11:10:16,333 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: test123, Spend 0.09475183486938477 seconds
+2017-10-11 11:10:17,458 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;confirmPassword&gt; content: 123test, Spend 0.12354397773742676 seconds
+2017-10-11 11:10:20,574 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027728319168091 seconds
+2017-10-11 11:10:20,575 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_c_register_PhoneExist: 注册手机号已存在功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 2017-10-11 11:10:20,576 - root - INFO - ############################### START ###############################
+2017-10-11 11:10:24,289 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.712167739868164 seconds
+2017-10-11 11:10:26,357 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0684969425201416 seconds
+2017-10-11 11:10:27,540 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1826722621917725 seconds
+2017-10-11 11:10:27,605 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.06316709518432617 seconds
+2017-10-11 11:10:27,677 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.07235407829284668 seconds
+2017-10-11 11:10:28,915 - root - INFO - SUCCESS    Get attribute element: &lt;name-&gt;username&gt;,attribute: value, Spend 0.018550634384155273 seconds
+2017-10-11 11:10:28,976 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;发送验证码&gt;, Spend 0.060636043548583984 seconds
+2017-10-11 11:10:29,089 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.09876179695129395 seconds
+2017-10-11 11:10:29,187 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: test123, Spend 0.0972590446472168 seconds
+2017-10-11 11:10:30,335 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;confirmPassword&gt; content: test123, Spend 0.14729022979736328 seconds
+2017-10-11 11:10:33,460 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.031256914138794 seconds
+2017-10-11 11:10:33,462 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_c_register_WrongPhoneNumber: 注册手机号格式错误功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 2017-10-11 11:10:33,464 - root - INFO - ############################### START ###############################
+2017-10-11 11:10:37,194 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7281293869018555 seconds
+2017-10-11 11:10:39,440 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.2457945346832275 seconds
+2017-10-11 11:10:40,607 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1663899421691895 seconds
+2017-10-11 11:10:40,669 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.061666011810302734 seconds
+2017-10-11 11:10:40,742 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389630djafhgj, Spend 0.07257485389709473 seconds
+2017-10-11 11:10:42,040 - root - INFO - SUCCESS    Get attribute element: &lt;name-&gt;username&gt;,attribute: value, Spend 0.021054506301879883 seconds
+2017-10-11 11:10:42,090 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;发送验证码&gt;, Spend 0.05013322830200195 seconds
+2017-10-11 11:10:42,207 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.10223245620727539 seconds
+2017-10-11 11:10:42,289 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: test123, Spend 0.08171653747558594 seconds
+2017-10-11 11:10:43,388 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;confirmPassword&gt; content: test123, Spend 0.09826278686523438 seconds
+2017-10-11 11:10:46,509 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.027404308319092 seconds
+2017-10-11 11:10:46,510 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_c_register_WrongVCode: 注册验证码错误功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: 2017-10-11 11:10:46,512 - root - INFO - ############################### START ###############################
+2017-10-11 11:10:50,213 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7007203102111816 seconds
+2017-10-11 11:10:52,281 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0673794746398926 seconds
+2017-10-11 11:10:53,470 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1875863075256348 seconds
+2017-10-11 11:10:53,532 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.06166505813598633 seconds
+2017-10-11 11:10:53,602 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389630, Spend 0.06952452659606934 seconds
+2017-10-11 11:10:54,850 - root - INFO - SUCCESS    Get attribute element: &lt;name-&gt;username&gt;,attribute: value, Spend 0.022603750228881836 seconds
+2017-10-11 11:10:54,909 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;发送验证码&gt;, Spend 0.058655738830566406 seconds
+2017-10-11 11:10:55,025 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 12345, Spend 0.10076785087585449 seconds
+2017-10-11 11:10:55,120 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: test123, Spend 0.09475183486938477 seconds
+2017-10-11 11:10:56,245 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;confirmPassword&gt; content: test123, Spend 0.12482500076293945 seconds
+2017-10-11 11:10:59,364 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0248515605926514 seconds
+2017-10-11 11:10:59,365 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

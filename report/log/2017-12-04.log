@@ -1,0 +1,12 @@
+2017-12-04 14:24:38,038 - root - INFO - ############################### START ###############################
+2017-12-04 14:24:41,866 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8268232345581055 seconds
+2017-12-04 14:24:46,737 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.869271993637085 seconds
+2017-12-04 14:24:47,899 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1615955829620361 seconds
+2017-12-04 14:24:48,235 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.33521342277526855 seconds
+2017-12-04 14:24:49,341 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 1.104614496231079 seconds
+2017-12-04 14:24:49,482 - root - INFO - SUCCESS    Typed element: <name->email> content: 1527328977, Spend 0.1388683319091797 seconds
+2017-12-04 14:24:49,675 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.19251179695129395 seconds
+2017-12-04 14:24:49,795 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.11981892585754395 seconds
+2017-12-04 14:24:54,965 - root - INFO - SUCCESS    Get current window url, Spend 0.007519245147705078 seconds
+2017-12-04 14:24:58,005 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.038874626159668 seconds
+2017-12-04 14:24:58,007 - root - INFO - ###############################  End  ###############################

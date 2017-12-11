@@ -1,0 +1,12 @@
+2017-08-28 15:27:59,203 - root - INFO - ############################### START ###############################
+2017-08-28 15:28:02,694 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4897491931915283 seconds
+2017-08-28 15:28:03,623 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 0.9284381866455078 seconds
+2017-08-28 15:28:04,791 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1675987243652344 seconds
+2017-08-28 15:28:09,854 - root - INFO - FAIL    Unable to click element: <css->.loginHeaderCurrencyNav_2InId>p:nth-child(2)>, Spend 5.062671661376953 seconds
+2017-08-28 15:28:12,911 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0546767711639404 seconds
+2017-08-28 15:28:12,913 - root - INFO - ###############################  End  ###############################
+2017-08-28 15:28:12,919 - root - INFO - ############################### START ###############################
+2017-08-28 15:28:16,327 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.4060466289520264 seconds
+2017-08-28 15:28:17,282 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 0.9549863338470459 seconds
+2017-08-28 15:28:18,450 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1665890216827393 seconds
+2017-08-28 15:28:23,536 - root - INFO - FAIL    Unable to click element: <css->.loginHeaderDefaultSubNotice_1fdD9>span>, Spend 5.085822343826294 seconds

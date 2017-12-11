@@ -1,0 +1,6 @@
+2017-11-01 10:54:32,944 - root - INFO - ############################### START ###############################
+2017-11-01 10:54:36,650 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7050979137420654 seconds
+2017-11-01 10:54:36,979 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 0.3283708095550537 seconds
+2017-11-01 10:54:38,114 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.135035514831543 seconds
+2017-11-01 10:54:43,164 - root - INFO - FAIL    Unable to click element: <link_text->登录>, Spend 5.049841403961182 seconds
+2017-11-01 15:25:00,227 - root - INFO - ############################### START ###############################

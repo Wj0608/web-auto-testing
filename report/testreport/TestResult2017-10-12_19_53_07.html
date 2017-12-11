@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UI自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>UI自动化测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-10-12 19:53:07</p>
+<p class='attribute'><strong>运行时长:</strong> 0:01:10.329962</p>
+<p class='attribute'><strong>状态:</strong> 错误 4</p>
+
+</div>
+<p class='description'>Test the import testcase</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>概括</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test_ForgetWithdrawPwd.TestWithdrawPwd</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4</td>
+    <td><a href="javascript:showClassDetail('c1',4)">详情</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_a_ChangeWithdrawPwdWrongOldPwd</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: 2017-10-12 19:53:07,338 - root - INFO - ############################### START ###############################
+2017-10-12 19:53:11,058 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7197799682617188 seconds
+2017-10-12 19:53:13,146 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.087676763534546 seconds
+2017-10-12 19:53:14,331 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.183603286743164 seconds
+2017-10-12 19:53:14,393 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06173825263977051 seconds
+2017-10-12 19:53:16,479 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.04564094543457031 seconds
+2017-10-12 19:53:16,556 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.07630801200866699 seconds
+2017-10-12 19:53:16,661 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.10428118705749512 seconds
+2017-10-12 19:53:16,725 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.06316876411437988 seconds
+2017-10-12 19:53:21,852 - root - INFO - SUCCESS    Get current window url, Spend 0.040007829666137695 seconds
+2017-10-12 19:53:24,905 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0504226684570312 seconds
+2017-10-12 19:53:24,908 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_ForgetWithdrawPwd.py", line 43, in test_a_ChangeWithdrawPwdWrongOldPwd
+    personalPage.click_PersonalCenter()
+  File "F:\jenkins\UItestframework\public\pages\DAE_PersonalCenter.py", line 12, in click_PersonalCenter
+    action = ActionChains(self.dr)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\common\action_chains.py", line 69, in __init__
+    if self._driver.w3c:
+AttributeError: 'PySelenium' object has no attribute 'w3c'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_a_DifferentConfirmPwd</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        错误</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: 2017-10-12 19:53:24,915 - root - INFO - ############################### START ###############################
+2017-10-12 19:53:28,643 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7283642292022705 seconds
+2017-10-12 19:53:30,729 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.084559202194214 seconds
+2017-10-12 19:53:31,866 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1355171203613281 seconds
+2017-10-12 19:53:31,934 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06803584098815918 seconds
+2017-10-12 19:53:34,029 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.04612302780151367 seconds
+2017-10-12 19:53:34,097 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.0662076473236084 seconds
+2017-10-12 19:53:34,215 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11774086952209473 seconds
+2017-10-12 19:53:34,281 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.0656437873840332 seconds
+2017-10-12 19:53:39,403 - root - INFO - SUCCESS    Get current window url, Spend 0.03852486610412598 seconds
+2017-10-12 19:53:42,453 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0476677417755127 seconds
+2017-10-12 19:53:42,455 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_ForgetWithdrawPwd.py", line 55, in test_a_DifferentConfirmPwd
+    personalPage.click_PersonalCenter()
+  File "F:\jenkins\UItestframework\public\pages\DAE_PersonalCenter.py", line 12, in click_PersonalCenter
+    action = ActionChains(self.dr)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\common\action_chains.py", line 69, in __init__
+    if self._driver.w3c:
+AttributeError: 'PySelenium' object has no attribute 'w3c'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_a_NotInputPwd</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        错误</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: 2017-10-12 19:53:42,458 - root - INFO - ############################### START ###############################
+2017-10-12 19:53:46,195 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.735414981842041 seconds
+2017-10-12 19:53:48,269 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.0730631351470947 seconds
+2017-10-12 19:53:49,442 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.172494888305664 seconds
+2017-10-12 19:53:49,505 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06077933311462402 seconds
+2017-10-12 19:53:51,598 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.0447084903717041 seconds
+2017-10-12 19:53:51,683 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.08524799346923828 seconds
+2017-10-12 19:53:51,787 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.10297584533691406 seconds
+2017-10-12 19:53:51,844 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.056650400161743164 seconds
+2017-10-12 19:53:56,966 - root - INFO - SUCCESS    Get current window url, Spend 0.036801815032958984 seconds
+2017-10-12 19:54:00,029 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0618910789489746 seconds
+2017-10-12 19:54:00,031 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_ForgetWithdrawPwd.py", line 67, in test_a_NotInputPwd
+    personalPage.click_PersonalCenter()
+  File "F:\jenkins\UItestframework\public\pages\DAE_PersonalCenter.py", line 12, in click_PersonalCenter
+    action = ActionChains(self.dr)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\common\action_chains.py", line 69, in __init__
+    if self._driver.w3c:
+AttributeError: 'PySelenium' object has no attribute 'w3c'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_b_ForgetWithdrawPwd</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        错误</a>
+
+    <div id='div_ft1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.4: 2017-10-12 19:54:00,033 - root - INFO - ############################### START ###############################
+2017-10-12 19:54:03,770 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.73579478263855 seconds
+2017-10-12 19:54:05,900 - root - INFO - SUCCESS    Navigated to http://pre-www.szjys.com/, Spend 2.128089189529419 seconds
+2017-10-12 19:54:07,073 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1718144416809082 seconds
+2017-10-12 19:54:07,135 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.06185793876647949 seconds
+2017-10-12 19:54:09,243 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;username&gt;, Spend 0.05307435989379883 seconds
+2017-10-12 19:54:09,316 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;username&gt; content: 18774389631, Spend 0.07208538055419922 seconds
+2017-10-12 19:54:09,432 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 0.11527180671691895 seconds
+2017-10-12 19:54:09,495 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: test123, Spend 0.062162160873413086 seconds
+2017-10-12 19:54:14,620 - root - INFO - SUCCESS    Get current window url, Spend 0.038992881774902344 seconds
+2017-10-12 19:54:17,665 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.042978286743164 seconds
+2017-10-12 19:54:17,666 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_ForgetWithdrawPwd.py", line 29, in test_b_ForgetWithdrawPwd
+    persoanlPage.click_PersonalCenter()
+  File "F:\jenkins\UItestframework\public\pages\DAE_PersonalCenter.py", line 12, in click_PersonalCenter
+    action = ActionChains(self.dr)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\common\action_chains.py", line 69, in __init__
+    if self._driver.w3c:
+AttributeError: 'PySelenium' object has no attribute 'w3c'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

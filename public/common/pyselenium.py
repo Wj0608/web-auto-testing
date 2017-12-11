@@ -97,7 +97,7 @@ class PySelenium(object):
         elif by == "css":
             WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, value)),messages)
         else:
-            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
+            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
 
     def get_element(self, css):
         """
@@ -124,9 +124,51 @@ class PySelenium(object):
             element = self.driver.find_element_by_xpath(value)
         elif by == "css":
             element = self.driver.find_element_by_css_selector(value)
+        elif by == "tag_name":
+            element =self.driver.find_element_by_tag_name(value)
         else:
             raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
         return element
+
+
+    def get_elements(self, css):
+        """
+        Judge element positioning way, and returns the element.
+
+        Usage:
+        driver.get_elements('id->kw')
+        """
+        if "->" not in css:
+            raise NameError("Positioning syntax errors, lack of '->'.")
+
+        by = css.split("->")[0].strip()
+        value = css.split("->")[1].strip()
+        if by == "id":
+            elements = self.driver.find_elements_by_id(value)
+        elif by == "name":
+            elements = self.driver.find_elements_by_name(value)
+        elif by == "class":
+            elements = self.driver.find_elements_by_class_name(value)
+        elif by == "link_text":
+            elements = self.driver.find_elements_by_link_text(value)
+        elif by == "xpath":
+            elements = self.driver.find_elements_by_xpath(value)
+        elif by == "css":
+            elements = self.driver.find_elements_by_css_selector(value)
+        elif by == "tag_name":
+            elements =self.driver.find_elements_by_tag_name(value)
+        else:
+            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
+        return elements
+
+    def time_sleep(self, t):
+        t1 = time.time()
+        try:
+            time.sleep(t)
+            self.my_print("{0} Navigated to {1}, Spend {2} seconds".format(success, t, time.time() - t1))
+        except Exception:
+            self.my_print("{0} Unable to load {1}, Spend {2} seconds".format(fail, t, time.time() - t1))
+            raise
 
     def open(self, url):
         """
@@ -177,6 +219,7 @@ class PySelenium(object):
         try:
             self.element_wait(css)
             el = self.get_element(css)
+            el.click()
             el.send_keys(text)
             self.my_print("{0} Typed element: <{1}> content: {2}, Spend {3} seconds".format(success,
                 css,text,time.time() - t1))
@@ -309,6 +352,7 @@ class PySelenium(object):
         except Exception:
             self.my_print("{0} Unable to Click by text content: {1}, Spend {2} seconds".format(fail, text, time.time() - t1))
             raise
+
 
     def close(self):
         """
@@ -618,6 +662,33 @@ class PySelenium(object):
             self.my_print("{0} Unable to use javascript click element: {1}, Spend {2} seconds".format(fail,
                 js_str, time.time() - t1))
             raise
+
+    def ut_highlighted(self,element):
+        #   ""元素高亮""
+        try:
+            js = "arguments[0].style.border='3px solid red'"
+            self.driver.execute_script(js,element)
+        except Exception as e:
+            print ('light_element:{0}'.format(e))
+            raise
+
+    def paste(self,css,secs=0.5):
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            ele = self.get_element(css)
+            ele.send_keys(Keys.CONTROL,'v')
+            time.sleep(secs)
+            self.my_print("{0} Element <{1}> send keys(control+v),and sleep {2} seconds,input ENTER key, Spend {3} seconds".format(
+                success,css,secs,time.time() - t1))
+        except Exception:
+            self.my_print("{0} Unable element <{1}> send keys(control+v),and sleep {2} seconds,input ENTER key, Spend {3} seconds".
+                format(fail, css, secs, time.time() - t1))
+            raise
+
+    @property
+    def page_source(self):
+        return self.driver.page_source
 
     @property
     def origin_driver(self):
