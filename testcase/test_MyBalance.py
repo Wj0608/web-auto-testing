@@ -6,28 +6,28 @@ from public.common import publicfunction
 from public.pages import DAE_MyBalancePage
 from config import DAE_SuccessMessage,DAE_ErrorMessage,DAE_MyBalancePage_Element
 import time
-from testcase import test_RegisterAndLogin
+from testcase import test_Register
 
 
 class TestMyBalance(mytest.MyTest):
     """资产充值提现功能测试"""
 
     def BTCDeposite(self):
-        test_RegisterAndLogin.TestHuiyin.test_a_login(self)
+        test_Register.TestHuiyin.test_a_login(self)
         time.sleep(3)
         myBalancePage = DAE_MyBalancePage.MyBalance(self.dr)
         myBalancePage.click_BTC_Deposite()
         self.dr.element_wait(DAE_MyBalancePage_Element.Deposite_Address)
 
     def ETHDeposite(self):
-        test_RegisterAndLogin.TestHuiyin.test_a_login(self)
+        test_Register.TestHuiyin.test_a_login(self)
         time.sleep(3)
         myBalancePage = DAE_MyBalancePage.MyBalance(self.dr)
         myBalancePage.click_ETH_Deposite()
         self.dr.element_wait(DAE_MyBalancePage_Element.Deposite_Address)
 
     def ETCDeposite(self):
-        test_RegisterAndLogin.TestHuiyin.test_a_login(self)
+        test_Register.TestHuiyin.test_a_login(self)
         time.sleep(3)
         myBalancePage = DAE_MyBalancePage.MyBalance(self.dr)
         myBalancePage.click_ETC_Deposite()

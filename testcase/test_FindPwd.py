@@ -6,7 +6,7 @@ from public.common import publicfunction
 from public.pages import DAE_FindPwdPage,DAE_FirstPage
 from config import DAE_PromptMessage
 import time
-from testcase import test_RegisterAndLogin
+from testcase import test_Register
 
 class FindPwd(mytest.MyTest):
 

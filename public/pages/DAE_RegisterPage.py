@@ -24,6 +24,7 @@ class RegisterPage(basepage.Page):
     def setPassword(self,password,passwordConfirm):
         self.dr.click(DAE_RegisterPageElement.password_Input)
         self.dr.type(DAE_RegisterPageElement.password_Input,password)
+        self.dr.wait_element(DAE_RegisterPageElement.passwordConfirm_Input)
         self.dr.click(DAE_RegisterPageElement.passwordConfirm_Input)
         self.dr.type(DAE_RegisterPageElement.passwordConfirm_Input,passwordConfirm)
 

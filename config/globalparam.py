@@ -21,7 +21,10 @@ report_path = os.path.join(prj_path, 'report', 'testreport')
 # browser = 'safari'
 browser = 'chrome'
 # DAE首页
-address='http://testing-wallet.intranet.szjys.com'
+environment_address='http://pre-www.dae.org/'
 
 # 测试数据路径
 data_path = os.path.join(prj_path, 'data', 'testdata')
+
+# Interface_address
+Interface_address = 'http://pre-api.dae.org/'

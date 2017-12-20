@@ -38,4 +38,3 @@ LimitSell_Tab = 'link_text->限价卖出'
 
 # DirectSell_Tab
 DirectSell_Tab = 'link_text->直接卖出'
-

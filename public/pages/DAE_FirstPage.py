@@ -1,7 +1,7 @@
 #coding=utf-8
 
 from public.common import basepage
-from config import DAE_FirstPageElement,DAE_LoginPageElement,DAE_PromptMessage
+from config import DAE_FirstPageElement,DAE_LoginPageElement,globalparam
 from public.common import pyselenium
 import time
 import urllib.request
@@ -43,7 +43,7 @@ class DAELogin(basepage.Page):
             string.append(text)
         self.dr.type(DAE_LoginPageElement.ImageCode_Input,string)
         time.sleep(5)
-        req = urllib.request.Request('http://testing-api.intranet.szjys.com/secStrategy/getUserLoginSecStrategy?username=%s'% email)
+        req = urllib.request.Request(globalparam.Interface_address + 'secStrategy/getUserLoginSecStrategy?username=%s'% email)
         req.add_header('authorization','Basic  YnJvd3Nlcjo=')
         req.add_header('content-type','application/json')
         res_data = urllib.request.urlopen(req)

@@ -1,13 +1,14 @@
-#coding=utf-8
-
+# coding=utf-8
 
 from time import sleep
 from public.common import mytest
 from public.common import publicfunction
-from public.pages import DAE_FirstPage,DAE_RegisterPage
-from config import DAE_RegisterPageElement,DAE_FirstPageElement,DAE_LoginPageElement,DAE_PromptMessage
+from public.pages import DAE_FirstPage, DAE_RegisterPage
+from config import DAE_PromptMessage
 from public.common import datainfo
 import time
+import unittest
+
 
 class TestHuiyin(mytest.MyTest):
     """DAE注册登录功能测试"""
@@ -30,12 +31,6 @@ class TestHuiyin(mytest.MyTest):
     #     huiyinpage.click_XRP_button()
     #     self.assertIn(u'1XRP=¥ ',self.dr.get_text(assert_element.XRP_button_assert))
     #
-    # def test_PhoneOrEmailLogin_button(self):
-    #     """点击手机或邮箱登录按钮"""
-    #     firstpage = DAE_FirstPage.HuiyinPage(self.dr)
-    #     firstpage.click_PhoneOrEmailLogin_button()
-    #     self.assertEqual(u'请输入邮箱/手机号 ',self.dr.get_attribute(ass ert_element.PhoneOrEmailLogin_button_assert))
-
     # # 手机注册
     # def test_a_PhoneRegister(self):
     #     firstPage = DAE_FirstPage.DAEFirstPage(self.dr)
@@ -50,42 +45,20 @@ class TestHuiyin(mytest.MyTest):
     #     # print(self.dr.get_element(DAE_RegisterPage_Element.RegisterSuccess).is_displayed())
     #     self.assertTrue(self.dr.get_element(DAE_SuccessMessage.RegisterSuccess).is_displayed())
 
-    def test_a_login(self):
-        """新用户登录功能测试"""
-        firstPage = DAE_FirstPage.DAELogin(self.dr)
-        firstPage.click_HeaderLogin_button()
-        email = 'yangmengying8977@dingtalk.com'
-        firstPage.type_Email(email)
-        firstPage.type_password('test123')
-        firstPage.type_ImageCode(email)
-        time.sleep(5)
-        self.assertEqual(self.dr.get_url(),'http://testing-wallet.intranet.szjys.com/wallet')
-
-    def test_a_loginWithPhone(self):
-        """老用户登录功能测试-使用手机登录"""
-        firstPage = DAE_FirstPage.DAELogin(self.dr)
-        firstPage.click_HeaderLogin_button()
-        email = '15273258977'
-        firstPage.type_Email(email)
-        firstPage.type_password('test123')
-        firstPage.type_ImageCode(email)
-        time.sleep(5)
-        self.assertTrue(self.dr.get_element(DAE_PromptMessage.LoginWrong).is_displayed())
-
     def test_b_register(self):
         """注册功能测试"""
         firstPage = DAE_FirstPage.DAELogin(self.dr)
         firstPage.click_HeaderRegisterButton()
         registerPage = DAE_RegisterPage.RegisterPage(self.dr)
         registerPage.Type_nickName('yangaaa')
-        registerPage.Type_Email('1234567890@qq.com')
+        registerPage.Type_Email('12345678901@qq.com')
         registerPage.Type_VCode('123456')
         registerPage.click_NextStep()
-        registerPage.setPassword('123456','123456')
+        registerPage.setPassword('test123', 'test123')
         registerPage.Type_ImageCode()
         registerPage.click_register()
         time.sleep(5)
-        self.assertTrue(self.dr.get_url(),'http://testing-wallet.intranet.szjys.com/login')
+        self.assertTrue(self.dr.get_url(), 'http://pre-www.dae.org/login')
 
     def test_b_registerWithExistedEmail(self):
         """注册功能测试--邮箱已存在"""
@@ -153,7 +126,6 @@ class TestHuiyin(mytest.MyTest):
         registerPage.Type_Email('1234567890@qq.com')
         registerPage.Type_VCode('123456')
         registerPage.click_NextStep()
-        registerPage.setPassword('123','456789')
+        registerPage.setPassword('123', '456789')
         time.sleep(5)
         self.assertTrue(self.dr.get_element(DAE_PromptMessage.NotSamePwd).is_displayed())
-
