@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UI自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>UI自动化测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-12-12 18:01:41</p>
+<p class='attribute'><strong>运行时长:</strong> 0:02:15.357832</p>
+<p class='attribute'><strong>状态:</strong> 通过 6 错误 2</p>
+
+</div>
+<p class='description'>Test the import testcase</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>概括</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test_Register.TestHuiyin: DAE注册登录功能测试</td>
+    <td>8</td>
+    <td>6</td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c1',8)">详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_emailIncludeIllegalChars: 注册功能测试--邮箱账号包含特殊字符</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 2017-12-12 18:01:41,328 - root - INFO - ############################### START ###############################
+2017-12-12 18:01:45,090 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7604825496673584 seconds
+2017-12-12 18:01:48,319 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.2276878356933594 seconds
+2017-12-12 18:01:49,472 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1515626907348633 seconds
+2017-12-12 18:01:49,807 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.33417391777038574 seconds
+2017-12-12 18:01:51,718 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.9100818634033203 seconds
+2017-12-12 18:01:52,469 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7509961128234863 seconds
+2017-12-12 18:01:55,566 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.070564031600952 seconds
+2017-12-12 18:01:55,567 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_register: 注册功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 2017-12-12 18:01:55,567 - root - INFO - ############################### START ###############################
+2017-12-12 18:01:59,304 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7358860969543457 seconds
+2017-12-12 18:02:04,103 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.797829627990723 seconds
+2017-12-12 18:02:05,245 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1405329704284668 seconds
+2017-12-12 18:02:05,601 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.3555772304534912 seconds
+2017-12-12 18:02:07,299 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.6963677406311035 seconds
+2017-12-12 18:02:08,097 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7966182231903076 seconds
+2017-12-12 18:02:08,482 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.32035207748413086 seconds
+2017-12-12 18:02:11,826 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;password&gt;, Spend 3.17745041847229 seconds
+2017-12-12 18:02:11,909 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;password&gt; content: 123456, Spend 0.08271980285644531 seconds
+2017-12-12 18:02:12,034 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;passwordConfirm&gt;, Spend 0.12382793426513672 seconds
+2017-12-12 18:02:12,113 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;passwordConfirm&gt; content: 123456, Spend 0.07720494270324707 seconds
+2017-12-12 18:02:12,391 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;imageCode&gt; content: ['6', 'S', 'F', 'R'], Spend 0.1278395652770996 seconds
+2017-12-12 18:02:17,565 - root - INFO - SUCCESS    Get current window url, Spend 0.03208565711975098 seconds
+2017-12-12 18:02:20,601 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0354840755462646 seconds
+2017-12-12 18:02:20,601 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_b_registerSetPwdNotSame: 注册功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        错误</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: 2017-12-12 18:02:20,602 - root - INFO - ############################### START ###############################
+2017-12-12 18:02:24,275 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.671387195587158 seconds
+2017-12-12 18:02:29,037 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.76073431968689 seconds
+2017-12-12 18:02:30,194 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1565768718719482 seconds
+2017-12-12 18:02:30,558 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.36313629150390625 seconds
+2017-12-12 18:02:32,354 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.7949225902557373 seconds
+2017-12-12 18:02:33,155 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7996265888214111 seconds
+2017-12-12 18:02:33,471 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.26570701599121094 seconds
+2017-12-12 18:02:38,653 - root - INFO - FAIL    Unable to click element: &lt;name-&gt;password&gt;, Spend 5.096052646636963 seconds
+2017-12-12 18:02:41,717 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0634851455688477 seconds
+2017-12-12 18:02:41,718 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_Register.py", line 133, in test_b_registerSetPwdNotSame
+    registerPage.setPassword('123','456789')
+  File "F:\jenkins\UItestframework\public\pages\DAE_RegisterPage.py", line 25, in setPassword
+    self.dr.click(DAE_RegisterPageElement.password_Input)
+  File "F:\jenkins\UItestframework\public\common\pyselenium.py", line 261, in click
+    self.element_wait(css)
+  File "F:\jenkins\UItestframework\public\common\pyselenium.py", line 90, in element_wait
+    WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.NAME, value)), messages)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Element: name-&gt;password not found in 5 seconds.
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_registerWithExistedEmail: 注册功能测试--邮箱已存在</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 2017-12-12 18:02:41,723 - root - INFO - ############################### START ###############################
+2017-12-12 18:02:45,391 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6672146320343018 seconds
+2017-12-12 18:02:49,338 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.947263479232788 seconds
+2017-12-12 18:02:50,508 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1681067943572998 seconds
+2017-12-12 18:02:50,871 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.36336326599121094 seconds
+2017-12-12 18:02:52,589 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.7174618244171143 seconds
+2017-12-12 18:02:53,423 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8327140808105469 seconds
+2017-12-12 18:02:53,641 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.15842199325561523 seconds
+2017-12-12 18:02:56,731 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041107177734375 seconds
+2017-12-12 18:02:56,731 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_registerWithExistedNickname: 注册功能测试--昵称已存在</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 2017-12-12 18:02:56,732 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:00,398 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.665313482284546 seconds
+2017-12-12 18:03:03,524 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.1255226135253906 seconds
+2017-12-12 18:03:04,700 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1751253604888916 seconds
+2017-12-12 18:03:05,020 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.31902289390563965 seconds
+2017-12-12 18:03:06,729 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7075278759002686 seconds
+2017-12-12 18:03:07,344 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6136326789855957 seconds
+2017-12-12 18:03:10,436 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0604429244995117 seconds
+2017-12-12 18:03:10,437 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_registerWithNicknameIncludeIllegalChars: 注册功能测试--昵称包含特殊字符</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: 2017-12-12 18:03:10,438 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:14,144 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.704702615737915 seconds
+2017-12-12 18:03:18,001 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.8550846576690674 seconds
+2017-12-12 18:03:19,162 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1605806350708008 seconds
+2017-12-12 18:03:19,531 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.3689858913421631 seconds
+2017-12-12 18:03:21,294 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.761657953262329 seconds
+2017-12-12 18:03:21,955 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6587612628936768 seconds
+2017-12-12 18:03:25,018 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0328404903411865 seconds
+2017-12-12 18:03:25,019 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.7' class='none'>
+    <td class='errorCase'><div class='testcase'>test_b_registerWithShortNickname: 注册功能测试--昵称长度过短</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
+        错误</a>
+
+    <div id='div_ft1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.7: 2017-12-12 18:03:25,020 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:28,737 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.715491771697998 seconds
+2017-12-12 18:03:34,722 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 5.984167098999023 seconds
+2017-12-12 18:03:35,871 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1485540866851807 seconds
+2017-12-12 18:03:36,228 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.3554704189300537 seconds
+2017-12-12 18:03:37,993 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.7638297080993652 seconds
+2017-12-12 18:03:38,599 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6051046848297119 seconds
+2017-12-12 18:03:41,649 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.035696029663086 seconds
+2017-12-12 18:03:41,651 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_Register.py", line 93, in test_b_registerWithShortNickname
+    self.assertTrue(self.dr.get_element(DAE_PromptMessage.nicknameFormatWrong).is_displayed())
+  File "F:\jenkins\UItestframework\public\common\pyselenium.py", line 124, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 832, in find_element
+    'value': value})['value']
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 297, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //*[contains(text(),4-20个字符)] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),4-20个字符)]' is not a valid XPath expression.
+  (Session info: chrome=55.0.2880.4)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.10240 x86_64)
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_b_registerWithWrongVCode: 注册功能测试--邮箱验证码错误</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.8')" >
+        通过</a>
+
+    <div id='div_pt1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.8: 2017-12-12 18:03:41,657 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:45,361 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.702559232711792 seconds
+2017-12-12 18:03:49,427 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.065875053405762 seconds
+2017-12-12 18:03:50,573 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1445419788360596 seconds
+2017-12-12 18:03:50,856 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;注册&gt;, Spend 0.28160595893859863 seconds
+2017-12-12 18:03:52,642 - root - INFO - SUCCESS    Element &lt;name-&gt;username&gt; type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.7845487594604492 seconds
+2017-12-12 18:03:53,312 - root - INFO - SUCCESS    Element &lt;name-&gt;email&gt; type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6697812080383301 seconds
+2017-12-12 18:03:53,518 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 789456, Spend 0.15190458297729492 seconds
+2017-12-12 18:03:56,685 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0476791858673096 seconds
+2017-12-12 18:03:56,686 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>8</td>
+    <td>6</td>
+    <td>0</td>
+    <td>2</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

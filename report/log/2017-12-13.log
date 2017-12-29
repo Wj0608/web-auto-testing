@@ -1,0 +1,30 @@
+2017-12-13 16:28:59,824 - root - INFO - ############################### START ###############################
+2017-12-13 16:29:03,572 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.745783567428589 seconds
+2017-12-13 16:29:06,890 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.3155336380004883 seconds
+2017-12-13 16:29:08,041 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1476020812988281 seconds
+2017-12-13 16:29:08,418 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3754000663757324 seconds
+2017-12-13 16:29:10,298 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8794686794281006 seconds
+2017-12-13 16:29:10,416 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.11631035804748535 seconds
+2017-12-13 16:29:10,587 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1694502830505371 seconds
+2017-12-13 16:29:11,035 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['b', '5', 'H', 'T'], Spend 0.2426447868347168 seconds
+2017-12-13 16:30:23,506 - root - INFO - SUCCESS    Typed element: <name->emailCode> content: 123456, Spend 0.11981868743896484 seconds
+2017-12-13 16:34:35,160 - root - INFO - ############################### START ###############################
+2017-12-13 16:34:38,877 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7150678634643555 seconds
+2017-12-13 16:34:42,571 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.6914751529693604 seconds
+2017-12-13 16:34:43,738 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.165290117263794 seconds
+2017-12-13 16:34:44,108 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3667623996734619 seconds
+2017-12-13 16:34:45,958 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 1.8486721515655518 seconds
+2017-12-13 16:34:46,090 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.12984704971313477 seconds
+2017-12-13 16:34:46,222 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.12984490394592285 seconds
+2017-12-13 16:34:46,748 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['b', 'B', 'E', 'S'], Spend 0.2660202980041504 seconds
+2017-12-13 16:35:27,193 - root - INFO - ############################### START ###############################
+2017-12-13 16:35:30,915 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7197184562683105 seconds
+2017-12-13 16:35:35,133 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.216087579727173 seconds
+2017-12-13 16:35:36,292 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1570587158203125 seconds
+2017-12-13 16:35:36,655 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3610351085662842 seconds
+2017-12-13 16:35:38,680 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.022831916809082 seconds
+2017-12-13 16:35:38,792 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.11029720306396484 seconds
+2017-12-13 16:35:38,924 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.1318504810333252 seconds
+2017-12-13 16:35:39,681 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['R', 'h', '7', 'E'], Spend 0.3499324321746826 seconds
+2017-12-13 16:36:22,727 - root - INFO - SUCCESS    Typed element: <name->emailCode> content: 123456, Spend 0.12182402610778809 seconds
+2017-12-13 16:36:35,038 - root - INFO - SUCCESS    Get current window url, Spend 0.03757429122924805 seconds
