@@ -4,38 +4,21 @@ from public.common import mytest
 from config import DAE_RegisterPage_Element
 from public.pages import DAE_RegisterPage
 import time
-
-
 class Test_Register(mytest.MyTest):
 
     # def test_Register1(self):
-    #      """打开首页"""
-    #      huiyinpage = huiyinPage.HuiyinPage(self.dr)
-    #      publicfunction.get_img(self.dr,'111.png')
-    #
     #     """注册成功"""
     #     firstPage = DAE_RegisterPage.RegisterPage(self.dr)
     #     firstPage.Register1('51456','51456@qq.com','123456')
     #     firstPage.Register2('123456','123456')
     #     time.sleep(2)
     #     self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.Sign_up).is_displayed())
-    #
-    # def test_XRP_button(self):
-    #     """点击XRP按钮"""
-    #     huiyinpage = huiyinPage.HuiyinPage(self.dr)
-    #     huiyinpage.click_XRP_button()
-    #     self.assertIn(u'1XRP=¥ ',self.dr.get_text(assert_element.XRP_button_assert))
-    #
-    # # 手机注册
+
     def test_Register2(self):
         """注册昵称/邮箱已存在"""
-    #     firstPage.type_PhoneNumber('18774389630')
         self.assertTrue(True)
         firstPage = DAE_RegisterPage.RegisterPage(self.dr)
         firstPage.Register1('51456','51456@qq.com','123456')
-    #     if(register.get_PhoneNumber()== '18774389630'):
-    #         register.Type_VCode('123456')
-    #         register.Type_LoginAndConfirmPassword('test123','test123')
         self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.existed_nickname).is_displayed())
         self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.registered_email).is_displayed())
 

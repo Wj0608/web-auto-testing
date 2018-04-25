@@ -8,5 +8,3 @@ def get_img(dr, filename):
     today = time.strftime('%Y-%m-%d')
     path = globalparam.img_path + '\\' + today  + '_' + filename
     dr.take_screenshot(path)
-
-
