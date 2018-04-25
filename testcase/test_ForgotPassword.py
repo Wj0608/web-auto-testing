@@ -44,4 +44,4 @@ class Test_Forgot_password(mytest.MyTest):
         firstPage = DAE_ForgotpasswordPage.DAEForgotpasswordPage(self.dr)
         firstPage.Forgot_password_step1('1234@qq.com','123456')
         firstPage.Forgot_password_step2("12","")
-        self.assertTrue(self.dr.get_element(Forgot_password.password_characters).is_displayed())
+        self.assertTrue(self.dr.get_element(Forgot_password.password_characters).is_displayed())###################################
