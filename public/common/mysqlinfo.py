@@ -20,7 +20,6 @@ charset='utf8'
 def sql_print(msg):
     logger.info(msg)
 
-
 conn=pymysql.connect(host=host,user=user,passwd=pwd,port=port,db=db,charset=charset)
 #设置游标
 # cursor = conn.cursor(dictionary=True)

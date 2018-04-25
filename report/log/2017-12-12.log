@@ -1,0 +1,198 @@
+2017-12-12 17:12:40,746 - root - INFO - ############################### START ###############################
+2017-12-12 17:12:44,543 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7953672409057617 seconds
+2017-12-12 17:12:46,212 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.6654469966888428 seconds
+2017-12-12 17:12:47,393 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1778755187988281 seconds
+2017-12-12 17:12:47,593 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.19799113273620605 seconds
+2017-12-12 17:12:49,488 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 1.8941209316253662 seconds
+2017-12-12 17:12:49,561 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07169079780578613 seconds
+2017-12-12 17:12:49,656 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.0942535400390625 seconds
+2017-12-12 17:12:49,909 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['o', 'u', 'U', 'P'], Spend 0.1383681297302246 seconds
+2017-12-12 17:13:03,207 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.05540132522583 seconds
+2017-12-12 17:13:03,210 - root - INFO - ###############################  End  ###############################
+2017-12-12 17:46:00,139 - root - INFO - ############################### START ###############################
+2017-12-12 17:46:03,878 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.737281084060669 seconds
+2017-12-12 17:46:05,355 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.475846290588379 seconds
+2017-12-12 17:46:06,531 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1754066944122314 seconds
+2017-12-12 17:46:09,611 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0790622234344482 seconds
+2017-12-12 17:46:09,612 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:01:41,328 - root - INFO - ############################### START ###############################
+2017-12-12 18:01:45,090 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7604825496673584 seconds
+2017-12-12 18:01:48,319 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.2276878356933594 seconds
+2017-12-12 18:01:49,472 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1515626907348633 seconds
+2017-12-12 18:01:49,807 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.33417391777038574 seconds
+2017-12-12 18:01:51,718 - root - INFO - SUCCESS    Element <name->username> type content: yangyangyang,and sleep 0.5 seconds,input ENTER key, Spend 1.9100818634033203 seconds
+2017-12-12 18:01:52,469 - root - INFO - SUCCESS    Element <name->email> type content: 123rjfkd！@#￥f,d,and sleep 0.5 seconds,input ENTER key, Spend 0.7509961128234863 seconds
+2017-12-12 18:01:55,566 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.070564031600952 seconds
+2017-12-12 18:01:55,567 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:01:55,567 - root - INFO - ############################### START ###############################
+2017-12-12 18:01:59,304 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7358860969543457 seconds
+2017-12-12 18:02:04,103 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.797829627990723 seconds
+2017-12-12 18:02:05,245 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1405329704284668 seconds
+2017-12-12 18:02:05,601 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3555772304534912 seconds
+2017-12-12 18:02:07,299 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.6963677406311035 seconds
+2017-12-12 18:02:08,097 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7966182231903076 seconds
+2017-12-12 18:02:08,482 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.32035207748413086 seconds
+2017-12-12 18:02:11,826 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 3.17745041847229 seconds
+2017-12-12 18:02:11,909 - root - INFO - SUCCESS    Typed element: <name->password> content: 123456, Spend 0.08271980285644531 seconds
+2017-12-12 18:02:12,034 - root - INFO - SUCCESS    Clicked element: <name->passwordConfirm>, Spend 0.12382793426513672 seconds
+2017-12-12 18:02:12,113 - root - INFO - SUCCESS    Typed element: <name->passwordConfirm> content: 123456, Spend 0.07720494270324707 seconds
+2017-12-12 18:02:12,391 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['6', 'S', 'F', 'R'], Spend 0.1278395652770996 seconds
+2017-12-12 18:02:17,565 - root - INFO - SUCCESS    Get current window url, Spend 0.03208565711975098 seconds
+2017-12-12 18:02:20,601 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0354840755462646 seconds
+2017-12-12 18:02:20,601 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:02:20,602 - root - INFO - ############################### START ###############################
+2017-12-12 18:02:24,275 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.671387195587158 seconds
+2017-12-12 18:02:29,037 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.76073431968689 seconds
+2017-12-12 18:02:30,194 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1565768718719482 seconds
+2017-12-12 18:02:30,558 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.36313629150390625 seconds
+2017-12-12 18:02:32,354 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.7949225902557373 seconds
+2017-12-12 18:02:33,155 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.7996265888214111 seconds
+2017-12-12 18:02:33,471 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.26570701599121094 seconds
+2017-12-12 18:02:38,653 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.096052646636963 seconds
+2017-12-12 18:02:41,717 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0634851455688477 seconds
+2017-12-12 18:02:41,718 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:02:41,723 - root - INFO - ############################### START ###############################
+2017-12-12 18:02:45,391 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6672146320343018 seconds
+2017-12-12 18:02:49,338 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.947263479232788 seconds
+2017-12-12 18:02:50,508 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1681067943572998 seconds
+2017-12-12 18:02:50,871 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.36336326599121094 seconds
+2017-12-12 18:02:52,589 - root - INFO - SUCCESS    Element <name->username> type content: yang123,and sleep 0.5 seconds,input ENTER key, Spend 1.7174618244171143 seconds
+2017-12-12 18:02:53,423 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 0.8327140808105469 seconds
+2017-12-12 18:02:53,641 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.15842199325561523 seconds
+2017-12-12 18:02:56,731 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.041107177734375 seconds
+2017-12-12 18:02:56,731 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:02:56,732 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:00,398 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.665313482284546 seconds
+2017-12-12 18:03:03,524 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.1255226135253906 seconds
+2017-12-12 18:03:04,700 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1751253604888916 seconds
+2017-12-12 18:03:05,020 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.31902289390563965 seconds
+2017-12-12 18:03:06,729 - root - INFO - SUCCESS    Element <name->username> type content: yang,and sleep 0.5 seconds,input ENTER key, Spend 1.7075278759002686 seconds
+2017-12-12 18:03:07,344 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6136326789855957 seconds
+2017-12-12 18:03:10,436 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0604429244995117 seconds
+2017-12-12 18:03:10,437 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:03:10,438 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:14,144 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.704702615737915 seconds
+2017-12-12 18:03:18,001 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.8550846576690674 seconds
+2017-12-12 18:03:19,162 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1605806350708008 seconds
+2017-12-12 18:03:19,531 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3689858913421631 seconds
+2017-12-12 18:03:21,294 - root - INFO - SUCCESS    Element <name->username> type content: 1@!,and sleep 0.5 seconds,input ENTER key, Spend 1.761657953262329 seconds
+2017-12-12 18:03:21,955 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6587612628936768 seconds
+2017-12-12 18:03:25,018 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0328404903411865 seconds
+2017-12-12 18:03:25,019 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:03:25,020 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:28,737 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.715491771697998 seconds
+2017-12-12 18:03:34,722 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 5.984167098999023 seconds
+2017-12-12 18:03:35,871 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1485540866851807 seconds
+2017-12-12 18:03:36,228 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3554704189300537 seconds
+2017-12-12 18:03:37,993 - root - INFO - SUCCESS    Element <name->username> type content: 1一y,and sleep 0.5 seconds,input ENTER key, Spend 1.7638297080993652 seconds
+2017-12-12 18:03:38,599 - root - INFO - SUCCESS    Element <name->email> type content: ,and sleep 0.5 seconds,input ENTER key, Spend 0.6051046848297119 seconds
+2017-12-12 18:03:41,649 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.035696029663086 seconds
+2017-12-12 18:03:41,651 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:03:41,657 - root - INFO - ############################### START ###############################
+2017-12-12 18:03:45,361 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.702559232711792 seconds
+2017-12-12 18:03:49,427 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.065875053405762 seconds
+2017-12-12 18:03:50,573 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1445419788360596 seconds
+2017-12-12 18:03:50,856 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.28160595893859863 seconds
+2017-12-12 18:03:52,642 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.7845487594604492 seconds
+2017-12-12 18:03:53,312 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6697812080383301 seconds
+2017-12-12 18:03:53,518 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 789456, Spend 0.15190458297729492 seconds
+2017-12-12 18:03:56,685 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0476791858673096 seconds
+2017-12-12 18:03:56,686 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:05:08,617 - root - INFO - ############################### START ###############################
+2017-12-12 18:05:12,455 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8361361026763916 seconds
+2017-12-12 18:05:17,052 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.595655679702759 seconds
+2017-12-12 18:05:18,204 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1511447429656982 seconds
+2017-12-12 18:05:18,556 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.35131192207336426 seconds
+2017-12-12 18:05:20,563 - root - INFO - SUCCESS    Element <name->email> type content: yangmengying8977@dingtalk.com,and sleep 0.5 seconds,input ENTER key, Spend 2.005286455154419 seconds
+2017-12-12 18:05:20,650 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.08572793006896973 seconds
+2017-12-12 18:05:20,746 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.09575343132019043 seconds
+2017-12-12 18:05:21,186 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['I', 'G', 'Q', 'z'], Spend 0.23607349395751953 seconds
+2017-12-12 18:05:31,371 - root - INFO - SUCCESS    Get current window url, Spend 0.035092830657958984 seconds
+2017-12-12 18:05:34,421 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.048098564147949 seconds
+2017-12-12 18:05:34,423 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:05:34,425 - root - INFO - ############################### START ###############################
+2017-12-12 18:05:38,245 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8184523582458496 seconds
+2017-12-12 18:05:41,351 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.104893207550049 seconds
+2017-12-12 18:05:42,514 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1625912189483643 seconds
+2017-12-12 18:05:42,806 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.29073524475097656 seconds
+2017-12-12 18:05:44,596 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 1.7893359661102295 seconds
+2017-12-12 18:05:44,698 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.10126948356628418 seconds
+2017-12-12 18:05:44,811 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.11229825019836426 seconds
+2017-12-12 18:05:45,110 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['o', 'k', 'V', '7'], Spend 0.13686442375183105 seconds
+2017-12-12 18:05:58,377 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.046616315841675 seconds
+2017-12-12 18:05:58,378 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:05:58,379 - root - INFO - ############################### START ###############################
+2017-12-12 18:06:02,105 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7249388694763184 seconds
+2017-12-12 18:06:07,068 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.961156368255615 seconds
+2017-12-12 18:06:08,227 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1570773124694824 seconds
+2017-12-12 18:06:08,553 - root - INFO - SUCCESS    Clicked element: <link_text->注册>, Spend 0.3261134624481201 seconds
+2017-12-12 18:06:10,252 - root - INFO - SUCCESS    Element <name->username> type content: yangaaa,and sleep 0.5 seconds,input ENTER key, Spend 1.69783353805542 seconds
+2017-12-12 18:06:10,935 - root - INFO - SUCCESS    Element <name->email> type content: 1234567890@qq.com,and sleep 0.5 seconds,input ENTER key, Spend 0.6817812919616699 seconds
+2017-12-12 18:06:11,117 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.1428813934326172 seconds
+2017-12-12 18:06:16,284 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.075547218322754 seconds
+2017-12-12 18:06:19,337 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0518131256103516 seconds
+2017-12-12 18:06:19,337 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:11:02,250 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:05,930 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6795434951782227 seconds
+2017-12-12 18:11:09,052 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.1206181049346924 seconds
+2017-12-12 18:11:10,191 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.137526512145996 seconds
+2017-12-12 18:11:10,517 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.32623291015625 seconds
+2017-12-12 18:11:11,691 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.1726808547973633 seconds
+2017-12-12 18:11:11,795 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.10353493690490723 seconds
+2017-12-12 18:11:12,193 - root - INFO - SUCCESS    Typed element: <name->email> content: yangmengying8977@dingtalk.com, Spend 0.39755773544311523 seconds
+2017-12-12 18:11:12,564 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.14488530158996582 seconds
+2017-12-12 18:11:19,784 - root - INFO - FAIL    Unable to click element: <name->password>, Spend 5.0945515632629395 seconds
+2017-12-12 18:11:22,838 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.052844285964966 seconds
+2017-12-12 18:11:22,840 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:11:22,851 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:26,576 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7239513397216797 seconds
+2017-12-12 18:11:30,514 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.93766188621521 seconds
+2017-12-12 18:11:31,677 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.161087989807129 seconds
+2017-12-12 18:11:32,015 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.33620786666870117 seconds
+2017-12-12 18:11:33,179 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.1641507148742676 seconds
+2017-12-12 18:11:33,360 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.17947769165039062 seconds
+2017-12-12 18:11:33,557 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.19652223587036133 seconds
+2017-12-12 18:11:36,848 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060004711151123 seconds
+2017-12-12 18:11:36,849 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:11:36,852 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:40,583 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7307631969451904 seconds
+2017-12-12 18:11:44,546 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.9619991779327393 seconds
+2017-12-12 18:11:45,718 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1721179485321045 seconds
+2017-12-12 18:11:45,973 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.25406503677368164 seconds
+2017-12-12 18:11:47,201 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.2261533737182617 seconds
+2017-12-12 18:11:47,289 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.08823490142822266 seconds
+2017-12-12 18:11:52,386 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.06382417678833 seconds
+2017-12-12 18:11:52,387 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:11:52,389 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:56,161 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7713088989257812 seconds
+2017-12-12 18:12:00,787 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.624971389770508 seconds
+2017-12-12 18:12:01,941 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.151249885559082 seconds
+2017-12-12 18:12:02,272 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3298323154449463 seconds
+2017-12-12 18:12:03,409 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.1366291046142578 seconds
+2017-12-12 18:12:03,503 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.0927438735961914 seconds
+2017-12-12 18:12:03,779 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.27472877502441406 seconds
+2017-12-12 18:12:04,106 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.12735462188720703 seconds
+2017-12-12 18:12:09,295 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060291051864624 seconds
+2017-12-12 18:12:09,295 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:12:09,296 - root - INFO - ############################### START ###############################
+2017-12-12 18:12:12,984 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6871256828308105 seconds
+2017-12-12 18:12:16,073 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.087909460067749 seconds
+2017-12-12 18:12:17,231 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1570756435394287 seconds
+2017-12-12 18:12:17,583 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.35172390937805176 seconds
+2017-12-12 18:12:18,720 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.1358764171600342 seconds
+2017-12-12 18:12:18,821 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.10026407241821289 seconds
+2017-12-12 18:12:19,176 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.3539397716522217 seconds
+2017-12-12 18:12:19,674 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 789456, Spend 0.3118283748626709 seconds
+2017-12-12 18:12:24,908 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.043567419052124 seconds
+2017-12-12 18:12:24,910 - root - INFO - ###############################  End  ###############################
+2017-12-12 18:12:24,911 - root - INFO - ############################### START ###############################
+2017-12-12 18:12:28,632 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.720629930496216 seconds
+2017-12-12 18:12:32,160 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.527583599090576 seconds
+2017-12-12 18:12:33,345 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1831390857696533 seconds
+2017-12-12 18:12:33,614 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.26840782165527344 seconds
+2017-12-12 18:12:34,832 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 1.2174150943756104 seconds
+2017-12-12 18:12:34,946 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.11324048042297363 seconds
+2017-12-12 18:12:35,227 - root - INFO - SUCCESS    Typed element: <name->email> content: 152732258977, Spend 0.2797386646270752 seconds
+2017-12-12 18:12:35,649 - root - INFO - SUCCESS    Typed element: <name->vcode> content: 123456, Spend 0.19100618362426758 seconds
+2017-12-12 18:12:40,804 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0561978816986084 seconds
+2017-12-12 18:12:40,804 - root - INFO - ###############################  End  ###############################

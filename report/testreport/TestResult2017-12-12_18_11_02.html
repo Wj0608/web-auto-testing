@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UI自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { word-wrap:break-word;word-break:break-all;overflow:auto;}
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 2ex;
+    margin-bottom: 3ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    /* width: 500px;*/
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 99%;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #74A474; }
+.failClass  { background-color: #FDD283; }
+.errorClass { background-color: #FF6600; }
+.passCase   { color: #6c6; }
+.failCase   { color: #FF6600; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+#div_base {
+            position:absolute;
+            top:0%;
+            left:5%;
+            right:5%;
+            width: auto;
+            height: auto;
+            margin: -15px 0 0 0;
+}
+</style>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+<div id="div_base">
+
+<div class='page-header'>
+<h1>UI自动化测试报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2017-12-12 18:11:02</p>
+<p class='attribute'><strong>运行时长:</strong> 0:01:38.554638</p>
+<p class='attribute'><strong>状态:</strong> 通过 4 错误 2</p>
+
+</div>
+<p class='description'>Test the import testcase</p>
+
+
+
+<div class="btn-group btn-group-sm">
+<button class="btn btn-default" onclick='javascript:showCase(0)'>概括</button>
+<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
+<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
+</div>
+<p></p>
+<table id='result_table' class="table table-bordered">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试套件/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>查看</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test_FindPwd.FindPwd</td>
+    <td>6</td>
+    <td>4</td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c1',6)">详情</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_a_FindPwd: 找回密码功能测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: 2017-12-12 18:11:02,250 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:05,930 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6795434951782227 seconds
+2017-12-12 18:11:09,052 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.1206181049346924 seconds
+2017-12-12 18:11:10,191 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.137526512145996 seconds
+2017-12-12 18:11:10,517 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.32623291015625 seconds
+2017-12-12 18:11:11,691 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.1726808547973633 seconds
+2017-12-12 18:11:11,795 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.10353493690490723 seconds
+2017-12-12 18:11:12,193 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;email&gt; content: yangmengying8977@dingtalk.com, Spend 0.39755773544311523 seconds
+2017-12-12 18:11:12,564 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.14488530158996582 seconds
+2017-12-12 18:11:19,784 - root - INFO - FAIL    Unable to click element: &lt;name-&gt;password&gt;, Spend 5.0945515632629395 seconds
+2017-12-12 18:11:22,838 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.052844285964966 seconds
+2017-12-12 18:11:22,840 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_FindPwd.py", line 20, in test_a_FindPwd
+    findPwd.type_password('test123','test123')
+  File "F:\jenkins\UItestframework\public\pages\DAE_FindPwdPage.py", line 46, in type_password
+    self.dr.click(DAE_FindPwdPageElement.password_Input)
+  File "F:\jenkins\UItestframework\public\common\pyselenium.py", line 261, in click
+    self.element_wait(css)
+  File "F:\jenkins\UItestframework\public\common\pyselenium.py", line 90, in element_wait
+    WebDriverWait(self.driver, secs, 1).until(EC.presence_of_element_located((By.NAME, value)), messages)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Element: name-&gt;password not found in 5 seconds.
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_a_FindPwdWithNullCode: 找回密码功能测试-不输入邮箱号</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        错误</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: 2017-12-12 18:11:22,851 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:26,576 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7239513397216797 seconds
+2017-12-12 18:11:30,514 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.93766188621521 seconds
+2017-12-12 18:11:31,677 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.161087989807129 seconds
+2017-12-12 18:11:32,015 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.33620786666870117 seconds
+2017-12-12 18:11:33,179 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.1641507148742676 seconds
+2017-12-12 18:11:33,360 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.17947769165039062 seconds
+2017-12-12 18:11:33,557 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;email&gt; content: 15273258977, Spend 0.19652223587036133 seconds
+2017-12-12 18:11:36,848 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060004711151123 seconds
+2017-12-12 18:11:36,849 - root - INFO - ###############################  End  ###############################
+Traceback (most recent call last):
+  File "F:\jenkins\UItestframework\testcase\test_FindPwd.py", line 63, in test_a_FindPwdWithNullCode
+    findPwd.type_code(None)
+  File "F:\jenkins\UItestframework\public\pages\DAE_FindPwdPage.py", line 42, in type_code
+    nextstep_Button = self.dr.get_elements(DAE_FindPwdPageElement.Button)[1]
+IndexError: list index out of range
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a_FindPwdWithNullEmail: 找回密码功能测试-不输入邮箱号</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 2017-12-12 18:11:36,852 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:40,583 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7307631969451904 seconds
+2017-12-12 18:11:44,546 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.9619991779327393 seconds
+2017-12-12 18:11:45,718 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1721179485321045 seconds
+2017-12-12 18:11:45,973 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.25406503677368164 seconds
+2017-12-12 18:11:47,201 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.2261533737182617 seconds
+2017-12-12 18:11:47,289 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.08823490142822266 seconds
+2017-12-12 18:11:52,386 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.06382417678833 seconds
+2017-12-12 18:11:52,387 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a_FindPwdWithPhone: 找回密码功能测试-使用手机找回密码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 2017-12-12 18:11:52,389 - root - INFO - ############################### START ###############################
+2017-12-12 18:11:56,161 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.7713088989257812 seconds
+2017-12-12 18:12:00,787 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 4.624971389770508 seconds
+2017-12-12 18:12:01,941 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.151249885559082 seconds
+2017-12-12 18:12:02,272 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.3298323154449463 seconds
+2017-12-12 18:12:03,409 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.1366291046142578 seconds
+2017-12-12 18:12:03,503 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.0927438735961914 seconds
+2017-12-12 18:12:03,779 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;email&gt; content: 15273258977, Spend 0.27472877502441406 seconds
+2017-12-12 18:12:04,106 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.12735462188720703 seconds
+2017-12-12 18:12:09,295 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.060291051864624 seconds
+2017-12-12 18:12:09,295 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a_FindPwdWithWrongCode: 找回密码功能测试-输入错误验证码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 2017-12-12 18:12:09,296 - root - INFO - ############################### START ###############################
+2017-12-12 18:12:12,984 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6871256828308105 seconds
+2017-12-12 18:12:16,073 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.087909460067749 seconds
+2017-12-12 18:12:17,231 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1570756435394287 seconds
+2017-12-12 18:12:17,583 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.35172390937805176 seconds
+2017-12-12 18:12:18,720 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.1358764171600342 seconds
+2017-12-12 18:12:18,821 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.10026407241821289 seconds
+2017-12-12 18:12:19,176 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;email&gt; content: 15273258977, Spend 0.3539397716522217 seconds
+2017-12-12 18:12:19,674 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 789456, Spend 0.3118283748626709 seconds
+2017-12-12 18:12:24,908 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.043567419052124 seconds
+2017-12-12 18:12:24,910 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_a_FindPwdWithWrongFormatPhone: 找回密码功能测试-使用错误手机格式找回密码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        通过</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: 2017-12-12 18:12:24,911 - root - INFO - ############################### START ###############################
+2017-12-12 18:12:28,632 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.720629930496216 seconds
+2017-12-12 18:12:32,160 - root - INFO - SUCCESS    Navigated to http://pre-www.dae.org/, Spend 3.527583599090576 seconds
+2017-12-12 18:12:33,345 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1831390857696533 seconds
+2017-12-12 18:12:33,614 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;登录&gt;, Spend 0.26840782165527344 seconds
+2017-12-12 18:12:34,832 - root - INFO - SUCCESS    Clicked element: &lt;link_text-&gt;忘记密码&gt;, Spend 1.2174150943756104 seconds
+2017-12-12 18:12:34,946 - root - INFO - SUCCESS    Clicked element: &lt;name-&gt;email&gt;, Spend 0.11324048042297363 seconds
+2017-12-12 18:12:35,227 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;email&gt; content: 152732258977, Spend 0.2797386646270752 seconds
+2017-12-12 18:12:35,649 - root - INFO - SUCCESS    Typed element: &lt;name-&gt;vcode&gt; content: 123456, Spend 0.19100618362426758 seconds
+2017-12-12 18:12:40,804 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0561978816986084 seconds
+2017-12-12 18:12:40,804 - root - INFO - ###############################  End  ###############################
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>总计</td>
+    <td>6</td>
+    <td>4</td>
+    <td>0</td>
+    <td>2</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</div>
+</body>
+</html>

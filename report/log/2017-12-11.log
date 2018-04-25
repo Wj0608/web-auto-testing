@@ -1,0 +1,35 @@
+2017-12-11 10:46:07,046 - root - INFO - ############################### START ###############################
+2017-12-11 10:46:10,902 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8549580574035645 seconds
+2017-12-11 10:46:12,458 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.554227590560913 seconds
+2017-12-11 10:46:13,629 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1686060428619385 seconds
+2017-12-11 10:46:13,967 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.3347616195678711 seconds
+2017-12-11 10:46:14,406 - root - INFO - SUCCESS    Clicked element: <link_text->忘记密码>, Spend 0.43749451637268066 seconds
+2017-12-11 10:46:14,629 - root - INFO - SUCCESS    Clicked element: <name->email>, Spend 0.22160887718200684 seconds
+2017-12-11 10:46:14,706 - root - INFO - SUCCESS    Typed element: <name->email> content: 15273258977, Spend 0.07570171356201172 seconds
+2017-12-11 10:46:19,994 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.050459146499634 seconds
+2017-12-11 10:46:19,997 - root - INFO - ###############################  End  ###############################
+2017-12-11 14:25:49,772 - root - INFO - ############################### START ###############################
+2017-12-11 14:25:53,619 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.8453309535980225 seconds
+2017-12-11 14:25:54,287 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 0.666569709777832 seconds
+2017-12-11 16:29:41,347 - root - INFO - ############################### START ###############################
+2017-12-11 16:29:45,036 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.6873021125793457 seconds
+2017-12-11 16:29:46,556 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.5184779167175293 seconds
+2017-12-11 16:29:47,721 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1635944843292236 seconds
+2017-12-11 16:29:47,882 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.1593625545501709 seconds
+2017-12-11 16:29:48,930 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 1.045095443725586 seconds
+2017-12-11 16:29:49,032 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.10076308250427246 seconds
+2017-12-11 16:29:49,153 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.11981821060180664 seconds
+2017-12-11 16:29:49,368 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['4', 'C', 'F', 'w'], Spend 0.10427570343017578 seconds
+2017-12-11 16:30:02,598 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.046809434890747 seconds
+2017-12-11 16:30:02,601 - root - INFO - ###############################  End  ###############################
+2017-12-11 16:38:47,821 - root - INFO - ############################### START ###############################
+2017-12-11 16:38:51,610 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 3.785595178604126 seconds
+2017-12-11 16:38:53,077 - root - INFO - SUCCESS    Navigated to http://testing-wallet.intranet.szjys.com, Spend 1.4649548530578613 seconds
+2017-12-11 16:38:54,223 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.1440417766571045 seconds
+2017-12-11 16:38:54,555 - root - INFO - SUCCESS    Clicked element: <link_text->登录>, Spend 0.32727813720703125 seconds
+2017-12-11 16:38:55,543 - root - INFO - SUCCESS    Element <name->email> type content: 15273258977,and sleep 0.5 seconds,input ENTER key, Spend 0.985992431640625 seconds
+2017-12-11 16:38:55,623 - root - INFO - SUCCESS    Clicked element: <name->password>, Spend 0.07869505882263184 seconds
+2017-12-11 16:38:55,711 - root - INFO - SUCCESS    Typed element: <name->password> content: test123, Spend 0.08622884750366211 seconds
+2017-12-11 16:38:55,915 - root - INFO - SUCCESS    Typed element: <name->imageCode> content: ['6', 'Y', 'G', 'C'], Spend 0.1002664566040039 seconds
+2017-12-11 16:39:09,169 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.0448787212371826 seconds
+2017-12-11 16:39:09,171 - root - INFO - ###############################  End  ###############################

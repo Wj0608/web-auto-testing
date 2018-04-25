@@ -18,10 +18,10 @@ from config import globalparam
 reportPath = globalparam.report_path
 logger = Log()
 # 配置收发件人
-recvaddress = ['395295959@qq.com']#['395295959@qq.com','395295959@qq.com']
+recvaddress = ['1375004549@qq.com']#['11@qq.com','11@qq.com']
 # 163的用户名和密码
-sendaddr_name = 'xxl9201@163.com'
-sendaddr_pswd = '1205pan'
+sendaddr_name = 'notifyops@szjys.com'
+sendaddr_pswd = 'Hello1241'
 
 class SendMail:
 	def __init__(self,recver=None):
@@ -44,7 +44,7 @@ class SendMail:
 		newreport = self.__get_report()
 		self.msg = MIMEMultipart()
 		# self.msg['Subject'] = '测试报告主题'
-		self.msg['Subject'] = '自动化测试报告'
+		self.msg['Subject'] = 'UI自动化测试报告'
 		self.msg['date'] = time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
 		with open(os.path.join(reportPath,newreport), 'rb') as f:
@@ -63,7 +63,7 @@ class SendMail:
 		self.__take_messages()
 		self.msg['from'] = sendaddr_name
 		try:
-			smtp = smtplib.SMTP('smtp.163.com',25)
+			smtp = smtplib.SMTP_SSL('smtp.mxhichina.com',465)
 			smtp.login(sendaddr_name,sendaddr_pswd)
 			smtp.sendmail(self.msg['from'], self.sendTo,self.msg.as_string())
 			smtp.close()

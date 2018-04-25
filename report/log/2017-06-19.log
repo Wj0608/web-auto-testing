@@ -1,0 +1,10 @@
+2017-06-19 09:46:32,052 - root - INFO - ############################### START ###############################
+2017-06-19 09:46:40,431 - root - INFO - SUCCESS    Start a new browser: chrome, Spend 8.37813138961792 seconds
+2017-06-19 09:46:41,643 - root - INFO - SUCCESS    Set browser window maximized, Spend 1.2111918926239014 seconds
+2017-06-19 09:46:43,255 - root - INFO - SUCCESS    Navigated to http://www.huiyin.com, Spend 1.6123344898223877 seconds
+2017-06-19 09:46:43,910 - root - INFO - SUCCESS    Get the current window screenshot,path: F:\\PycharmProjects\\UItestframework\report\image\2017-06-19_111.png, Spend 0.6538131237030029 seconds
+2017-06-19 09:46:44,353 - root - INFO - SUCCESS    Clicked element: <xpath->//*[@id="form1"]/div[2]/div/div[2]/div/ul/li[2]/a>, Spend 0.44323039054870605 seconds
+2017-06-19 09:46:46,378 - root - INFO - SUCCESS    Get current window title, Spend 0.009382009506225586 seconds
+2017-06-19 09:46:46,386 - root - INFO - SUCCESS    Get current window title, Spend 0.007521867752075195 seconds
+2017-06-19 09:46:49,534 - root - INFO - SUCCESS    Closed all window and quit the driver, Spend 3.147433042526245 seconds
+2017-06-19 09:46:49,535 - root - INFO - ###############################  End  ###############################
