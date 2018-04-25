@@ -8,7 +8,6 @@ from public.common import pyselenium,publicfunction
 from config import globalparam
 from public.common.log import Log
 
-
 class MyTest(unittest.TestCase):
     """
     The base class is for all testcase.
