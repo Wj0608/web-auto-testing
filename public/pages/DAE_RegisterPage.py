@@ -1,41 +1,26 @@
 #coding=utf-8
 
 from public.common import basepage
-from config import DAE_FirstPageElement,DAE_RegisterPageElement
+from config import DAE_RegisterPage_Element,DAE_SuccessMessage
 import time
+from public.common import publicfunction
 
 class RegisterPage(basepage.Page):
-    def Type_nickName(self,nickName):
-        self.dr.type_and_enter(DAE_RegisterPageElement.nickName_Input,nickName)
+        def Register1(self,Nickname,Email,Scode):
+            self.dr.click(DAE_RegisterPage_Element.click_Free_for_registration)
 
-    def Type_Email(self,Eamil):
-        self.dr.type_and_enter(DAE_RegisterPageElement.email_Input,Eamil)
+            self.dr.type(DAE_RegisterPage_Element.NickName_Input,Nickname)
 
-    def Type_VCode(self,VCode):
-        Button = self.dr.get_elements(DAE_RegisterPageElement.sendCode_Button)[0]
-        Button.click()
-        #self.dr.element_wait(DAE_RegisterPageElement.SendVCodeSuccess)
-        self.dr.type(DAE_RegisterPageElement.vCode_Input,VCode)
+            self.dr.type(DAE_RegisterPage_Element.Email_Input,Email)
+            self.dr.click(DAE_RegisterPage_Element.click_Code_Button)
+            self.dr.type(DAE_RegisterPage_Element.VCode_Input,Scode)
 
-    def click_NextStep(self):
-        nextStep = self.dr.get_elements(DAE_RegisterPageElement.sendCode_Button)[1]
-        nextStep.click()
+            self.dr.click(DAE_RegisterPage_Element.Submit_Button)
 
-    def setPassword(self,password,passwordConfirm):
-        self.dr.click(DAE_RegisterPageElement.password_Input)
-        self.dr.type(DAE_RegisterPageElement.password_Input,password)
-        self.dr.wait_element(DAE_RegisterPageElement.passwordConfirm_Input)
-        self.dr.click(DAE_RegisterPageElement.passwordConfirm_Input)
-        self.dr.type(DAE_RegisterPageElement.passwordConfirm_Input,passwordConfirm)
+        def Register2(self,passwors,Confirm_password):
+            self.dr.type(DAE_RegisterPage_Element.Password_Input,passwors)
+            self.dr.type(DAE_RegisterPage_Element.PasswordConfirm_Input,Confirm_password)
 
-    def Type_ImageCode(self):
-        elements = self.dr.get_elements(DAE_RegisterPageElement.ImageCode)
-        string = []
-        for element in elements:
-            text = element.text
-            string.append(text)
-        self.dr.type(DAE_RegisterPageElement.imageCode_Input,string)
+            self.dr.click(DAE_RegisterPage_Element.Register_Button)
+            publicfunction.get_img(self.dr, 'mismatch password')
 
-    def click_register(self):
-        Button = self.dr.get_element(DAE_RegisterPageElement.sendCode_Button)
-        Button.click()

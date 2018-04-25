@@ -21,7 +21,7 @@ report_path = os.path.join(prj_path, 'report', 'testreport')
 # browser = 'safari'
 browser = 'chrome'
 # DAE首页
-environment_address='http://pre-www.dae.org/'
+address='http://demo-www.intranet.szjys.com/login'
 
 # 测试数据路径
 data_path = os.path.join(prj_path, 'data', 'testdata')
