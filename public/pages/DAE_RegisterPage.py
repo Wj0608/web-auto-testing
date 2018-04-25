@@ -3,24 +3,36 @@
 from public.common import basepage
 from config import DAE_RegisterPage_Element,DAE_SuccessMessage
 import time
-from public.common import publicfunction
 
 class RegisterPage(basepage.Page):
-        def Register1(self,Nickname,Email,Scode):
-            self.dr.click(DAE_RegisterPage_Element.click_Free_for_registration)
 
-            self.dr.type(DAE_RegisterPage_Element.NickName_Input,Nickname)
+    def get_PhoneNumber(self):
+        # self.dr.get_attribute(DAE_RegisterPage_Element.Phone_Input,"value")
+        phone = self.dr.get_attribute(DAE_RegisterPage_Element.Phone_Input,"value")
+        return phone
 
-            self.dr.type(DAE_RegisterPage_Element.Email_Input,Email)
-            self.dr.click(DAE_RegisterPage_Element.click_Code_Button)
-            self.dr.type(DAE_RegisterPage_Element.VCode_Input,Scode)
+    def Type_EmailOrPhone(self,EmailOrPhone):
+        self.dr.type(DAE_RegisterPage_Element.Phone_Input,EmailOrPhone)
 
-            self.dr.click(DAE_RegisterPage_Element.Submit_Button)
+    def Type_VCode(self,VCode):
+        self.dr.click(DAE_RegisterPage_Element.SendVCode_Button)
+        self.dr.element_wait(DAE_SuccessMessage.SendVCodeSuccess)
+        self.dr.type(DAE_RegisterPage_Element.VCode_Input,VCode)
 
-        def Register2(self,passwors,Confirm_password):
-            self.dr.type(DAE_RegisterPage_Element.Password_Input,passwors)
-            self.dr.type(DAE_RegisterPage_Element.PasswordConfirm_Input,Confirm_password)
+    def Type_LoginAndConfirmPassword(self,Pwd,ConfirmPwd):
+        self.dr.type(DAE_RegisterPage_Element.VCode_Input,Pwd)
+        time.sleep(1)
+        self.dr.type(DAE_RegisterPage_Element.ConfirmPwd_Input,ConfirmPwd)
 
-            self.dr.click(DAE_RegisterPage_Element.Register_Button)
-            publicfunction.get_img(self.dr, 'mismatch password')
+    def Click_CreateAccount(self):
+        submit = self.dr.get_element(DAE_RegisterPage_Element.CreateAccount_Button)
+        submit.click()
 
+    def Click_DAEClauseLink(self):
+        self.dr.click(DAE_RegisterPage_Element.DAEClause_Link)
+
+    def Login(self):
+        self.dr.click(DAE_RegisterPage_Element.Login_Link)
+
+    # def WeChatLogin(self):
+    #     self.dr.click(DAE_RegisterPage_Element.WeChatLogin_button)

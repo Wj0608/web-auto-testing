@@ -4,7 +4,7 @@ from time import sleep
 from public.common import mytest
 from public.common import publicfunction
 from public.pages import DAE_MyBalancePage
-from config import DAE_SuccessMessage,DAE_ErrorMessage,DAE_MyBalancePage_Element
+from config import DAE_SuccessMessage,DAE_PromptMessage,DAE_MyBalancePage_Element
 import time
 from testcase import test_Register
 
@@ -67,7 +67,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('Paste',1,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.CannotInputMyselfAddress_Error).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.CannotInputMyselfAddress_Error).is_displayed())
 
     def test_ETH_CopyPasteAddress(self):
         """提ETH到自己的地址功能测试"""
@@ -78,7 +78,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('Paste',1,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.CannotInputMyselfAddress_Error).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.CannotInputMyselfAddress_Error).is_displayed())
 
     def test_ETC_CopyPasteAddress(self):
         """提ETC到自己的地址功能测试"""
@@ -89,7 +89,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('Paste',1,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.CannotInputMyselfAddress_Error).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.CannotInputMyselfAddress_Error).is_displayed())
 
     def test_BTC_WithdrawWrongPwd(self):
         """提BTC密码错误功能测试"""
@@ -100,7 +100,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('Paste',1,'456789')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.WrongTradePwd_Error).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.WrongTradePwd_Error).is_displayed())
 
     def test_BTC_NullAddress(self):
         """提BTC不输入地址功能测试"""
@@ -111,7 +111,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite(None,1,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.InputAddress_Remind).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.InputAddress_Remind).is_displayed())
 
     def test_BTC_NullPwd(self):
         """提BTC不输入密码功能测试"""
@@ -122,7 +122,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('fjdhgdfj46178564783vnmcbjkda',1,None)
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.InputPwd_Remind).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.InputPwd_Remind).is_displayed())
 
     def test_BTC_NullAmount(self):
         """提BTC不输入金额功能测试"""
@@ -133,7 +133,7 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('fjdhgdfj46178564783vnmcbjkda',None,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.InputAmount_Remind).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.InputAmount_Remind).is_displayed())
 
     def test_BTC_InValidAddress(self):
         """提BTC输入无效地址功能测试"""
@@ -144,4 +144,4 @@ class TestMyBalance(mytest.MyTest):
         time.sleep(2)
         myBalancePage.deposite_switch_withdraw()
         myBalancePage.Deposite('12345484562315430032',1,'123456')
-        self.assertTrue(self.dr.get_element(DAE_ErrorMessage.InValidAddress_Remind).is_displayed())
+        self.assertTrue(self.dr.get_element(DAE_PromptMessage.InValidAddress_Remind).is_displayed())

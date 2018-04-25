@@ -14,7 +14,10 @@ from config import globalparam
 
 def run():
     test_dir = './testcase'
-    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Login.py')
+
+    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_PersonalCenter.py')
+    # suite2 = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Login.py')
+    # suite = unittest.TestSuite((suite1,suite2))
 
     now = time.strftime('%Y-%m-%d_%H_%M_%S')
     #reportname = globalparam.report_path + '\\' + 'TestResult' + now + '.html'
