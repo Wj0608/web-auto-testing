@@ -6,29 +6,29 @@ import os
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 from public.common.readconfig import ReadConfig
 
-# EmailOrPhone_Input
-EmailOrPhone_Input = 'name->username'
+# Email_Input
+Email_Input = 'name->username'
 
-# PictureVCode_Input
-PictureVCode_Input = 'name->captcha'
-
-# NextStep_Button
-NextStep_Button = 'tag_name->button'
-
-# SendVCode_Button
-SendVCode_Button = 'link_text->发送验证码'
+# SendCode_Button
+SendCode_Button = 'tag_name->button'
 
 # VCode_Input
 VCode_Input = 'name->vcode'
 
-# SendSuccess
-SendSuccess = ''
+# NextStep_Button
+NextStep_Button = 'css->button[type=submit]'
 
-# LoginPwd_Input
-LoginPwd_Input = 'name->new_password'
+# SendVCode_Button
+SendVCode_Button = 'link_text->发送验证码'
 
-# ConfirmLoginPwd
-ConfirmLoginPwd ='name->confirm_new_password'
+# Password_Input
+Password_Input = 'name->new_password'
+
+# PasswordConfirm_Input
+PasswordConfirm_Input = 'name->confirm_new_password'
+
+# Login_Link
+Login_Link = 'css->a[href=\'/login\']'
 
 # SendVCodeSuccess
-SendVCodeSuccess = 'css->xpath->//*[contains(text(),发送成功，请查收)'
+SendVCodeSuccess = 'xpath->//*[contains(text(),发送成功)'

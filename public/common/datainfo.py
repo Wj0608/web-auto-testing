@@ -53,6 +53,7 @@ def get_xls_to_list(excelname, sheetname):
 	return result
 
 if __name__=='__main__':
-    res = get_xls_to_list('searKey.xlsx','Sheet1')
-    # res = get_xls_to_dict('admin_single_order.xlsx','ordermsg')
-    print(res)
+# res = get_xls_to_list('testdata.xlsx','Sheet1')
+# res = get_xls_to_dict('admin_single_order.xlsx','ordermsg')
+    res = get_xls_to_dict('testdata.xlsx','Sheet1')
+    print(list(res[0].values())[0])

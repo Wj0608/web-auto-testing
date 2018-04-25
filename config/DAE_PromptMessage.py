@@ -1,59 +1,61 @@
+#coding=utf-8
+
 import os
 # import sys
 # import io
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 from public.common.readconfig import ReadConfig
 
-# nickNameExist
-nickNameExist = 'xpath->//*[contains(text(),昵称已被占用)]'
 
-# nicknameFormatWrong
-nicknameFormatWrong = 'xpath->//*[contains(text(),4-20个字符)]'
+#################################Login Page################################################
 
-# nicknameIncludeillegalChars
-nicknameIncludeillegalChars = 'xpath->//*[contains(text(),昵称包含非法字符)]'
+# AccountOrPwd_Error
+AccountOrPwd_Error = 'xpath->//span[contains(text(),"邮箱或密码错误")]'
 
-# openSecurityLoginStrategy
-openSecurityLoginStrategy = 'xpath->//*[contains(text(),此账号已开启登录安全策略)]'
+# EmailsNullI
+EmailsNullI =  'xpath->//span[contains(text(),请输入邮箱)]'
 
-# emailIncludeillegalChars
-emailIncludeillegalChars = 'xpath->//*[contains(text(),邮箱格式错误)]'
+# PasswordlsNullI
+PasswordlsNullI =  'xpath->//*[contains(text(),请输入登录密码)]'
 
-# wrongEmail
-wrongEmail = 'xpath->//*[contains(text(),邮箱错误)]'
+# Network_Error
+Network_Error = 'xpath->//*[contains(text(),网络错误)]'
 
-# setLoginPwd
-setLoginPwd = 'xpath->//*[contains(text(),设置登录密码)]'
+###################################
+# NicknameExist
+NicknameExist = 'xpath->//div[contains(text(),昵称已存在)]'
 
-# WrongCode
-WrongCode = 'xpath->//*[contains(text(),验证码错误)]'
+# ChangeSuccess
+ChangeSuccess = 'xpath->//span[contains(text(),修改成功)]'
 
-# NotSamePwd
-NotSamePwd = 'xpath->//*[contains(text(),密码不一致)]'
 
-# LoginPwdLong
-LoginPwdLong = 'xpath->//*[contains(text(),6-32位字符)]'
 
-# PleaseInputPwd
-PleaseInputPwd = 'xpath->//*[contains(text(),请输入密码)]'
+# DifferentPwd_Error
+DifferentPwd_Error = 'xpath->//*[contains(text(),两次输入密码不一致)]'
 
-# PleaseConfirmPwd
-PleaseConfirmPwd = 'xpath->//*[contains(text(),请确认密码)]'
+# WrongPhoneNumber_Error
+WrongPhoneNumber_Error = 'xpath->//*[contains(text(),请输入正确的手机号)]'
 
-# LoginWrong
-LoginWrong = 'xpath->//*[contains(text(),密码或验证码错误)]'
+# OldWithdrawPwd_Error
+OldWithdrawPwd_Error = 'xpath->//*[contains(text(),原提币密码不正确)]'
 
-# FindPwdSuccess
-FindPwdSuccess = 'xpath->//*[contains(text(),您的密码重置成功)]'
+# NotInputNewWithdrawPwd_Error
+NotInputNewWithdrawPwd_Error = 'xpath->//*[contains(text(),请输新提币密码)]'
 
-# RegainCode
-RegainCode = 'xpath->//*[contains(text(),请重新获取验证码)]'
+# CannotInputMyselfAddress_Error
+CannotInputMyselfAddress_Error = 'xpath->//*[contains(text(),不能提到自己的充值地址)]'
 
-# WrongFormat
-WrongFormat = 'xpath->//*[contains(text(),格式错误)]'
+# WrongTradePwd_Error
+WrongTradePwd_Error = 'xpath->//*[contains(text(),交易密码错误)]'
 
-# NoneEmail
-NoneEmail = 'xpath->//*[contains(text(),请输入邮箱地址)]'
+# InputAddress_Remind
+InputAddress_Remind = 'xpath->//*[contains(text(),请输入提现地址)]'
 
-# NoneCode
-NoneCode = 'xpath->//*[contains(text(),请输入验证码)]'
+# InputPwd_Remind
+InputPwd_Remind = 'xpath->//*[contains(text(),请输入提币密码)]'
+
+# InputAmount_Remind
+InputAmount_Remind = 'xpath->//*[contains(text(),请输入提现金额)]'
+
+# InValidAddress_Remind
+InValidAddress_Remind = 'xpath->//*[contains(text(),无效的提现地址)]'

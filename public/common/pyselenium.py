@@ -127,39 +127,8 @@ class PySelenium(object):
         elif by == "tag_name":
             element =self.driver.find_element_by_tag_name(value)
         else:
-            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
+            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css','tag_name'.")
         return element
-
-
-    def get_elements(self, css):
-        """
-        Judge element positioning way, and returns the element.
-
-        Usage:
-        driver.get_elements('id->kw')
-        """
-        if "->" not in css:
-            raise NameError("Positioning syntax errors, lack of '->'.")
-
-        by = css.split("->")[0].strip()
-        value = css.split("->")[1].strip()
-        if by == "id":
-            elements = self.driver.find_elements_by_id(value)
-        elif by == "name":
-            elements = self.driver.find_elements_by_name(value)
-        elif by == "class":
-            elements = self.driver.find_elements_by_class_name(value)
-        elif by == "link_text":
-            elements = self.driver.find_elements_by_link_text(value)
-        elif by == "xpath":
-            elements = self.driver.find_elements_by_xpath(value)
-        elif by == "css":
-            elements = self.driver.find_elements_by_css_selector(value)
-        elif by == "tag_name":
-            elements =self.driver.find_elements_by_tag_name(value)
-        else:
-            raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpaht','css'.")
-        return elements
 
     def time_sleep(self, t):
         t1 = time.time()
