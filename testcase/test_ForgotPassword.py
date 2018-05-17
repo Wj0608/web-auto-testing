@@ -10,14 +10,14 @@ class Test_Forgot_password(mytest.MyTest):
         """忘记密码通过"""
         firstPage = DAE_ForgotpasswordPage.DAEForgotpasswordPage(self.dr)
         firstPage.Forgot_password_step1('1234@qq.com','123456')
-        firstPage.Forgot_password_step2('12345678','12345678')
+        firstPage.Forgot_password_step2('123456','123456')
         self.assertTrue(self.dr.get_element(Forgot_password.Reset_successfully).is_displayed())
 
     def test_Forgot_password2(self):
         """忘记密码账号不存在"""
         firstPage = DAE_ForgotpasswordPage.DAEForgotpasswordPage(self.dr)
         firstPage.Forgot_password_step1('11111@qq.com',"123456")
-        self.assertTrue(self.dr.get_element(Forgot_password.click_next).is_displayed())
+        self.assertTrue(self.dr.get_element(Forgot_password.network_error).is_displayed())
 
     def test_Forgot_password3(self):
         """忘记密码验证码错误"""
