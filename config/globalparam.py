@@ -19,9 +19,9 @@ img_path = os.path.join(prj_path, 'report', 'image')
 report_path = os.path.join(prj_path, 'report', 'testreport')
 # 默认浏览器
 # browser = 'safari'
-browser = 'chrome'
+browser = 'firefox'
 # DAE首页
-address='http://testing-www.intranet.szjys.com'
+address='http://demo-crm.intranet.etcgame.com'
 # URL
 URL = 'http://testing-api.intranet.szjys.com'
 # 测试数据路径
