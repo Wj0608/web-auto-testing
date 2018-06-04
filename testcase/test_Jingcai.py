@@ -5,7 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
-import unittest, time, re
+from config.globalparam import script_path
+import unittest, time, re, os
 
 class MyTest(unittest.TestCase):
     def setUp(self):
@@ -17,7 +18,7 @@ class MyTest(unittest.TestCase):
 
     def test_entertainment(self):
         driver = self.driver
-        driver.get("http://demo-crm.intranet.etcgame.com/login")
+        driver.get("http://testing-crm.intranet.etcgame.com/login")
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("cmsadmin")
         driver.find_element_by_name("password").clear()
@@ -29,7 +30,9 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath("//*[@id='app']/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div").click()
         driver.find_element_by_xpath('/html/body/div[3]/div/div/div/ul/li[2]').click()  # 具体项目
         driver.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[1]/span[2]/div/input').click()  # 上线时间-日期
-        driver.find_element_by_link_text("Today").click()
+        driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div/div[1]/div/input').send_keys("2018-06-02")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[1]/div[1]').click()  # click anywhere
+        #  driver.find_element_by_link_text("Today").click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div[2]/span/input').click()  # 上线时间-时间
         driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[2]/div[1]/ul/li[10]').click()
         driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[2]/div[2]/ul/li[10]').click()
@@ -47,32 +50,56 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="item_name_zh_0"]').send_keys("选项一")
         driver.find_element_by_xpath('//*[@id="item_name_zh_1"]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath("//input[@type='file']").send_keys("C:\\Users\\Public\\wangjie\\pic\\china.jpg")  # pic
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[2]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/div/div/input').send_keys("娱乐竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_en_0"])[2]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_en_1"])[2]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[3]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[1]/div/div/input').send_keys("娱乐竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_0"])[3]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_1"])[3]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[4]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[1]/div/div/input').send_keys("娱乐竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_0"])[4]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_1"])[4]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[5]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[1]/div/div/input').send_keys("娱乐竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_0"])[5]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_1"])[5]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[5]/textarea').send_keys("文本描述")
-        time.sleep(3000)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[2]/button[2]').click()
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/div[1]').click()
 
     def test_politics(self):
         driver = self.driver
-        driver.get("http://demo-crm.intranet.etcgame.com/login")
+        driver.get("http://testing-crm.intranet.etcgame.com/login")
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("cmsadmin")
         driver.find_element_by_name("password").clear()
@@ -102,31 +129,56 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="item_name_zh_0"]').send_keys("选项一")
         driver.find_element_by_xpath('//*[@id="item_name_zh_1"]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath("//input[@type='file']").send_keys("C:\\Users\\Public\\wangjie\\pic\\china.jpg")  # pic
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[2]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/div/div/input').send_keys("时政竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_en_0"])[2]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_en_1"])[2]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[3]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[1]/div/div/input').send_keys("时政竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_0"])[3]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_1"])[3]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[4]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[1]/div/div/input').send_keys("时政竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_0"])[4]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_1"])[4]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[5]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[1]/div/div/input').send_keys("时政竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_0"])[5]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_1"])[5]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[2]/button[2]').click()
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/div[1]').click()
 
     def test_finance(self):
         driver = self.driver
-        driver.get("http://demo-crm.intranet.etcgame.com/login")
+        driver.get("http://testing-crm.intranet.etcgame.com/login")
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("cmsadmin")
         driver.find_element_by_name("password").clear()
@@ -156,31 +208,56 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="item_name_zh_0"]').send_keys("选项一")
         driver.find_element_by_xpath('//*[@id="item_name_zh_1"]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath("//input[@type='file']").send_keys("C:\\Users\\Public\\wangjie\\pic\\china.jpg")  # pic
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[2]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/div/div/input').send_keys("金融竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_en_0"])[2]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_en_1"])[2]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[3]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[1]/div/div/input').send_keys("金融竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_0"])[3]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_1"])[3]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[4]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[1]/div/div/input').send_keys("金融竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_0"])[4]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_1"])[4]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[5]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[1]/div/div/input').send_keys("金融竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_0"])[5]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_1"])[5]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[5]/textarea').send_keys("文本描述")
-        
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[2]/button[2]').click()
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/div[1]').click()
+
     def test_esport(self):
         driver = self.driver
-        driver.get("http://demo-crm.intranet.etcgame.com/login")
+        driver.get("http://testing-crm.intranet.etcgame.com/login")
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("cmsadmin")
         driver.find_element_by_name("password").clear()
@@ -210,31 +287,56 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="item_name_zh_0"]').send_keys("选项一")
         driver.find_element_by_xpath('//*[@id="item_name_zh_1"]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath("//input[@type='file']").send_keys("C:\\Users\\Public\\wangjie\\pic\\china.jpg")  # pic
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[2]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/div/div/input').send_keys("电竞竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_en_0"])[2]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_en_1"])[2]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[3]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[1]/div/div/input').send_keys("电竞竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_0"])[3]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_1"])[3]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[4]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[1]/div/div/input').send_keys("电竞竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_0"])[4]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_1"])[4]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[5]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[1]/div/div/input').send_keys("电竞竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_0"])[5]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_1"])[5]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[2]/button[2]').click()
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/div[1]').click()
 
     def test_sport(self):
         driver = self.driver
-        driver.get("http://demo-crm.intranet.etcgame.com/login")
+        driver.get("http://testing-crm.intranet.etcgame.com/login")
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("cmsadmin")
         driver.find_element_by_name("password").clear()
@@ -264,30 +366,52 @@ class MyTest(unittest.TestCase):
         driver.find_element_by_xpath('//*[@id="item_name_zh_0"]').send_keys("选项一")
         driver.find_element_by_xpath('//*[@id="item_name_zh_1"]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath("//input[@type='file']").send_keys("C:\\Users\\Public\\wangjie\\pic\\china.jpg")  # pic
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[2]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/div/div/input').send_keys("体育竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_en_0"])[2]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_en_1"])[2]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[3]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[3]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[1]/div/div/input').send_keys("体育竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_0"])[3]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ja_1"])[3]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[4]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[4]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[1]/div/div/input').send_keys("体育竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_0"])[4]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ko_1"])[4]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[5]/textarea').send_keys("文本描述")
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div[5]').click()
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[1]/div/div/input').send_keys("体育竞猜")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_0"])[5]').send_keys("选项一")
         driver.find_element_by_xpath('(//*[@id="item_name_ru_1"])[5]').send_keys("选项二")
         driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[5]/textarea').send_keys("文本描述")
-        #  driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div/input').send_keys('C:\\Users\Public\wangjie\pic\china')
-        #  driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[2]/div[6]/div/div').send_keys('C:\\Users\Public\wangjie\pic\china')
-        #  time.sleep(1000)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[2]/div[6]/div[6]/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div').click()
+        os.system(script_path)
+        while (driver.find_element_by_xpath('html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div[3]/div/p').text != '已成功上传图片，如果预览失效因为图片地址为海外IP，您依旧可以重新选择图片上传并且替换'):
+            time.sleep(1)
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[2]/button[2]').click()
+        driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/div[1]').click()
 
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)

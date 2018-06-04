@@ -15,7 +15,7 @@ from config import globalparam
 def run():
     test_dir = './testcase'
 
-    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Rangfen.py')
+    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Bocai.py')
     # suite2 = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Login.py')
     # suite = unittest.TestSuite((suite1,suite2))
 

@@ -25,4 +25,6 @@ address='http://demo-crm.intranet.etcgame.com'
 # URL
 URL = 'http://testing-api.intranet.szjys.com'
 # 测试数据路径
+script_path = 'C:\\Users\\Public\\wangjie\\UItestframework\\testcase_create\\upload.exe'
+# 上传脚本路径
 data_path = os.path.join(prj_path, 'data', 'testdata')
