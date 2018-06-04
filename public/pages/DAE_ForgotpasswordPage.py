@@ -5,6 +5,7 @@ import time
 class DAEForgotpasswordPage(basepage.Page):
 
     def Forgot_password_step1(self,Username,Vcode):
+        self.dr.click(Forgot_password.Sign_in)
         self.dr.click(Forgot_password.click_Forgot_password)
         self.dr.type(Forgot_password.send_username,Username)
         time.sleep(3)

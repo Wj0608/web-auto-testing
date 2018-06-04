@@ -7,7 +7,7 @@ from public.common import publicfunction
 
 class RegisterPage(basepage.Page):
         def Register1(self,Nickname,Email,Scode):
-            self.dr.click(DAE_RegisterPage_Element.click_Free_for_registration)
+            self.dr.click(DAE_RegisterPage_Element.click_sign_up)
             self.dr.type(DAE_RegisterPage_Element.NickName_Input,Nickname)
             self.dr.type(DAE_RegisterPage_Element.Email_Input,Email)
             self.dr.click(DAE_RegisterPage_Element.click_Code_Button)

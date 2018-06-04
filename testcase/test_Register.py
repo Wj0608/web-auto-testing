@@ -18,7 +18,7 @@ class Test_Register(mytest.MyTest):
         """注册昵称/邮箱已存在"""
         self.assertTrue(True)
         firstPage = DAE_RegisterPage.RegisterPage(self.dr)
-        firstPage.Register1('51456','51456@qq.com','123456')
+        firstPage.Register1('8888','8888@qq.com','123456')
         self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.existed_nickname).is_displayed())
         self.assertTrue(self.dr.get_element(DAE_RegisterPage_Element.registered_email).is_displayed())
 
