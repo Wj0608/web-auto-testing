@@ -13,9 +13,9 @@ from config import globalparam
 # from public.common import sendmail
 
 def run():
-    test_dir = './testcase'
+    test_dir = './testcase_create'
 
-    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Bocai.py')
+    suite = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_*.py')
     # suite2 = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test_Login.py')
     # suite = unittest.TestSuite((suite1,suite2))
 
